@@ -1,0 +1,18 @@
+
+]javascript:S1481/"<Remove the declaration of the unused 'policyLinks' variable.(…Ô•ëüÿÿÿÿ
+Zjavascript:S1854/"9Remove this useless assignment to variable "policyLinks".(…Ô•ëüÿÿÿÿ
+]javascript:S14815"ARemove the declaration of the unused 'navigateToSocial' variable.(ñ®Ï
+Zjavascript:S18545">Remove this useless assignment to variable "navigateToSocial".(ñ®Ï
+djavascript:S1481="CRemove the declaration of the unused 'navigateToWhatsApp' variable.(äÄªòúÿÿÿÿ
+ajavascript:S1854="@Remove this useless assignment to variable "navigateToWhatsApp".(äÄªòúÿÿÿÿ
+Mjavascript:S6749G",A fragment with only one child is redundant.(™åÑğüÿÿÿÿ
+tjavascript:S6847–"RNon-interactive elements should not be assigned mouse or keyboard event listeners.(ƒ†³ øÿÿÿÿ
+javascript:S1082–"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(ƒ†³ øÿÿÿÿ
+tjavascript:S6847›"RNon-interactive elements should not be assigned mouse or keyboard event listeners.(ƒ†³ øÿÿÿÿ
+javascript:S1082›"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(ƒ†³ øÿÿÿÿ
+tjavascript:S6847 "RNon-interactive elements should not be assigned mouse or keyboard event listeners.(ƒ†³ øÿÿÿÿ
+javascript:S1082 "_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(ƒ†³ øÿÿÿÿ
+tjavascript:S6847¥"RNon-interactive elements should not be assigned mouse or keyboard event listeners.(ƒ†³ øÿÿÿÿ
+javascript:S1082¥"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(ƒ†³ øÿÿÿÿ
+åjavascript:S6848‰"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¨é‹ÿÿÿÿÿ
+javascript:S1082‰"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¨é‹ÿÿÿÿÿ

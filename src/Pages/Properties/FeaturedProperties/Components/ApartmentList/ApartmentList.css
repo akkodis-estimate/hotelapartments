@@ -1,0 +1,1636 @@
+.container.FeaturedPropertiesContainer {
+  max-width: 1920px;
+}
+
+.featuredPropertyTitle h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 39px;
+  color: #000000;
+}
+
+.specialOffersBtn span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline;
+  color: #1f1f1f;
+  cursor: pointer;
+}
+
+.featuredPropertySummary p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #000000;
+}
+
+.featuredPropertySummary h5 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.featuredPropertySummary strong {
+  font-weight: 500;
+}
+
+.breadCrumbProperties .appBreadCrumb ul.breadcrumbList .breadcrumbItem.active {
+  color: #767760;
+  cursor: pointer;
+}
+
+.breadCrumbProperties .appBreadCrumb ul.breadcrumbList .breadcrumbItem {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1f1f1f;
+}
+
+.spclOffer {
+  padding: 6px 16px;
+  border: 2px solid #767760;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1f1f1f;
+}
+
+.spclOffer span.closeOffer {
+  font-size: 18px;
+  cursor: pointer;
+  color: #1f1f1f;
+}
+.spclOffer span.closeOffer svg{
+  vertical-align: -3px;
+}
+.gridListView {
+  background: #f2f2f2;
+  border-radius: 10px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.gridListViewItem.active {
+  background: #ffffff;
+  border-radius: 7px;
+}
+
+.gridListView .gridListViewItem.active svg {
+  filter: brightness(0) saturate(100%) invert(10%) sepia(5%) saturate(32%)
+    hue-rotate(314deg) brightness(90%) contrast(92%);
+}
+
+select.form-select.sortingSelect {
+  border: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f1f1f;
+}
+
+select.form-select.sortingSelect {
+  border: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f1f1f;
+}
+
+.sortByDD button {
+  font-size: 16px !important;
+  padding: 0px !important;
+  border: 0px !important;
+  height: unset !important;
+}
+
+.form-check-input:checked[type="radio"] {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAATCAYAAACdkl3yAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE7SURBVHgBpZQ9coMwEEZX4gCIzgXD4BuoTBfKdPEV0qX0DTI5QcaduyQ3sLukczqXukEMXEB0SQHkW+Jh8I9mbPQaI438WC27K8hBCuq6zoQQKa/btjVBEJgdOHdeHG/EcZzhD094zOg8pmmaRVmWb8PNYLhIkuRFSrnkgMjNBFHOwjBUVVV9noggecWBR7oQnL2BLIVs3YuQDr7KnK4EMg0ZXNVWcFKRyG8aj4VwKvEwIz8Ukj+XiOaePEFEtxyRJn80ixT5o1hkyR/LIkP+GIlEfZEn+GBrriO1r6PRueI6Cqy1P1EU/WJ9RyNAEM95nq+6FoFsi1KfcslfKXkviqJrrb5p0S8ryCJuxgslC0j6Jj8YI5B94Jo5/Y+RicOxwcsecJ3lcFM4DncTEj8afaT3Eeww8DauCfkHIl53EbaLszAAAAAASUVORK5CYII=) !important;
+  background-color: #fff;
+  border-color: #c4c5bf;
+  background-size: 79% !important;
+  background-position: center;
+}
+
+.sortByDD .dropdown-toggle:focus:not(:focus-visible) {
+  border: 0px !important;
+}
+
+.sortByDD .dropdown-menu.show {
+  width: 15rem;
+}
+
+.form-check .form-check-input {
+  width: 26px;
+  height: 26px;
+  border-color: #c4c5bf;
+  cursor: pointer;
+}
+
+.form-check .form-check-input:focus {
+  box-shadow: none !important;
+}
+
+.sortByDD label.form-check-label {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1f1f1f;
+  cursor: pointer;
+}
+
+.sortByItem {
+  padding: 5px;
+}
+
+/* Filter Css */
+
+.filterDD .dropdown-toggle::after {
+  display: none;
+}
+
+.filterDD .dropdown-toggle {
+  padding: 12px 16px;
+  background: #ffffff;
+  border: 1px solid #c4c5bf;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1f1f1f;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  min-height: 76px;
+  height: 100%;
+}
+
+span.filteredSelected {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #696969;
+  margin-top: 4px;
+}
+
+.filterDD .dropdown-toggle:active {
+  background: unset !important;
+  color: unset !important;
+}
+
+.filterDD .dropdown-menu.show {
+  box-shadow: 0px 8px 16px -8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: 0;
+  width: 22rem;
+}
+
+.filterDD .filterLocationList li.filterLocationItem {
+  padding: 10px;
+  background: #ffffff;
+  border-bottom: 1px solid #c4c5bf;
+  border-radius: 10px 10px 0px 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f1f1f;
+  cursor: pointer;
+}
+
+.filterDD .filterLocationList li.filterLocationItem span.locationCityName {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #696969;
+}
+
+.filterDD .filterLocationList li.filterLocationItem:last-child {
+  border-bottom: 0px solid #c4c5bf;
+}
+
+.filterDD .dropdown-toggle:focus:not(:focus-visible) {
+  border: 1px solid #000 !important;
+}
+
+.mantine-DatePickerInput-root
+  .mantine-DatePickerInput-wrapper
+  .mantine-DatePickerInput-input:focus,
+.mantine-DatePickerInput-root
+  .mantine-DatePickerInput-wrapper
+  .mantine-DatePickerInput-input:focus-visible,
+.autoCompleteSearch
+  .mantine-Select-root
+  .mantine-Select-wrapper
+  .mantine-Select-input:focus,
+.autoCompleteSearch
+  .mantine-Select-root
+  .mantine-Select-wrapper
+  .mantine-Select-input:focus-visible {
+  border: 1px solid #000;
+}
+
+.mantine-ActionIcon-root.mantine-CloseButton-root svg {
+  margin: 0;
+}
+
+.mantine-DatePickerInput-root,
+.mantine-DatePickerInput-root .mantine-DatePickerInput-wrapper,
+.autoCompleteSearch .mantine-Select-root > div,
+.autoCompleteSearch .mantine-Select-root .mantine-Select-wrapper,
+.autoCompleteSearch
+  .mantine-Select-root
+  .mantine-Select-wrapper
+  .mantine-Select-input,
+.autoCompleteSearch .mantine-Select-root {
+  height: 100%;
+  border-radius: 10px;
+}
+
+.autoCompleteSearch .mantine-Select-root .mantine-Select-dropdown {
+  height: fit-content !important;
+}
+
+.mantine-DatePickerInput-root
+  .mantine-DatePickerInput-wrapper
+  .mantine-DatePickerInput-input {
+  height: 100%;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #696969;
+}
+
+.mantine-DatePickerInput-root
+  .mantine-DatePickerInput-wrapper
+  .mantine-DatePickerInput-input
+  span.mantine-DatePickerInput-placeholder,
+.autoCompleteSearch
+  .mantine-Select-root
+  .mantine-Select-wrapper
+  .mantine-Select-input::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1f1f1f;
+}
+
+.mantine-DatePickerInput-root
+  .mantine-DatePickerInput-wrapper
+  .mantine-DatePickerInput-rightSection
+  button
+  svg {
+  margin: 0;
+}
+
+.filterDD .filterLocationList li.filterLocationItem:hover {
+  background: #00000006;
+}
+
+.filterDD .filterLocationList li.filterLocationItem svg {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(1054%)
+    hue-rotate(255deg) brightness(88%) contrast(68%);
+}
+
+.toggleBtn .form-switch .form-check-input {
+  height: 31px;
+  width: 51px;
+}
+
+.toggleBtn .form-switch .form-check-input {
+  border-color: #fff;
+  outline: 0;
+  background-color: #c4c5bf;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(255,255,255,1.0)'/></svg>");
+}
+
+.toggleBtn .form-switch .form-check-input:focus {
+  border-color: #fff;
+  outline: 0;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(255,255,255,1.0)'/></svg>");
+}
+
+.toggleBtn .form-switch .form-check-input:checked {
+  background-color: #1f1f1f;
+  border-color: #1f1f1f;
+  border: none;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(255,255,255,1.0)'/></svg>");
+}
+
+.DDCounterBtn button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  border: 0;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.DDCounterBtn button svg {
+  margin: 0px !important;
+}
+
+label.bedroomDDLabel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #767760;
+}
+
+.DDCounterBtn span {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #696969;
+}
+
+.filterFtrBtn button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #767760;
+}
+
+.DDCounter.disable .DDCounterBtn button,
+.DDCounter.disable .DDCounterBtn span {
+  color: #cdd4d8;
+  pointer-events: none;
+}
+
+.moreFilterLayout .form-check label.form-check-label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1f1f1f;
+}
+
+ul.dropdown-menu.moreFltrDD.show {
+  width: 434px;
+}
+
+label.moreFltrLbl {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1f1f1f;
+}
+
+.moreFilterLayout .form-check input {
+  background: #ffffff;
+  border: 2px solid #696969;
+  border-radius: 4px;
+  font-size: 17px;
+}
+
+.moreFilterLayout .form-check-input:checked {
+  background: #696969 !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 20%27%3e%3cpath fill=%27none%27 stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27m6 10 3 3 6-6%27/%3e%3c/svg%3e") !important;
+}
+
+.moreFilterLayout .form-check input:focus {
+  box-shadow: unset !important;
+}
+
+.moreFltrRow {
+  gap: 18px 0;
+}
+
+select.form-select.sortingSelect {
+  border: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f1f1f;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: 85%;
+  background-size: 12%;
+  width: 115px;
+}
+
+.autoCompleteSearch .css-1jqq78o-placeholder {
+  line-height: 20px;
+  color: #000;
+  margin-bottom: 2px;
+}
+
+.filterDD.autoCompleteSearch .css-b62m3t-container .css-13cymwt-control,
+.filterDD.autoCompleteSearch .css-b62m3t-container .css-t3ipsp-control {
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.autoCompleteSearch .css-1xc3v61-indicatorContainer {
+  font-size: 14px;
+  padding-top: 10px !important;
+}
+
+.filterDD.autoCompleteSearch .css-b62m3t-container {
+  height: 100%;
+}
+
+.filterDD.autoCompleteSearch .css-b62m3t-container .css-13cymwt-control,
+.filterDD.autoCompleteSearch .css-b62m3t-container .css-t3ipsp-control {
+  height: 100%;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.filterDD.autoCompleteSearch .css-b62m3t-container .css-t3ipsp-control {
+  border-color: #1f1f1f !important;
+  box-shadow: none !important;
+}
+
+.filterDD.autoCompleteSearch
+  .css-b62m3t-container
+  .css-13cymwt-control
+  .css-1u9des2-indicatorSeparator,
+.filterDD.autoCompleteSearch
+  .css-b62m3t-container
+  .css-t3ipsp-control
+  .css-1u9des2-indicatorSeparator {
+  display: none !important;
+}
+
+.filterDD.autoCompleteSearch
+  .mantine-Input-rightSection.mantine-Select-rightSection
+  svg {
+  color: #fff !important;
+}
+
+.filterDD.autoCompleteSearch
+  button.mantine-ActionIcon-root.mantine-CloseButton-root
+  svg {
+  color: #000 !important;
+}
+
+.counterPart.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.DDCounterBtn button:disabled {
+  cursor: not-allowed;
+}
+
+.disabledApplyButtonForMore {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background: unset !important;
+}
+
+.sortByDD button:focus,
+.sortByDD button:focus-visible {
+  border: 0px !important;
+}
+
+.sortByDD .dropdown-toggle:focus:not(:focus-visible) {
+  border: 0px solid #000 !important;
+}
+
+.noFilterData {
+  padding: 0;
+  width: 100%;
+}
+
+.troubleDes {
+  background: #ffffff;
+  border: 1px solid #c4c5bf;
+  border-radius: 10px;
+  padding: 20px;
+  /* margin: 0 auto; */
+  max-width: 780px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.troubleDes .troubleContent h5 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1f1f1f;
+}
+
+.troubleDes .troubleContent p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #000000;
+}
+
+.contactDtl span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #000000;
+}
+
+.contactDtl svg {
+  color: #767760;
+}
+
+.mapCustomization {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.propertiesLayout .col-lg-4 {
+  flex: 0 0 32.5%;
+  max-width: 32.5%;
+}
+
+.mapAsideCustomization {
+  position: absolute !important;
+  right: 0px;
+  width: 25px;
+  filter: drop-shadow(0px 4px 44px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+  -webkit-transition: width 0.5s ease-in-out;
+  -moz-transition: width 0.5s ease-in-out;
+  -o-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+}
+
+.mapAsideCustomization:hover {
+  width: 18%;
+  -webkit-transition: width 0.5s ease-in-out;
+  -moz-transition: width 0.5s ease-in-out;
+  -o-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+}
+
+.mapAsideCustomization .mapActionBtn .maximiseMinize,
+.mapAsideCustomization .mapActionBtn .animateBtn {
+  display: none;
+}
+
+.mapAsideCustomization:hover .mapActionBtn .animateBtn {
+  display: block;
+  animation: fadeIn 2s;
+}
+
+.mapActionBtn .animateBtn button {
+  padding: 10px 20px;
+  border: 1.3px solid #696969;
+  border-radius: 9999px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f1f1f;
+}
+
+.priceFlterChange .filtrChangeHover:hover,
+.priceFlterChange .filtrChangeHover:active {
+  color: #843f5b;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+ul.breadcrumbList li:last-child {
+  margin-right: 0;
+}
+
+.sharebyDD button {
+  border: 0;
+  color: #1f1f1f;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0;
+}
+
+.sharebyDD button::after {
+  display: none;
+}
+
+.sharebyDD button:hover {
+  color: unset !important;
+  background-color: unset !important;
+}
+
+.sharebyDD ul.dropdown-menu li.sortByItem .form-check {
+  padding: 0;
+}
+
+.sharebyDD ul.dropdown-menu li.sortByItem {
+  cursor: pointer;
+}
+
+.sharebyDD ul.dropdown-menu li:hover {
+  background: #ececec;
+}
+
+.sharebyDD ul.dropdown-menu li:hover,
+.sortByDD ul.dropdown-menu li:hover {
+  background: #ececec;
+  cursor: pointer;
+}
+
+.advanceFilter .col {
+  padding: 0px;
+}
+
+.filterDD .mantine-Select-dropdown {
+  width: max-content !important;
+  left: 0px !important;
+}
+
+.filterDD.autoCompleteSearch {
+  position: relative;
+}
+
+.propertyCard .propertyCardBody .propertyDetails .propertNameLocation h5 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 99%;
+}
+
+/* Extra Items */
+/* 
+.propertyCard .propertyCardBody .rating {
+  display: none !important;
+} */
+
+.propertyCard .propertyCardBody .propertyDetails .propertNameLocation h5 {
+  margin-bottom: 8px;
+}
+
+.locationItem div p {
+  color: #505050 !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 160%;
+}
+
+.locationItem {
+  padding-bottom: 0px !important;
+}
+
+.propertyCard .propertyImageSlider .propertyCardBody {
+  min-height: auto !important;
+}
+
+.propertyCard .propertyImageSlider .propertyCardBody {
+  gap: 25px;
+}
+
+.propertyCard {
+  height: 100%;
+}
+
+.filterDD .mantine-Select-dropdown .mantine-Select-item[data-selected] {
+  background-color: #696969;
+}
+
+.filterDD .mantine-Select-dropdown .mantine-Select-item[data-selected] svg {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(97%) saturate(1%)
+    hue-rotate(122deg) brightness(106%) contrast(101%);
+}
+
+.mantine-Calendar-calendar .mantine-MonthLevelGroup-monthLevelGroup .mantine-MonthLevel-monthLevel .mantine-CalendarHeader-calendarHeaderControl {
+  width: 32px;
+  height: 32px;
+  background-color: #ECECEC !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mantine-Calendar-calendar .mantine-MonthLevelGroup-monthLevelGroup .mantine-MonthLevel-monthLevel .mantine-CalendarHeader-calendarHeaderControl svg {
+margin-right: 0px !important;
+}
+
+.mantine-Calendar-calendar .mantine-MonthLevelGroup-monthLevelGroup table.mantine-Month-month.mantine-DatePickerInput-month tbody tr td .mantine-Day-day[data-selected] {
+    
+  border-radius: 8px;
+  background: #696969 !important;
+}
+
+.mantine-Calendar-calendar .mantine-MonthLevelGroup-monthLevelGroup table.mantine-Month-month.mantine-DatePickerInput-month tbody tr td .mantine-Day-day[data-in-range]{
+  background: #ECECEC;
+}
+
+/* Pagination */
+
+.paginationAppartmentList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paginationAppartmentList .prevList,
+.paginationAppartmentList .nextList {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.paginationAppartmentList .prevList, .paginationAppartmentList .nextList,
+.totalPaginationCount span {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.prevList.disable,
+.nextList.disable {
+  color: #CDD4D8;
+  cursor: not-allowed;
+}
+
+.faqSection .mantine-Accordion-item button .mantine-Accordion-label {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.faqSection .mantine-Accordion-item button .mantine-Accordion-label h3{
+  font-size: 20px;
+  color: #1F1F1F;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  font-family: "Poppins", sans-serif;
+}
+
+.faqSection .mantine-Accordion-item .mantine-Accordion-panel {
+  padding-left: 31px !important;
+}
+
+.faqSection .mantine-Accordion-item .mantine-Accordion-panel .mantine-Accordion-content {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.faqSection .mantine-Accordion-item[data-active] {
+  border-radius: 8px;
+  background: var(--grey-bg, #F2F2F2);
+}
+
+.faqSection .mantine-Accordion-item button svg {
+  margin-right: 0px !important;
+}
+
+span.cantFindContact {
+  margin-left: 48px;
+  display: block;
+  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+span.cantFindContact a{
+  color: #1F1F1F;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.exploreListItem {
+  gap: 15px 50px;
+}
+
+.exploreListItem li {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  position: relative;
+  color: #212529;
+}
+
+.exploreListItem li a {
+  color: #212529;
+}
+
+.exploreListItem li::after {
+  content: "|";
+  position: absolute;
+  right: -25px;
+}
+
+.exploreListItem li:last-child:after {
+  content: "";
+}
+
+.exploreBlurb p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.activeLastExplore{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.moreExplore h5 {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px;
+}
+
+.bedsBaths label.form-check-label {
+  margin-top: 2px !important;
+}
+
+.bedsBaths {
+  gap: 15px 0px;
+}
+
+.filterDD.autoCompleteSearch input.mantine-1cn2mlo {color: #696969;font-weight: 500;font-size: 14px;line-height: 24px;}
+
+svg.areaIconColor {
+  filter: brightness(0) saturate(100%) invert(43%) sepia(11%) saturate(9%) hue-rotate(5deg) brightness(90%) contrast(87%);
+}
+
+svg.propertyIconColor {
+  filter: brightness(0) saturate(100%) invert(43%) sepia(11%) saturate(9%) hue-rotate(5deg) brightness(90%) contrast(87%);
+}
+
+.apartmentListCalCust button:disabled, .apartmentListCalCust button[disabled] {
+  background: #cdd4d830;
+  border-color: #CDD4D8;
+}
+
+.paginationFull .paginationAppartmentList {
+  width: 100%;
+  margin-left: -23px;
+}
+
+.filterDD  .mantine-InputWrapper-root .mantine-Input-wrapper .mantine-16k3d8y {
+  left: 12px;
+}
+
+.filterDD .mantine-InputWrapper-root .mantine-Input-wrapper input {
+  padding-left: 50px;
+}
+
+.apartmentListCalCust .mantine-DatePickerInput-root .mantine-DatePickerInput-wrapper .mantine-DatePickerInput-input {
+  padding-left: 50px;
+}
+
+.filterDD  .mantine-InputWrapper-root .mantine-Input-wrapper .mantine-16k3d8y,
+.col.apartmentListCalCust .mantine-DatePickerInput-root .mantine-DatePickerInput-wrapper .mantine-DatePickerInput-icon {
+  left: 12px;
+}
+
+.filterDD .mantine-InputWrapper-root .mantine-Input-wrapper input {
+  padding-left: 50px;
+}
+
+.apartmentListCalCust .mantine-DatePickerInput-root .mantine-DatePickerInput-wrapper .mantine-DatePickerInput-input {
+  padding-left: 50px;
+}
+
+.filterDD  .mantine-InputWrapper-root .mantine-Input-wrapper .mantine-16k3d8y svg,
+.filterDD .dropdown-toggle svg{
+  filter: brightness(0) saturate(100%) invert(42%) sepia(6%) saturate(12%) hue-rotate(10deg) brightness(92%) contrast(83%) ;
+}
+
+.mapCustomization > div {
+  height: 850px !important;
+}
+
+.mapCustomization .mapActionBtn {
+  align-items: start !important;
+  top: 20px;
+}
+
+.filterDD .moreFilterLayout .moreFltrRow .col-lg-6 {
+  padding-left: 15px;
+}
+
+.FeaturedPropertiesContainer .main_property .mapAsideCustomization {
+  width: 2%;
+}
+
+.FeaturedPropertiesContainer .main_property .mapAsideCustomization:hover {
+  width: calc(30% - 40px*1/2);
+}
+
+.FeaturedPropertiesContainer .main_property .list_property.list_propertyMaxiMize {
+  width: 100%;
+}
+
+.FeaturedPropertiesContainer .main_property .list_property.list_propertyMaxiMize .propertiesLayout .view_grid.mapDesCustSm {
+  width: calc(32% - 40px*1/2);
+}
+
+.FeaturedPropertiesContainer .main_property .mapAsideCustomization {
+  width: 2% !important;
+}
+
+.FeaturedPropertiesContainer .main_property .mapAsideCustomization:hover {
+  width: calc(30% - 40px*1/2) !important;
+}
+
+.FeaturedPropertiesContainer .main_property .mapDesCustSm {
+  width: calc(30% - 40px*1/2);
+}
+
+.main_property.main_property_spacing {
+  padding-left: 0px !important;
+}
+
+.main_property.main_property_spacing .position-relative.mapDesCustSm.mapCustomization > div {
+  border-radius: 0px !important;
+}
+
+.view_grid .propertySummary {
+  display: none;
+}
+
+.main_property.listViewAppCard.main_property_spacing {
+  padding-right: 0px;
+}
+
+.property_bottom_content.ha--paginationFull {
+  max-width: 100%;
+  width: 100%;
+}
+
+.property_bottom_content.ha--paginationFull .paginationFull .paginationAppartmentList {
+  width: 100%;
+  margin-left: unset !important;
+}
+
+.listViewAppCard .list_property.list_propertyMaxiMize {
+  width: 96% !important;
+}
+.mapDesCustSm .gm-style-iw.gm-style-iw-c {
+  width: max-content !important;
+  max-width: max-content !important;
+}
+
+.propertySummary p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+  width: 100%;
+}
+@media (max-width:1800px) {
+  .propertiesLayout {
+    gap: 36px 0px;
+}
+}
+
+@media (max-width:1600px) {
+  .FeaturedPropertiesContainer .row.mt-5 {
+    margin-top: 20px !important;
+}
+}
+
+@media (max-width:1536px) {
+  .propertySummary p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    width: 100%;
+  }
+
+  .propertyCardBody .propertyDetails {
+    margin: 0 0 0px !important;
+}
+
+  .propertyImages {
+    min-height: 255px;
+}
+
+.propertyCard .propertyCardBody .propertyDetails .propertNameLocation h5, .propertyCardPrice .propertyPrice .ppPrice{
+  font-size: 16px;
+}
+
+.propertyCard .propertyCardBody .propertyDetails .propertNameLocation p, .propertyCardPrice .propertyPrice{
+  font-size: 12px;
+}
+
+.locationItem svg {
+  font-size: 21px;
+  padding-bottom: 9px;
+}
+
+.propertyCard .propertyCardBody .propertyDetails .ammenitiesItem{
+  font-size: 12px;
+}
+
+.propertyCard .propertyCardBody .propertyDetails .ammenitiesItem svg {
+  max-width: 17px;
+}
+
+.propertyCardPrice .propertyCardBtn button {
+  padding: 2px 8px;
+  font-size: 11px;
+}
+
+.propertyCardPrice .propertyPrice .ppPrice{
+  font-size: 14px;;
+}
+
+.mapActionBtn .animateBtn button {
+  font-size: 12px;
+  padding: 2px 10px;
+}
+
+.mapActionBtn .appMainBtn button.appBtn span::after {
+  font-size: 16px !important;
+  right: -10px;
+}
+
+.mapActionBtn .appMainBtn button.appBtn:hover {
+  padding-right: 25px;
+}
+
+.mapActionBtn .maximiseMinize.insideMapAction span svg {
+  max-width: 15px;
+}
+
+.mapActionBtn .maximiseMinize.insideMapAction span {
+  width: 28px;
+  height: 28px;
+}
+
+.moreExplore h5{
+  font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 15px !important;
+}
+
+.exploreBlurb span svg {
+  max-width: 18px;
+}
+
+.exploreBlurb p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.exploreListItem li {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.moreExplore.mt-5 {
+  margin-top: 15px !important;
+}
+
+.propertyCard .propertyImageSlider .propertyCardBody{
+  gap: 0px;
+}
+
+.faqSection .mantine-Accordion-item .mantine-Accordion-label {
+  padding-bottom: 0px;
+}
+
+.faqSection .mantine-Accordion-item .mantine-Accordion-label h3 {
+  font-size: 16px;
+}
+
+.faqSection .mantine-Accordion-item .mantine-Accordion-chevron {
+  padding-top: 15px;
+}
+
+.faqSection .mantine-Accordion-content {
+  font-size: 15px !important;
+}
+
+span.cantFindContact {
+  font-size: 15px;
+}
+
+.paginationAppartmentList .prevList, .paginationAppartmentList .nextList, .totalPaginationCount span{
+  font-size: 14px;
+  line-height: 24px;
+}
+  .breadCrumbProperties .appBreadCrumb ul.breadcrumbList .breadcrumbItem{
+    font-size: 12px;
+  }
+
+  .featuredPropertyTitle h2{
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .appartmentListPara p {
+    font-size: 13px;
+}
+
+.spclOffer {
+  font-size: 12px;
+  padding: 3px 10px;
+}
+
+.spclOffer span.closeOffer {
+  font-size: 15px;
+}
+
+.shareDDApartmentlg .shareDD button {
+  font-size: 14px;
+  padding: 6px 12px;
+}
+
+.shareDDApartmentlg .shareDD button svg {
+  max-width: 18px;
+  margin-right: 5px;
+}
+  .row.advanceFilter .col {
+    flex: 0 0 25%;
+    max-width: 25%;
+    min-height: 50px;
+}
+
+.filterDD .dropdown-toggle {
+ 
+  min-height: 50px;
+}
+
+.row.advanceFilter {
+    gap: 9px 0;
+}
+
+.filterDD.w-100.sortByDD button svg {
+  margin-right: 0px !important;
+}
+
+.filterDD.w-100.sortByDD button {
+  gap: 12px;
+}
+
+.propertiesLayout .col-lg-12 .propertyCard .propertyImageSlider .propertySummary p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.propertyCardPrice .propertyPrice span.oldPrice{
+  top: -18px;
+  font-size: 13px;
+}
+
+.propertyCard .propertyImageSlider .propertyCardBody .propertyCardPrice {
+  padding-top: 25px;
+}
+}
+
+@media (max-width:1366px) {
+  /* .propertyCard .propertyCardBody .propertyDetails .propertNameLocation h5,
+  .propertyCardPrice .propertyPrice .ppPrice {
+    font-size: 18px;
+} */
+
+/* .propertyCard .propertyCardBody .propertyDetails .propertNameLocation p,
+.propertyCardPrice .propertyPrice {
+  font-size: 15px;
+} */
+/* .propertyCardPrice .propertyCardBtn button {
+  padding: 5px 10px;
+  font-size: 15px;
+} */
+
+/* .propertyImages img,
+.propertyImages {
+  height: 300px;
+} */
+
+.view_list .propertyCard .propertyDetails .allAmmenities {
+  gap: 10px !important;
+}
+
+.propertiesLayout {
+  gap: 25px 0px;
+}
+
+.troubleDes {
+  padding-left: 15px;
+}
+
+.contactDtl {
+  flex-wrap: wrap !important;
+}
+
+}
+
+@media (max-width:1285px) {
+  .troubleDes > div {
+    flex-direction: column;
+    justify-content: flex-start !important;
+    align-items: self-start !important;
+}
+}
+
+@media (max-width:1200px) {
+  .propertyCardPrice > div {
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.mapActionBtn .animateBtn button {
+  font-size: 14px;
+  padding: 7px 15px;
+}
+
+.mapActionBtn .animateBtn button  {
+  font-size: 14px;
+  padding: 7px 15px;
+}
+
+.mapActionBtn .animateBtn button span.btnIcon{
+  display: none;
+}
+
+.propertySummary p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  width: 100%;
+}
+}
+
+@media (max-width:1199px) {
+  .property_bottom_content{
+    width: 68% !important;
+  }
+}
+
+@media (max-width:1023px) {
+  .property_bottom_content{
+    width: 66% !important;
+  }
+
+
+}
+
+@media (min-width:991px) {
+
+  .shareDDApartmentsm {
+    display: none !important;
+  }
+
+  .mapOpenBtn .animateBtn,
+  .minMapBtnClose {
+    display: none !important; 
+}
+}
+
+@media (max-width:992px) {
+  .mapDesCustSm.mapCustomization {
+    display: block;
+}
+
+.mapDesCustSm,
+.insideMapAction {
+  display: none;
+}
+  .mapOpenBtn .animateBtn button {
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+  .minMaxInput .row .col-lg-6 {
+    flex: 0 0 50%;
+}
+
+
+  .row.advanceFilter .col,
+  .filterDD .dropdown-toggle {
+    min-height: 50px;
+}
+
+.shareDDApartmentlg {
+  display: none !important;
+}
+
+.shareDDApartmentsm {
+  display: block !important;
+}
+
+
+
+.shareDDApartmentsm .shareDD ul.dropdown-menu.show {
+  width: 17rem;
+}
+
+.shareDDApartmentsm .shareDD ul.dropdown-menu.show .shareContent {
+  padding: 7px 3px;
+}
+
+.shareDDApartmentsm .shareDD ul.dropdown-menu.show .shareContent .sharingOptionCard {
+  padding: 10px;
+}
+
+.shareDDApartmentsm .shareDD ul.dropdown-menu.show .shareContent .sharingOptionCard > div {
+  font-size: 14px;
+}
+
+.managespaceSm {
+  margin-top: 20px !important;
+}
+
+.managespaceSm .featuredPropertyTitle h2 {
+  font-size: 20px;
+}
+
+.appartmentListParaSm{
+  width: 100% !important;
+}
+
+.appartmentListPara p {
+  font-size: 16px;
+}
+
+.sortingFilterCustSm {
+  justify-content: space-between !important;
+}
+
+.sortingFilterCustSm .filterDD.w-100.sortByDD {
+  width: max-content !important;
+}
+
+.sortingFilterCustSm .filterDD.w-100.sortByDD button {
+  gap:15px
+}
+
+.sortingFilterCustSm .filterDD.w-100.sortByDD ul.dropdown-menu {
+  width: auto;
+}
+
+.sortingFilterCustSm .filterDD.w-100.sortByDD ul.dropdown-menu li.sortByItem .form-check label {
+  font-size: 15px !important;
+}
+
+.sortingFilterCustSm .filterDD.w-100.sortByDD ul.dropdown-menu li.sortByItem .form-check input {
+  width: 22px;
+  height: 21px;
+}
+
+.noBkkingContent h4 {
+  font-size: 18px;
+}
+
+.troubleDes {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 0px !important;
+}
+
+.troubleDes .troubleContent h5 {
+  font-size: 20px;
+}
+
+.troubleDes .troubleContent p,
+.contactDtl span {
+  font-size: 16px;
+}
+.contactDtl {
+  flex-wrap: wrap;
+}
+
+.troubleDes > div {
+  flex-wrap: wrap;
+}
+
+/* .propertyImages img, .propertyImages {
+  height: 210px;
+} */
+
+.propertiesLayout {
+  gap: 25px 0px;
+  justify-content: space-between;
+}
+
+.propertiesLayout .col-lg-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+/* .propertiesLayout .col-lg-12 .propertyCard .propertyImageSlider .imageslist .propertyImages, .propertiesLayout .col-lg-12 .propertyCard .propertyImageSlider .imageslist .propertyImages img {
+  height: 275px;
+} */
+
+.propertiesLayout .col-lg-12 .propertyCard .propertyImageSlider .propertyCardBody .propertyCardPrice {
+  bottom: -60px;
+  left: 25px;
+}
+
+.propertiesLayout .col-lg-12 .propertyCard .propertyImageSlider .propertyCardBody {
+  padding-top: 0px;
+}
+
+
+.shareDDApartmentsm .shareDD {
+  height: 100%;
+}
+.property_bottom_content{
+  width: 100% !important;
+}
+
+}
+
+/* Start New Design */
+
+.filter_main{
+  padding: 24px 40px 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.filter_main .filter_left{
+  width: 70%;
+}
+.filter_main .advanceFilter{
+  display: flex;
+  gap: 16px;
+  margin: 0 0 24px;
+}
+.filter_main .filter_right{
+  text-align: right;
+}
+.filter_main .filter_content{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin: 0 0 24px;
+}
+.filter_main .appartmentListPara{
+  margin: 0 0 24px;
+}
+.filter_btn_block{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.filter_right .sortingFilterCustSm{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+  margin: 24px 0 0;
+}
+.filter_right .gridListView{
+  display: flex;
+  align-items: center;
+}
+.filter_right .filterDD .dropdown-toggle{
+  min-height: inherit;
+}
+.FeaturedPropertiesContainer .main_property{
+  display: flex;
+  gap: 40px;
+  padding-left: 40px;
+}
+.FeaturedPropertiesContainer .main_property .list_property{
+  width: calc(70% - 40px*1/2);
+}
+.FeaturedPropertiesContainer .main_property .mapDesCustSm{
+  width: calc(30% - 40px*1/2);
+}
+.list_property .propertiesLayout{
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.propertiesLayout .view_grid{
+  width: calc(50% - 40px*1/2);
+}
+.propertyDetails .propertySummary{
+  margin: 0 0 16px;
+}
+.property_bottom_content{
+  padding: 60px 40px 40px 40px;
+  /* max-width: 1080px; */
+  width: 72%;
+}
+.property_bottom_content .pagination_main{
+  margin-bottom: 60px;
+}
+.featuredPropertySummary .moreExplore{
+  margin: 40px 0 0;
+} 
+.moreExplore .exploreBlurb{
+  margin: 40px 0 0;
+}
+.noFind_data{
+  padding: 40px;
+}
+
+.filter_main .advanceFilter .col .filterDD {
+  height: 100%;
+}
+
+
+@media (max-width:1600px){
+  
+  .apartmentListCalCust .mantine-DatePickerInput-root, .apartmentListCalCust .mantine-DatePickerInput-root .mantine-DatePickerInput-wrapper, .autoCompleteSearch .mantine-Select-root > div, .autoCompleteSearch .mantine-Select-root .mantine-Select-wrapper, .autoCompleteSearch .mantine-Select-root .mantine-Select-wrapper .mantine-Select-input, .autoCompleteSearch .mantine-Select-root, .filterDD .dropdown-toggle{min-height: 76px;}
+  .filter_main .advanceFilter{flex-wrap: wrap ;} 
+  .filter_main .advanceFilter .col{width: calc(25% - 16px); flex: inherit;}
+}
+@media (max-width:1440px){
+.filter_main .advanceFilter{flex-wrap: wrap ;} 
+.filter_main .advanceFilter .col{width: calc(25% - 16px); flex: inherit;}
+}
+@media (max-width:1320px){
+.breadCrumbProperties .breadcrumbList{white-space: nowrap;}
+.FeaturedPropertiesContainer .main_property{grid-template-columns: 1fr 370px;}
+.mapActionBtn {gap: 10px !important;}
+}
+@media (max-width:1199px){
+ .FeaturedPropertiesContainer .main_property .list_property {width: calc(65% - 40px*1/2);}
+.FeaturedPropertiesContainer .main_property .mapDesCustSm {width: calc(35% - 40px*1/2);}
+.mapActionBtn {gap: 5px !important;}
+.mapActionBtn .animateBtn button {font-size: 12px; padding: 2px 11px;}
+.filter_main {flex-wrap: wrap; padding-bottom: 24px;}
+ .filter_main .filter_left {width: 100%;}
+ .filter_main .filter_right {text-align: left; width: 100%;}
+ .filter_main .advanceFilter .col {
+  display: block !important;
+}
+.filter_right .shareDD {display: none;}
+  .filter_right .sortingFilterCustSm {margin: 0;}
+  .filter_main .filter_content {margin: 0;}
+  .filter_main .appartmentListPara{margin: 24px 0;}
+  .shareDDApartmentsm .shareDD button {
+    width: 100%;
+    height: 100%;
+    justify-content: start !important;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width:1023px){
+  
+  .filter_main{padding: 24px 20px 40px;}
+  .FeaturedPropertiesContainer .main_property{padding: 0 20px; gap: 20px;}
+  .property_bottom_content {padding: 60px 20px 40px 20px;}
+
+
+  .list_property .propertiesLayout{gap: 20px;}
+  .FeaturedPropertiesContainer .main_property .list_property {width: calc(65% - 20px*1/2);}
+.FeaturedPropertiesContainer .main_property .mapDesCustSm {width: calc(35% - 20px*1/2);}
+.propertiesLayout .view_grid {width: calc(50% - 20px*1/2);}
+.apartmentListCalCust .mantine-DatePickerInput-root, .apartmentListCalCust .mantine-DatePickerInput-root .mantine-DatePickerInput-wrapper, .autoCompleteSearch .mantine-Select-root > div, .autoCompleteSearch .mantine-Select-root .mantine-Select-wrapper, .autoCompleteSearch .mantine-Select-root .mantine-Select-wrapper .mantine-Select-input, .autoCompleteSearch .mantine-Select-root, .filterDD .dropdown-toggle{min-height: 50px;}
+}
+
+
+@media (max-width:992px){
+   .sortingFilterCustSm .mapActionSm{display: flex; align-items: center; gap: 20px;}
+  .FeaturedPropertiesContainer .main_property .list_property {width: 100%;}
+  
+}
+@media (max-width:767px){
+  .featuredPropertyTitle h2 {font-size: 16px;}
+.filter_main .filter_content {gap: 20px;}
+}
+@media (max-width:600px){
+.mobile_property_view{padding: 12px 20px;}
+.troubleDes{flex-direction: column; align-items: center; justify-content: center; text-align: center;}
+}

@@ -1,0 +1,20 @@
+{
+    "select_language": "اختار اللغة",
+    "dashboard_page": "صفحة لوحة القيادة",
+    "footer_page": "صفحة التذييل",
+
+    "header": {
+      "ddl_logout": "تسجيل خروج"
+    },
+    
+    "side_bar": {
+      "dashboard": "لوحة القيادة",
+      "settings": {
+        "main_title": "إعدادات",
+        "users": "المستخدمون",
+        "roles": "الأدوار",
+        "master": "يتقن"
+      }
+    }
+}
+  

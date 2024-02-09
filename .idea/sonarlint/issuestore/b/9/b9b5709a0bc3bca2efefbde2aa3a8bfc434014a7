@@ -1,0 +1,118 @@
+
+Ijavascript:S1128	"(Remove this unused import of 'DubaiImg'.(‘ğ¥¦úÿÿÿÿ
+Gjavascript:S1128"+Remove this unused import of 'DowntownImg'.(Æ‘Ù
+Kjavascript:S1128"*Remove this unused import of 'ThePalmImg'.(¯…¯êûÿÿÿÿ
+?javascript:S1128"#Remove this unused import of 'FA3'.(›øÒ›
+Hjavascript:S1128"'Remove this unused import of 'HomeImg'.(ƒÜŠåùÿÿÿÿ
+Ejavascript:S1128&")Remove this unused import of 'CrossIcon'.(ƒ­Î
+Cjavascript:S1128("'Remove this unused import of 'MapIcon'.(³Ê’Å
+Ljavascript:S1128)"+Remove this unused import of 'LocationMap'.(Ğˆ½üÿÿÿÿ
+Hjavascript:S1128*",Remove this unused import of 'BuildingIcon'.(õ©·š
+Ojavascript:S1128+".Remove this unused import of 'AppartmentIcon'.(æ‰ªĞøÿÿÿÿ
+Gjavascript:S11280"&Remove this unused import of 'Select'.(Ãò¢Âıÿÿÿÿ
+9javascript:S38632"'react' import is duplicated.(¨óà˜
+Mjavascript:S11284",Remove this unused import of 'MobileBanner'.(˜¾¨äÿÿÿÿÿ
+Djavascript:S3504B")Unexpected var, use let or const instead.(Ø¹1
+Ejavascript:S3504K")Unexpected var, use let or const instead.(µ¦˜Ö
+]javascript:S1481`"<Remove the declaration of the unused 'userDetails' variable.(§¥Éüÿÿÿÿ
+Zjavascript:S1854`"9Remove this useless assignment to variable "userDetails".(§¥Éüÿÿÿÿ
+Vjavascript:S6754g":useState call is not destructured into value + setter pair(óø–Â
+Zjavascript:S1481g">Remove the declaration of the unused 'setlistParams' variable.(óø–Â
+Wjavascript:S1854g";Remove this useless assignment to variable "setlistParams".(óø–Â
+[javascript:S6754h":useState call is not destructured into value + setter pair(Ÿã†’ÿÿÿÿÿ
+ejavascript:S1481h"DRemove the declaration of the unused 'carouselActiveImage' variable.(Ÿã†’ÿÿÿÿÿ
+bjavascript:S1854h"ARemove this useless assignment to variable "carouselActiveImage".(Ÿã†’ÿÿÿÿÿ
+cjavascript:S1481m"BRemove the declaration of the unused 'setCitylistParams' variable.(Ê«‘­ÿÿÿÿÿ
+`javascript:S1854m"?Remove this useless assignment to variable "setCitylistParams".(Ê«‘­ÿÿÿÿÿ
+]javascript:S1481o"<Remove the declaration of the unused 'allCityList' variable.(úã¤àüÿÿÿÿ
+Zjavascript:S1854o"9Remove this useless assignment to variable "allCityList".(úã¤àüÿÿÿÿ
+_javascript:S1481r">Remove the declaration of the unused 'locationValue' variable.(™“İ©ÿÿÿÿÿ
+\javascript:S1854r";Remove this useless assignment to variable "locationValue".(™“İ©ÿÿÿÿÿ
+[javascript:S6754s":useState call is not destructured into value + setter pair(¿…§®üÿÿÿÿ
+[javascript:S6754u":useState call is not destructured into value + setter pair(ÏŞŒ½ıÿÿÿÿ
+Vjavascript:S1481u"5Remove the declaration of the unused 'meta' variable.(ÏŞŒ½ıÿÿÿÿ
+Sjavascript:S1854u"2Remove this useless assignment to variable "meta".(ÏŞŒ½ıÿÿÿÿ
+]javascript:S1481u"<Remove the declaration of the unused 'setMetaData' variable.(ÏŞŒ½ıÿÿÿÿ
+Zjavascript:S1854u"9Remove this useless assignment to variable "setMetaData".(ÏŞŒ½ıÿÿÿÿ
+Kjavascript:S3504†")Unexpected var, use let or const instead.(Î„‹Ëøÿÿÿÿ
+}javascript:S6582"[Prefer using an optional chain expression instead, as it's more concise and easier to read.(ƒ¾€ÿıÿÿÿÿ
+@javascript:S125™"Remove this commented out code.(Ã£ß¡şÿÿÿÿ
+Fjavascript:S3504š")Unexpected var, use let or const instead.(Å™×‘
+}javascript:S6582¦"[Prefer using an optional chain expression instead, as it's more concise and easier to read.(ƒ¾€ÿıÿÿÿÿ
+Fjavascript:S3504²")Unexpected var, use let or const instead.(’¼ºÖ
+}javascript:S6582¹"[Prefer using an optional chain expression instead, as it's more concise and easier to read.(ƒ¾€ÿıÿÿÿÿ
+Fjavascript:S3504Å")Unexpected var, use let or const instead.(’¼ºÖ
+}javascript:S6582Ì"[Prefer using an optional chain expression instead, as it's more concise and easier to read.(ƒ¾€ÿıÿÿÿÿ
+Fjavascript:S3504Ú")Unexpected var, use let or const instead.(Å™×‘
+}javascript:S6582æ"[Prefer using an optional chain expression instead, as it's more concise and easier to read.(ƒ¾€ÿıÿÿÿÿ
+@javascript:S125è"Remove this commented out code.(’¨Ó®üÿÿÿÿ
+Šjavascript:S6523ï"mUnsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.(¸ÂÙÀ
+@javascript:S125ó"Remove this commented out code.(“à‰Îÿÿÿÿÿ
+Wjavascript:S1481š":Remove the declaration of the unused 'cityClick' variable.(Ÿ÷¦Ú
+Tjavascript:S1854š"7Remove this useless assignment to variable "cityClick".(Ÿ÷¦Ú
+Ejavascript:S3504œ")Unexpected var, use let or const instead.(‰Á’6
+fjavascript:S3358¿"DExtract this nested ternary operation into an independent statement.(ÔŞ¼Ûúÿÿÿÿ
+]javascript:S1481ë";Remove the declaration of the unused 'SelectItem' variable.(Ìœá×úÿÿÿÿ
+Zjavascript:S1854ë"8Remove this useless assignment to variable "SelectItem".(Ìœá×úÿÿÿÿ
+tjavascript:S6478ë"RMove this component definition out of the parent component and pass data as props.(Ìœá×úÿÿÿÿ
+Cjavascript:S6774ì"&'image' is missing in props validation(¾–øŸ
+Cjavascript:S6774ì"&'label' is missing in props validation(¾–øŸ
+Ijavascript:S6774ì",'description' is missing in props validation(¾–øŸ
+Kjavascript:S3504ÿ")Unexpected var, use let or const instead.(¹Ñ¿ûÿÿÿÿ
+\javascript:S6660†"?'If' statement should not be the only statement in 'else' block(óØÜ°
+Fjavascript:S3504‡")Unexpected var, use let or const instead.(ƒÍñ“
+;javascript:S125š"Remove this commented out code.(§À³é
+Vjavascript:S1481®"9Remove the declaration of the unused 'onSearch' variable.(ÇÊØŠ
+Sjavascript:S1854®"6Remove this useless assignment to variable "onSearch".(ÇÊØŠ
+\javascript:S6660¸"?'If' statement should not be the only statement in 'else' block(Üò™‰
+Ejavascript:S3504‡")Unexpected var, use let or const instead.(÷É‚@
+Fjavascript:S3504ˆ")Unexpected var, use let or const instead.(Àûç
+gjavascript:S1481œ"JRemove the declaration of the unused 'showMoreFeaturedApartment' variable.(øêÕŞ
+djavascript:S1854œ"GRemove this useless assignment to variable "showMoreFeaturedApartment".(øêÕŞ
+bjavascript:S1481 "ERemove the declaration of the unused 'showMoreSpecialOffer' variable.(óÑ„÷
+_javascript:S1854 "BRemove this useless assignment to variable "showMoreSpecialOffer".(óÑ„÷
+@javascript:S125¥"Remove this commented out code.(ôÏŸßùÿÿÿÿ
+ljavascript:S1481Ì"ORemove the declaration of the unused 'handleNavigateToServicedLuxary' variable.(â†ê¸
+ijavascript:S1854Ì"LRemove this useless assignment to variable "handleNavigateToServicedLuxary".(â†ê¸
+;javascript:S125Í"Remove this commented out code.(ŞİĞ
+@javascript:S125ı"Remove this commented out code.(‰éèµùÿÿÿÿ
+Kjavascript:S3504")Unexpected var, use let or const instead.(±Ü©úÿÿÿÿ
+@javascript:S125•"Remove this commented out code.(öôüÖùÿÿÿÿ
+Ejavascript:S3504¢")Unexpected var, use let or const instead.(î¹ŒM
+Kjavascript:S3504£")Unexpected var, use let or const instead.(úÅØÒûÿÿÿÿ
+Kjavascript:S3504¥")Unexpected var, use let or const instead.(ğÙ‹‡úÿÿÿÿ
+Kjavascript:S3504¦")Unexpected var, use let or const instead.(øİƒ¸ùÿÿÿÿ
+Fjavascript:S3504¨")Unexpected var, use let or const instead.(äãÿæ
+vjavascript:S3776Õ"TRefactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed.(é·È‹ùÿÿÿÿ
+Tjavascript:S6747Ú"7Unknown property 'class' found, use 'className' instead(Ú«şƒ
+ojavascript:S6847Ş"RNon-interactive elements should not be assigned mouse or keyboard event listeners.(ÎæÌˆ
+|javascript:S1082Ş"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(ÎæÌˆ
+@javascript:S6479à"Do not use Array index in keys(Ê¹¹óşÿÿÿÿ
+fjavascript:S3358è"DExtract this nested ternary operation into an independent statement.(ş§Øùÿÿÿÿ
+fjavascript:S3358ì"DExtract this nested ternary operation into an independent statement.(Š¤Š¤şÿÿÿÿ
+ajavascript:S3358ğ"DExtract this nested ternary operation into an independent statement.(úÃ¥
+fjavascript:S3358ô"DExtract this nested ternary operation into an independent statement.(ã£¦ÿÿÿÿÿ
+@javascript:S125ş"Remove this commented out code.(£Çâ¹üÿÿÿÿ
+@javascript:S125›	"Remove this commented out code.(íó±»úÿÿÿÿ
+@javascript:S125¸	"Remove this commented out code.(ò«‰”ùÿÿÿÿ
+Njavascript:S6749°
+",A fragment with only one child is redundant.(™åÑğüÿÿÿÿ
+åjavascript:S6848™"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿ
+javascript:S1082™"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿ
+åjavascript:S6848¥"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿ
+javascript:S1082¥"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿ
+åjavascript:S6848±"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿ
+javascript:S1082±"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿ
+åjavascript:S6848½"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¯ƒúÁøÿÿÿÿ
+javascript:S1082½"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¯ƒúÁøÿÿÿÿ
+@javascript:S6479Ó"Do not use Array index in keys(Ê¹¹óşÿÿÿÿ
+ojavascript:S6847é"RNon-interactive elements should not be assigned mouse or keyboard event listeners.(Æœ¢Ã
+Xjavascript:S1125í"6Refactor the code to avoid using this boolean literal.(éÆ¯ğşÿÿÿÿ
+@javascript:S6479³"Do not use Array index in keys(Ê¹¹óşÿÿÿÿ
+ojavascript:S6847É"RNon-interactive elements should not be assigned mouse or keyboard event listeners.(Æœ¢Ã
+Yjavascript:S6747å"7Unknown property 'class' found, use 'className' instead(±ƒ¢¸ûÿÿÿÿ
+Yjavascript:S6747ñ"7Unknown property 'class' found, use 'className' instead(Ÿ•´êşÿÿÿÿ
+@javascript:S6479¥"Do not use Array index in keys(Ê¹¹óşÿÿÿÿ
+ojavascript:S6847±"RNon-interactive elements should not be assigned mouse or keyboard event listeners.(Æœ¢Ã
+@javascript:S6479õ"Do not use Array index in keys(Ê¹¹óşÿÿÿÿ
+ojavascript:S6847‘"RNon-interactive elements should not be assigned mouse or keyboard event listeners.(Æœ¢Ã

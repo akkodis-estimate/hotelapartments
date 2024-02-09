@@ -1,0 +1,30 @@
+.applicationModal .modal-content .modal-body .modalPageTitle h2 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 38px;
+    color: #1F1F1F;
+    margin-bottom: 15px;
+}
+
+.applicationModal .modal-content .modal-body .modalPageTitle p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #696969;
+}
+
+.applicationModal .modal-content .modal-body textarea.form-control::placeholder {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #696969;
+}
+
+.applicationModal .modal-content .modal-body textarea.form-control {
+    border: 1px solid #C4C5BF;
+    border-radius: 10px;
+}
+
+.successModal {
+    min-height: 515px;
+}

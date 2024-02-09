@@ -1,0 +1,1043 @@
+/* Primary Font Face */
+@font-face {
+  font-family: "Carmen Sans";
+  src: url("Assets/fonts/CarmenSans/Carmen-Sans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("Assets/fonts/Poppins/Poppins-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("Assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("Assets/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("Assets/fonts/Poppins/Poppins-MediumItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("Assets/fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("Assets/fonts/Poppins/Poppins-SemiBoldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("Assets/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("Assets/fonts/Poppins/Poppins-BoldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("Assets/fonts/Poppins/Poppins-ExtraBoldItalic.ttf")
+    format("truetype");
+  font-style: italic;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("Assets/fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("Assets/fonts/Poppins/Poppins-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("Assets/fonts/Poppins/Poppins-BlackItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "IvyMode";
+  src: url("Assets/fonts/IvyMode/ivymode4.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  word-break: break-word;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+input,
+button:focus-visible {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+button:disabled,
+button[disabled] {
+  background: #cdd4d8;
+  border-color: #cdd4d8;
+}
+
+.row {
+  width: 100%;
+  margin: 0;
+}
+
+.sectionSpacing {
+  padding-bottom: 220px;
+}
+
+.text-muted {
+  color: #cdd4d8 !important;
+}
+
+.applicationModal {
+  max-width: 723px;
+}
+
+.applicationModal .modal-content {
+  border: 0;
+  border-radius: 10px;
+  padding: 37px 64px 64px;
+}
+
+.modal-backdrop.show {
+  width: 100%;
+  height: 100%;
+}
+
+.invalid {
+  /* display: none; */
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 12px;
+  color: #dc3545;
+}
+
+.required {
+  color: #dc3545;
+}
+
+.Toastify__toast-body {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1920px;
+  padding: 0 20px;
+}
+
+.text-success {
+  color: #009f13 !important;
+}
+
+.PhoneInput--disabled {
+  background-color: #f3f3f9;
+}
+
+.PhoneInputCountrySelect:disabled {
+  background-color: #f2f2f6;
+  /* border: 0px; */
+  display: none;
+}
+
+.mantine-Drawer-root .mantine-Drawer-content {
+  border-radius: 10px 10px 0px 0px;
+}
+
+nav.navbar {
+  border-bottom: 0px;
+}
+
+.SAFullScreenDrawer {
+  width: 100%;
+  height: 100%;
+}
+
+.SAFullScreenDrawer .mantine-Drawer-content {
+  width: 100%;
+  height: 100%;
+}
+
+input[type="date"] {
+  content: "";
+  background-image: url("../src/Assets/Images/cal-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 94%;
+  position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  color: transparent;
+  background: transparent;
+}
+
+input[type="date"]::-webkit-inner-spin-button {
+  z-index: 1;
+}
+
+input[type="date"]::-webkit-clear-button {
+  z-index: 1;
+}
+
+.appMainBtn button.appBtn span::after {
+  content: "🡢";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  font-size: 20px;
+}
+
+.appMainBtn button.appBtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.appMainBtn button.appBtn:hover span {
+  padding-right: 15px;
+}
+
+.appMainBtn button.appBtn:hover span:after {
+  opacity: 1;
+}
+
+.appMainBtn button.appBtn:hover {
+  padding-right: 43px;
+}
+
+.appMainBtn button.appBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter_main .advanceFilter .col .filterDD button.dropdown-toggle {
+  white-space: unset !important;
+}
+
+span.filteredSelected {
+  text-align: left;
+}
+
+.main_property {
+    position: relative;
+}
+
+@media (max-width: 1400px) {
+  .sectionSpacing {
+    padding-bottom: 120px;
+  }
+
+  .sectionTitleDesc h2 {
+    font-size: 44px;
+  }
+}
+@media (max-width: 600px) {
+  nav.navbar {
+    border-bottom: 0.5px solid #c4c5bf;
+  }
+}
+.accountInfo .dropdown-toggle svg {
+  margin: 0;
+}
+.FeaturedPropertiesContainer .row {
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+@media (max-width: 1440px) {
+  .areaSectionBlurbs {
+    gap: 25px;
+    margin: 35px 0;
+  }
+  .position-relative.homeCarousel {
+    padding: 0 20px 120px;
+  }
+  .propertyCardSlideSm {
+    gap: 25px;
+  }
+  .homeSearch {
+    padding: 0 11px;
+  }
+}
+@media (max-width: 1199px) {
+  .homeMainContent {
+    padding: 25px 20px 5px;
+  }
+}
+@media (max-width: 991px) {
+  .homeCarousel .carousel .carousel-inner {
+    padding: 25px;
+  }
+  .homeMainContent {
+    padding: 25px 20px;
+  }
+}
+@media (max-width: 768px) {
+  .bookingContainer .container {
+    padding: 0;
+  }
+  .sectionTitleDesc h2 {
+    padding: 0 20px;
+    margin-bottom: 8px !important;
+  }
+  .sectionSpacing {
+    padding-bottom: 55px !important;
+  }
+  .areaSection .sectionTitleDesc {
+    margin: 0;
+  }
+  .areaSectionBlurbs {
+    gap: 20px;
+    margin: 32px 0;
+  }
+  span.areaBoxTitle {
+    margin-top: 8px;
+  }
+  .appMainBtn .appBtn {
+    font-size: 14px;
+    padding: 11px 28px;
+  }
+  .homeCarousel img.w-100 {
+    min-height: 433px;
+  }
+  .homeCarousel .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+    font-size: 16px !important;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  .homeCarousel .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+  }
+  .homeCarousel .carousel .carousel-inner {
+    padding: 13px 16px;
+    height: auto !important;
+  }
+  .homeSliderAction {
+    position: static;
+    width: 100%;
+    margin: 16px 0 0;
+  }
+  .position-relative.homeCarousel {
+    padding-bottom: 56px;
+  }
+  .logoSliderSection .col-lg-12.mb-5 {
+    margin-bottom: 32px !important;
+  }
+  .logoSliderSection {
+    padding: 0 !important;
+    background: none;
+  }
+  .areaSection.mb-5 {
+    margin: 0 0 40px !important;
+    padding: 0 !important;
+  }
+  .featuredAppartNav {
+    margin-top: 30px;
+    margin-bottom: 25px !important;
+  }
+  .featuredAppartNav .featuredAppartNavLink {
+    padding: 10px;
+  }
+  footer.footer {
+    padding: 40px 10px;
+  }
+  .bottomFooter {
+    margin-top: 16px !important;
+  }
+  .homeSliderAction .carouselSlide button svg {
+    margin-right: 0;
+  }
+}
+@media (max-width: 480px) {
+  span.areaImg {
+    height: 165px;
+  }
+}
+
+/* New Style Start  */
+.mainHeader .navContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.accountInfo .globeSm {
+  margin-right: 28px;
+}
+.accountInfo .globeSm .dropdown-toggle {
+  padding: 0;
+}
+.ha-main-banner {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 50px;
+}
+.ha-main-banner .ha-home-content {
+  width: 48%;
+  padding: 50px 50px 20px 0;
+}
+@media (min-width: 1800px) {
+  .ha-main-banner {
+    align-items: center;
+  }
+  .ha-main-banner .ha-home-content {
+    padding: 20px 120px 20px 95px;
+  }
+}
+.ha-main-banner .banner_img {
+  width: 52%;
+}
+.ha-main-banner .banner_img img {
+  border-radius: 0px 40px 280px 0px;
+}
+.ha-main-banner .ha-home-content .banner_heading {
+  margin: 0 0 55px;
+  color: #1f1f1f;
+  font-family: "Carmen Sans", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.ha-main-banner .ha-home-content p {
+  color: #696969;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0 0 65px;
+  font-family: "Poppins", sans-serif;
+}
+.ha-homeSearch {
+  margin-top: -110px;
+  margin-bottom: 116px;
+}
+.ha-homeSearch .homeSearchLayout h3 {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 46px;
+  margin: 0 0 30px;
+}
+.ha-homeSearch .searchInput {
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  padding: 15px 30px;
+  min-height: 98px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  height: 98px;
+}
+.ha-homeSearch .searchInput .mantine-InputWrapper-root {
+  width: 100%;
+}
+.ha-homeSearch .searchInput .mantine-Input-input {
+  padding-bottom: 0;
+  font-size: 24px;
+}
+.ha-homeSearch .searchInput .searchBarAction {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  transform: translateY(-50%);
+}
+.ha-booking-box {
+  border-radius: 50px;
+  background: #f2f2f2;
+  padding: 132px 30px;
+  text-align: center;
+}
+.ha-booking-box .bookingColumns {
+  max-width: 1210px;
+  margin: 96px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 110px;
+  row-gap: 125px;
+}
+.areaSection {
+  padding-top: 220px;
+}
+.position-relative.homeCarousel .hotel_banner {
+  max-width: 100%;
+  border-radius: 40px;
+}
+.ha_footer_box {
+  border-radius: 30px;
+  background: #f2f2f2;
+  padding: 40px 40px 63px;
+  display: grid;
+  row-gap: 58px;
+  grid-template-columns: 1fr 1.3fr;
+  grid-template-areas: "footerLogo footerMenu" "footerSocial footerMember";
+}
+.ha_footer_box .ftrLogoContent {
+  grid-area: footerLogo;
+}
+.ha_footer_box .footer_menu {
+  grid-area: footerMenu;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 90%;
+}
+.ha_footer_box .socialConnects {
+  grid-area: footerSocial;
+}
+.ha_footer_box .chpaLogoSm {
+  grid-area: footerMember;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.ha_footer_box .ftrLogo {
+  margin: 0 0 35px;
+}
+.ha_footer_box .ftrSummary {
+  max-width: 73%;
+}
+.ftrLinks ul {
+  margin: 0;
+}
+.propertyCardSlideSm {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.propertyCardSlideSm .propertyCardSlideUp {
+  width: calc(33.33% - 40px * 2 / 3);
+  max-width: inherit;
+  flex: 0 0 auto;
+}
+.propertyCardSlideSm .propertyCardSlideUp:nth-child(4) {
+  width: calc(50% - 40px * 1 / 2);
+}
+.propertyCardSlideSm .propertyCardSlideUp:nth-child(5) {
+  width: calc(50% - 40px * 1 / 2);
+}
+.main_search_banner {
+  position: relative;
+  margin: 0 0 212px;
+}
+.main_search_banner .ha-homeSearch {
+  position: absolute;
+  bottom: -100px;
+  width: 100%;
+  left: 0;
+  margin: 0;
+}
+
+.infowindow-content .inMapPropertyCard .propertyCard .propertyImageSlider .propertyCardPrice span.oldPrice {
+  font-size: 12px;
+  top: -13px;
+  line-height: 12px;
+}
+
+.infowindow-content .inMapPropertyCard .propertyCard .propertyImageSlider .propertyCardPrice .propertyPrice {
+  white-space: nowrap;
+}
+
+.appMainBtn button.appBtn a {
+  color: #1f1f1f;
+}
+@media (max-width: 1700px) {
+  .ha-main-banner .ha-home-content {
+    padding: 70px 50px 20px 0;
+  }
+}
+
+@media (max-width: 1680px) {
+  .ha-main-banner {
+    padding: 0 40px;
+    align-items: flex-start;
+  }
+  .ha-main-banner .ha-home-content .banner_heading {
+    margin: 0 0 35px;
+    font-size: 44px;
+  }
+  .ha-main-banner .ha-home-content p {
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0 0 50px;
+  }
+  .ha-main-banner .banner_img img {
+    border-radius: 0px 30px 180px 0px;
+  }
+  .bookingContainer .container {
+    padding: 0 40px;
+  }
+  .position-relative.homeCarousel {
+    padding: 0 40px 140px;
+  }
+  .homeCarousel .carousel .carousel-inner .carousel-item .carousel-caption h5,
+  .sectionTitleDesc h2 {
+    font-size: 42px;
+    line-height: normal;
+  }
+  .LogoSliderContainer .container {
+    padding: 0 40px;
+  }
+  .areaSection .container {
+    padding: 0 40px;
+  }
+  .areaSection {
+    padding-top: 140px;
+  }
+  .sectionSpacing {
+    padding-bottom: 140px;
+  }
+  .propertyCardSlideSm {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 1440px) {
+  .socialConnects {
+    gap: 15px;
+  }
+  .ha-homeSearch .homeSearchLayout h3 {
+    font-size: 30px;
+    line-height: 1;
+  }
+  .ha--HomeSearch input.mantine-Input-input {
+    min-height: 78px;
+    height: 78px;
+  }
+  .homeSearchLayout {
+    max-width: 85%;
+  }
+  .ha-main-banner .banner_img img {
+    border-radius: 0px 30px 120px 0px;
+  }
+  .ha-main-banner .ha-home-content {
+    padding: 40px 50px 20px 0;
+  }
+  .main_search_banner .ha-homeSearch {
+    bottom: -25px;
+  }
+}
+@media (max-width: 1320px) {
+  .ha-main-banner {
+    align-items: flex-start;
+  }
+  .ha-main-banner .ha-home-content .banner_heading {
+    font-size: 38px;
+  }
+  .ha-main-banner .ha-home-content p {
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0 0 40px;
+  }
+  .homeSearchLayout {
+    border-radius: 30px;
+  }
+  .ha-booking-box {
+    padding: 100px 30px;
+  }
+  .ha-booking-box .bookingColumns {
+    column-gap: 50px;
+    row-gap: 50px;
+  }
+  .areaMainimg img {
+    border-radius: 10px 100px 10px 10px;
+  }
+  .areaSection .container {
+    padding: 0 40px;
+  }
+  span.areaImg {
+    height: 250px;
+  }
+}
+@media (max-width: 1199px) {
+  .ha_footer_box .footer_menu {
+    max-width: 100%;
+  }
+  .ha_footer_box .ftrSummary {
+    max-width: 90%;
+  }
+  .homeCarousel .carousel .carousel-inner .carousel-item .carousel-caption h5,
+  .sectionTitleDesc h2 {
+    font-size: 32px;
+  }
+  .areaSection {
+    padding-top: 100px;
+  }
+  .ha-main-banner .banner_img img {
+    border-radius: 0px 20px 80px 0px;
+  }
+  .ha-main-banner .ha-home-content {
+    padding: 20px 50px 20px 0;
+  }
+  .ha-main-banner .ha-home-content .banner_heading {
+    font-size: 32px;
+    margin: 0 0 20px;
+  }
+}
+@media (max-width: 1023px) {
+  nav.navbar {
+    padding: 15px 20px;
+  }
+  .ha-main-banner {
+    padding: 0 20px;
+  }
+  .position-relative.homeCarousel {
+    padding: 0 20px 100px;
+  }
+  .LogoSliderContainer .container {
+    padding: 0 20px;
+  }
+  footer.footer {
+    padding: 45px 10px;
+  }
+  .propertyCardSlideSm {
+    gap: 20px;
+  }
+  .propertyCardSlideSm .propertyCardSlideUp {
+    width: calc(33.33% - 20px * 2 / 3);
+  }
+  .propertyCardSlideSm .propertyCardSlideUp:nth-child(4) {
+    width: calc(50% - 20px * 1 / 2);
+  }
+  .main_search_banner {
+    margin: 0 0 170px;
+  }
+  .main_search_banner .ha-homeSearch {
+    bottom: -65px;
+  }
+  .item__overlay .titleAndPrice {
+    padding: 35px 15px;
+  }
+  .propertyCardsLayout .item .item__overlay .item__body {
+    padding: 0 15px 35px 15px;
+  }
+  .propertyCardsLayout .item .item__overlay .item__body .gap-5 {
+    gap: 15px !important;
+  }
+}
+@media (max-width: 991px) {
+  .ha-main-banner .ha-home-content .banner_heading {
+    font-size: 30px;
+    line-height: 38px;
+    margin: 0 0 15px;
+  }
+  .ha-main-banner .ha-home-content p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 25px;
+  }
+  span.scrollMore {
+    font-size: 16px;
+  }
+  .ha-homeSearch .homeSearchLayout h3 {
+    font-size: 18px;
+    margin: 0 0 15px;
+  }
+  .ha-homeSearch .searchInput {
+    min-height: 68px;
+    height: 68px;
+  }
+  .ha-homeSearch {
+    margin-bottom: 58px;
+  }
+  .ha-booking-box .bookingColumns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .homeCarousel .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 16px;
+  }
+  .ha_footer_box {
+    row-gap: 42px;
+    padding: 30px 18px 48px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "footerLogo" "footerMenu" "footerSocial" "footerMember";
+  }
+  .ha_footer_box .socialConnects {
+    justify-content: center;
+    gap: 30px;
+  }
+  .ha_footer_box .chpaLogoSm {
+    justify-content: center;
+    gap: 10px;
+  }
+  .ha_footer_box .ftrLogo {
+    text-align: center;
+    margin: 0 0 15px !important;
+  }
+  .ha_footer_box .ftrSummary {
+    max-width: 100%;
+  }
+  .homeCarousel .carousel .carousel-inner {
+    max-width: 438px;
+  }
+  .areaSection .container {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 767px) {
+  .ha-main-banner {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  .ha-main-banner .ha-home-content {
+    padding: 24px 20px 20px;
+    width: 100%;
+  }
+  .ha-main-banner .banner_img {
+    width: 100%;
+  }
+  .ha-main-banner span.scrollMore {
+    display: none !important;
+  }
+  .ha-main-banner .ha-home-content p {
+    margin: 0;
+  }
+  .ha-main-banner .banner_img img {
+    border-radius: 0;
+  }
+  .ha-homeSearch {
+    padding: 0 11px;
+    position: relative;
+    z-index: 9;
+  }
+  .homeSearchLayout {
+    max-width: 100%;
+    padding: 14px 12px;
+  }
+  .ha-homeSearch .searchInput .mantine-Input-input {
+    padding: 0 !important;
+    font-size: 16px;
+  }
+  .ha--HomeSearch input.mantine-Input-input {
+    min-height: 48px;
+    height: 48px;
+    padding: 5px 16px;
+    font-size: 16px;
+  }
+  .ha--HomeSearch .mantine-Input-rightSection {
+    right: 0;
+  }
+  .ha--HomeSearch .mantine-Input-rightSection svg {
+    height: 25px;
+    width: 25px;
+  }
+  .ha--HomeSearch .mantine-Input-icon {
+    display: none;
+  }
+  .ha--homeSearchDD {
+    left: 0;
+    width: 100%;
+    padding: 20px;
+  }
+  .ha-booking-box {
+    padding: 0;
+    background: none;
+  }
+  .ha-booking-box .sectionTitleDesc {
+    margin: 0 0 30px;
+  }
+  .areaSection {
+    padding-top: 58px;
+  }
+  .sectionTitleDesc p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .position-relative.homeCarousel {
+    padding: 0 20px 58px;
+  }
+  .logoSliderSection .sectionTitleDesc {
+    margin: 0 0 30px;
+  }
+  .ha_footer_box .footer_menu .ftrLinksContent:nth-child(2) {
+    order: 1;
+  }
+  .ha_footer_box .chpaLogoSm {
+    margin: 0;
+  }
+  .ha_footer_box .chpaLogoSm .member_img {
+    max-width: 210px;
+  }
+  .authore_text {
+    display: none;
+  }
+  .bottomFooter {
+    padding: 16px 33px;
+    justify-content: center;
+  }
+  .menuList ul li a {
+    font-size: 20px;
+  }
+  .propertyCardSlideSm .propertyCardSlideUp {
+    width: calc(50% - 20px * 2 / 3);
+  }
+  .propertyCardSlideSm .propertyCardSlideUp:nth-child(4) {
+    width: calc(50% - 20px * 1 / 2);
+  }
+  .propertyCardSlideSm .propertyCardSlideUp:nth-child(5) {
+    width: calc(50% - 20px * 1 / 2);
+  }
+  .main_search_banner .ha-homeSearch {
+    bottom: -35px;
+  }
+
+  .main_search_banner {
+    margin: 0 0 80px;
+  }
+}
+@media (max-width: 600px) {
+  .ha-booking-box .homeBookingXL {
+    display: none;
+  }
+  span.areaImg {
+    height: 200px;
+  }
+  .areaMainimg img {
+    border-radius: 10px;
+  }
+  .position-relative.homeCarousel .hotel_banner {
+    height: 450px;
+    object-fit: cover;
+  }
+  .propertyCardSlideSm {
+    margin-bottom: 40px;
+  }
+  .bookingContainer .container {
+    padding: 0;
+  }
+  .homeCarousel .carousel .carousel-inner {
+    max-width: 100%;
+  }
+  .propertyCardSlideSm .propertyCardSlideUp {
+    width: 100%;
+  }
+  .propertyCardSlideSm .propertyCardSlideUp:nth-child(4) {
+    width: 100%;
+  }
+  .propertyCardSlideSm .propertyCardSlideUp:nth-child(5) {
+    width: 100%;
+  }
+  .ha--HomeSearch .mantine-Input-rightSection svg {
+    width: 28px;
+    background: #fff;
+  }
+
+  .mobile_proprty_card .appartmentCardSm .appartmentItemContent .propertyPrice {
+    padding-top: 12px;
+  }
+
+  .mobile_proprty_card
+    .appartmentCardSm
+    .appartmentItemContent
+    .propertyPrice
+    .ppPrice
+    span.oldPrice {
+    position: absolute;
+    left: -40px;
+    top: -20px;
+    text-decoration: line-through;
+  }
+}
+@media (max-width: 480px) {
+  span.areaImg {
+    height: 165px;
+  }
+}
+@media (max-width: 375px) {
+  .chpaLogoSm span.chpaLogo {
+    font-size: 14px;
+  }
+  .ha_footer_box .chpaLogoSm .member_img {
+    max-width: 170px;
+  }
+}

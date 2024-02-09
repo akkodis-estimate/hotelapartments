@@ -1,0 +1,27 @@
+.propertiesMapUI {
+    position: absolute;
+    right: -12px;
+}
+
+.mapActionBtn {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+}
+
+.maximiseMinize span {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.col-lg-12.maximizeMap .propertiesMapUI {
+    position: relative;
+    right: 0;
+}

@@ -1,0 +1,473 @@
+.mobileDateInputCustom {
+    max-width: 100%;
+}
+
+.specialOfferUISm p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.specialOfferUISm p strong{
+    font-weight: 500 !important;
+}
+
+.specialOfferUISm span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.filterBtnSm {
+    padding: 12px 16px;
+    border-radius: 50px;
+    background: #FFF;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 6px 10px rgba(0, 0, 0, 0.08)) drop-shadow(0px 20px 25px rgba(0, 0, 0, 0.06));
+}
+
+.filterSearchSm .mantine-Select-wrapper input {
+    border-radius: 50px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    filter: drop-shadow(0px 6px 10px rgba(0, 0, 0, 0.08)) drop-shadow(0px 20px 25px rgba(0, 0, 0, 0.06));
+    border: 0px;
+}
+
+.sortByDDSm .dropdown-toggle {
+    display: flex;
+    height: 50px !important;
+    padding: 12px 16px !important;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    border: 1px solid #C4C5BF !important;
+    background: #fff !important;
+    justify-content: center;
+}
+
+.sortByDDSm .dropdown-toggle:focus:not(:focus-visible){
+    border: 1px solid #C4C5BF !important;
+}
+
+.sortByDDSm .dropdown-toggle svg{
+    margin: 0px !important;
+}
+
+.fltrBtn span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.sortByDDSm ul.dropdown-menu.filterLocationList.p-2.show {
+    width: auto;
+    right: 20px !important;
+    top: -2px !important;
+}
+
+.sortByDDSm ul.dropdown-menu.filterLocationList.p-2.show li.sortByItem .form-check label {
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sortByDDSm ul.dropdown-menu.filterLocationList.p-2.show li.sortByItem .form-check input {
+    width: 18px;
+    height: 18px;
+    background-size: 76% !important;
+}
+
+/* Appartment Card */
+
+.appartmentCardSm {
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.10);
+}
+
+.appartmentCardSm .appartmentItemImg{
+    height: 222px;
+}
+
+.appartmentCardSm .appartmentItemImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.appartmentCardSm .appartmentItemContent {
+    display: flex;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.appartmentCardSm .appartmentItemContent .appartmentTitle h4 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #212529;
+}
+
+.appartmentAmmenitiesSm .ammenitiesItem {
+    color: #212529;
+}
+
+.appartmentCardSm .appartmentItemContent .appartmentLocation {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #505050;
+}
+
+.appartmentCardSm .appartmentItemContent .propertyPrice {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #212529;
+}
+
+span.featuredApartmentSm {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    color: #767760;
+    display: flex;
+    padding: 8px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid #767760;
+}
+
+svg.areaIconColor {
+    filter: brightness(0) saturate(100%) invert(43%) sepia(11%) saturate(9%) hue-rotate(5deg) brightness(90%) contrast(87%);
+  }
+  
+  svg.propertyIconColor {
+    filter: brightness(0) saturate(100%) invert(43%) sepia(11%) saturate(9%) hue-rotate(5deg) brightness(90%) contrast(87%);
+  }
+
+
+  .responisveAptCalDateCust  .mantine-DatePicker-monthLevelGroup {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .responisveAptCalDateCust {
+    width: 100%;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .responisveAptCalDateCust .mantine-DatePicker-monthLevelGroup .mantine-MonthLevel-monthLevel {
+    margin: 0px !important;
+  }
+  
+  .responisveAptCalDateCust .mantine-DatePicker-monthLevelGroup .mantine-MonthLevel-monthLevel .mantine-CalendarHeader-calendarHeader {
+    max-width: 100%;
+  }
+  
+  .responisveAptCalDateCust .mantine-DatePicker-monthLevelGroup .mantine-MonthLevel-monthLevel  table.mantine-Month-month {
+    width: 100%;
+  }
+  
+  .responisveAptCalDateCust .mantine-Calendar-calendar .mantine-MonthLevelGroup-monthLevelGroup .mantine-MonthLevel-monthLevel .mantine-CalendarHeader-calendarHeaderControl:last-child {
+    position: absolute;
+    top: 0;
+    display: flex;
+    right: 45px;
+    justify-content: center;
+  }
+
+  
+  .responisveAptCalDateCust .mantine-Day-day[data-selected] {
+    background-color: #696969 !important;
+    color: #fff !important;
+  }
+  
+  .responisveAptCalDateCust .mantine-Day-day[data-in-range] {
+    background-color: #ECECEC;
+  }
+  
+  .responisveAptCalDateCust .mantine-Day-day[data-weekend] {
+    color: #000;
+  }
+
+@media (max-height:991px) {
+    .filterMobileDrawer.position-relative {
+        height: 29rem;
+        overflow: auto;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-height:750px) {
+    /* .filterMobileDrawer.position-relative {
+        height: 19rem;
+        overflow: auto;
+    } */
+}
+
+@media (max-width:600px) {
+    .minMaxInput .col-lg-6 {
+        flex: 0 0 48% !important;
+        max-width: 48% !important;
+    }
+    .filterActionSm {
+        position: fixed;
+        width: 100%;
+        bottom: 0px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        background: #fff;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+        left: 0;
+        padding-bottom: 20px;
+    }
+
+    .filterActionSm .animateBtn.mt-5 {
+        margin-top: 25px !important;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .filterActionSm .animateBtn.mt-5 button.appBtn.bg-black {
+        width: 88%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+    }
+
+    .resetBtnSm {
+        padding: 12px 24px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+    }
+
+    .filterMobileDrawer .card-body {
+        padding: 10px;
+    }
+
+    .noFilterData .noBkkingContent h4 {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    .troubleDes {
+        padding: 15px;
+    }
+    
+    .troubleDes > div {
+        flex-direction: column;
+        gap: 20px !important;
+    }
+    
+    .troubleDes .troubleContent h5 {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    
+    .troubleDes .troubleContent p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    
+    .troubleDes .troubleContent p br {
+        display: none;
+    }
+
+    .troubleDes .troubleContent .contactDtl {
+        flex-direction: column;
+        align-items: center !important;
+        gap: 10px !important;
+    }
+
+    .troubleDes .troubleContent .contactDtl div span {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        word-break: break-all;
+    }
+
+    .paginationAppartmentList .prevList, .paginationAppartmentList .nextList {
+        padding: 14px 12px 14px 12px !important;
+    }
+
+    .paginationAppartmentList .prevList, .paginationAppartmentList .nextList, .totalPaginationCount span {
+        font-size: 14px !important;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+    }
+
+    .paginationAppartmentList {
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+
+    .exploreListItem {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: start !important;
+        justify-content: start;
+        gap: 10px !important;
+    }
+
+    .moreExplore h5 {
+        font-size: 22px !important;
+        margin-bottom: 15px !important;
+    }
+    .mapOpenBtnSm .animateBtn {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mapOpenBtnSm {
+        position: fixed;
+        bottom: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .closeMapSm {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+    }
+
+    .closeMapSm svg  {
+        width: 30px;
+        max-width: 30px;
+    }
+
+    .mobileMapSm > div {
+        border-radius: 0px !important;
+        height: 845px !important;
+    }
+
+    .bedsBaths .col-lg-4  {
+        flex: 0 0 33%;
+        max-width: 33%;
+      }
+
+      .featuredPropertySummary p {
+        font-size: 16px !important;
+    }
+    
+    .exploreListItem li::after{
+        display: none;
+    }
+
+    .filterDD.autoCompleteSearch {
+        position: unset !important;
+    }
+
+    .filterDD.autoCompleteSearch .mantine-Select-dropdown {
+        left: 20px !important;
+        width: unset !important;
+    }
+
+    .appartmentListPara.specialOfferUISm p {
+        margin: 0px 3px 7px !important;
+    }
+
+    .mobileMapSm .gm-style-iw.gm-style-iw-c[role] {
+        max-width: 100% !important;
+    }
+
+    .stickyFilters {
+        position: sticky;
+        top: -1px;
+        background: #fff;
+        z-index: 10;
+    }
+
+    .mobileMapSm .closeMapSm {
+        height: unset !important;
+    }
+    
+    .mobileMapSm .closeMapSm span.forCloseBtnSm {
+        padding: 12px 0px;
+        border-radius: 50px;
+        background: #FFF;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        filter: drop-shadow(0px 6px 10px rgba(0, 0, 0, 0.08)) drop-shadow(0px 20px 25px rgba(0, 0, 0, 0.06));
+        margin-left: 12px;
+        margin-top: 7px;
+    }
+}
+
+@media (max-width:400px) {
+    .filterMobileDrawer.position-relative {
+        height: 27rem;
+        overflow: auto;
+    }
+}
+
+@media (max-height:800px) {
+    .filterMobileDrawer.position-relative {
+        padding-bottom: 130px;
+    }
+}
+
+
+@media (max-height:670px) {
+    .filterMobileDrawer.position-relative {
+        padding-bottom: 150px;
+    }
+}
+
+@media (max-width:350px) {
+.bedsBaths label.form-check-label {
+    margin-top: 2px !important;
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width:600px){
+    .top_filter_mobile {padding: 12px 20px;}
+    .mobile_property_view .specialOfferUISm{margin: 0 0 16px;}
+    .mobile_proprty_card{margin: 0 0 24px;}
+    .moreExplore .exploreBlurb {margin: 20px 0 0;}
+    .mobile_property_view .moreExplore{margin-bottom: 0 !important;}
+}

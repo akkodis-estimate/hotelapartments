@@ -1,0 +1,143 @@
+.dropzoneFileUpload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background: #F3F3F9;
+    border: 1px dashed #A9B3CB;
+    border-radius: 8px;
+}
+
+.dropzoneFileUpload .dropzoneContent p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    line-height: 17px;
+}
+
+span.dropMsg {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #5D6883;
+}
+
+.dropzoneFileUpload button {
+    padding: 9px 16px;
+    background: #2849C7;
+    border-radius: 24px;
+    border: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.dropzoneFileUpload .dropzone {
+    width: 100%;
+    padding: 16px;
+}
+
+.dropzoneFileUpload aside ul {
+    list-style: none;
+    margin: 8px;
+    padding: 0;
+}
+
+.dropzoneFileUpload aside ul li{
+    background-color: #fff;
+    padding: 4px 15px;
+    border-radius: 50px;
+    border: 1px solid #d9e1f0;
+}
+.dropzoneImgPreviews img.previewImg {
+    border-radius: 8px;
+    object-fit: contain;
+    width: 100%;
+    height: 200px;
+}
+
+.imgOverlay {
+    position: absolute;
+    width: 100%;
+    /* background-color: #1D283D66; */
+    top: 0;
+    height: 100%;
+    left: 0;
+    border-radius: 8px;
+}
+
+button.previewCancelBtn {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(2px);
+    border: 0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    color: #111826;
+}
+
+button.previewCancelBtn svg {
+   margin: 0;
+}
+
+.dropzoneLbl label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5D6883;
+}
+
+.dropzoneLbl span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #A9B3CB;
+}
+
+button.videoPlayBtn {
+    border: 0;
+    background-color: transparent;
+    margin: 0px !important;
+}
+
+.previewVideoTitle p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #111826;
+}
+
+.previewVideoTitle span {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5D6883;
+}
+
+button.dltVideo {
+    border: 0;
+    background: transparent;
+    color: #A2001D;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.contractsPreviewDes .contractNameIcon .contractContent h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111826;
+}
+
+.contractsPreviewDes .contractNameIcon .contractContent p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5D6883;
+}

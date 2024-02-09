@@ -1,0 +1,338 @@
+
+/* Updated CSS */
+
+.ha--experienceUI .ha--contactBnrSec {
+  margin-bottom: 160px !important;
+}
+
+.ha--experienceContainer {
+  max-width: 1380px;
+  width: 100%;
+  margin: auto;
+}
+
+.hs--ExperienceServiceSlider {
+  display: flex;
+  flex-direction: column;
+  gap: 104px;
+  padding-bottom: 160px
+}
+
+/* End */
+.servicesSlider .carousel-inner .carousel-item img {
+    width: 50% !important;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 15px;
+    /* position: absolute; */
+    /* top:0px; */
+}
+
+.servicesSlider .carousel-inner .active.carousel-item {
+    opacity: 1 !important;
+    transition: unset !important;
+}
+
+.servicesSlider .carousel-inner .carousel-item {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    opacity: 0;
+}
+
+.servicesSlider .carousel-inner .carousel-item .carousel-caption {
+    position: unset !important;
+    width:50% !important;
+    height: 100% !important;
+    background: #000;
+}
+
+.servicesSlider .carousel-inner .active.carousel-item img {
+    display: block;
+}
+
+/* New Slider */
+
+.mantine-Carousel-slide.fade-carousel-slide.active .experienceServiceItem {
+  flex-direction: row-reverse;
+}
+
+.mantine-Carousel-slide.fade-carousel-slide .experienceServiceItem {
+  flex-direction: unset;
+}
+.experienceServiceItem  .serviceImageitem {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.experienceServiceItem .serviceImageitem img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 640px;
+}
+
+
+.experienceServiceItem  .serviceContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experienceServiceItem .serviceContent .serviceInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experienceServiceItem .serviceContent .serviceInfo h4 {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 46px;
+}
+
+.experienceServiceItem .serviceContent .serviceInfo p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.servicesSlider .mantine-Carousel-root .mantine-Carousel-controls {
+  bottom: 20px;
+  justify-content: start;
+  gap: 100px;
+  padding-left: 0px;
+  align-items: end;
+}
+
+.servicesSlider .mantine-Carousel-root .mantine-Carousel-controls .mantine-Carousel-control {
+  background: transparent;
+  box-shadow: none !important;
+  border: 0;
+}
+
+.servicesSlider .mantine-Carousel-root .mantine-Carousel-controls .mantine-Carousel-control svg {
+  margin-right: 0px !important;
+  color: #767760 !important;
+}
+
+.servicesSlider .mantine-Carousel-root .mantine-Carousel-viewport .mantine-Carousel-container .mantine-Carousel-slide:last-child {
+  flex: 0 0 100%;
+}
+
+.servicesSlider .sliderPagination {
+  position: absolute;
+  bottom: 19px;
+  left: 57px;
+}
+
+.servicesSlider .mantine-Carousel-root .mantine-Carousel-viewport {
+  border-radius: 10px !important;
+}
+
+.servicesSlider {
+  position: relative;
+}
+
+.servicesSlider .mantine-Carousel-root .mantine-Carousel-viewport .mantine-Carousel-container .mantine-Carousel-slide.fade-carousel-slide {
+  pointer-events: none !important;
+}
+
+.testimonialSm .mantine-Carousel-slide.fade-carousel-slide {
+  padding-top: 20px;
+  padding-bottom: 96px;
+  pointer-events: none;
+}
+
+@media (max-width:1650px) {
+  .ha--experienceUI .ha--contactBnrSec {
+    margin-bottom: 120px !important;
+}
+
+.hs--ExperienceServiceSlider{
+  padding-bottom: 120px;
+  gap: 85px;
+}
+}
+
+@media (max-width:1450px) {
+  .ha--experienceUI .ha--contactBnrSec {
+    margin-bottom: 85px !important;
+}
+
+.hs--ExperienceServiceSlider{
+  padding-bottom: 85px;
+  gap: 70px;
+}
+}
+
+@media (max-width:1200px) {
+  .ha--experienceUI .ha--contactBnrSec {
+    margin-bottom: 70px !important;
+}
+
+.hs--ExperienceServiceSlider{
+  padding-bottom: 70px;
+}
+}
+
+@media (max-width:1024px) {
+
+  .ha--experienceUI .ha--contactBnrSec {
+    margin-bottom: 60px !important;
+}
+
+.hs--ExperienceServiceSlider{
+  padding-bottom: 60px;
+  gap: 60px;
+}
+
+  .servicesSlider .mantine-Carousel-root .mantine-Carousel-viewport .mantine-Carousel-container .mantine-Carousel-slide
+  {
+    flex: 0 0 100%;
+  }
+
+  .experienceServiceItem .serviceImageitem {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .experienceServiceItem .serviceImageitem img {
+    height: 400px;
+}
+
+.mantine-Carousel-slide.fade-carousel-slide.active .experienceServiceItem,
+.mantine-Carousel-slide.fade-carousel-slide .experienceServiceItem {
+  flex-direction: column !important;
+}
+
+
+.servicesSlider .mantine-Carousel-root .mantine-Carousel-viewport {
+  height: 825px;
+}
+
+}
+
+@media (max-width:991px) {
+  .testimonialSm .mantine-Carousel-slide.fade-carousel-slide {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.hs--ExperienceServiceSlider{
+  gap: 50px;
+}
+
+}
+
+@media (max-width:800px) {
+
+  .servicesSlider .mantine-Carousel-root .mantine-Carousel-viewport {
+    height: 786px;
+  }
+
+  
+
+  .servicesSlider .mantine-Carousel-root .mantine-Carousel-controls,
+.servicesSlider .sliderPagination{
+  bottom: -40px
+}
+
+.experienceServiceItem .serviceContent .serviceInfo h4 {
+  font-size: 28px;
+}
+
+.experienceServiceItem .serviceContent .serviceInfo p {
+  font-size: 16px;
+}
+
+.experienceServiceItem .serviceContent .serviceInfo{
+  gap: 7px;
+}
+
+.sectionTitleDesc h2 {
+  font-size: 38px;
+}
+}
+
+@media (max-width:600px) {
+
+  .servicesSlider .mantine-Carousel-root .mantine-Carousel-viewport {
+    height: 650px;
+  }
+
+
+  .serviceIcon svg {
+    width: 40px;
+}
+
+.experienceServiceItem .serviceContent{
+  gap: 0px;
+}
+
+.experienceServiceItem .serviceContent .serviceInfo h4 {
+  font-size: 22px;
+}
+
+.experienceServiceItem .serviceContent .serviceInfo p {
+  font-size: 14px;
+}
+
+.experienceServiceItem .serviceImageitem img {
+  height: 300px;
+}
+
+.row.testimonialSm {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.includedService .col-lg-12.mb-5 {
+  margin-bottom: 0px !important;
+}
+
+.testimonialSm .mantine-Carousel-slide.fade-carousel-slide {
+  flex: 0 0 100%;
+  max-width: 98%;
+  padding-bottom: 90px;
+  
+}
+
+.hs--ExperienceServiceSlider {
+  padding-bottom: 85px;
+}
+}
+
+@media (max-width:500px) {
+  .servicesSlider .mantine-Carousel-root .mantine-Carousel-viewport {
+    height: 680px;
+  }
+}
+
+
+
+/* .fade-carousel-slide {
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+  
+  .fade-carousel-slide[data-active] {
+    opacity: 1;
+  } */
+
+  /* .fade-carousel-container {
+    position: relative;
+    height: 100%;
+  }
+  
+  .fade-carousel-slide {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .fade-carousel-slide.active {
+    opacity: 1;
+  } */

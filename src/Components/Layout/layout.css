@@ -1,0 +1,9 @@
+.mainContent {
+    min-height: 48vh;
+}
+
+.showSidebarLeft {
+    margin-right: 48rem;
+    margin-left: -45rem;
+    /* transition: all 0.3s ease; */
+}

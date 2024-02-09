@@ -1,0 +1,141 @@
+.backBtn {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+.container.allAreasContainer {
+  max-width: 1380px;
+}
+
+.allAreasBlurb img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.allAreasBlurb {
+  gap: 30px 0px;
+}
+
+.allAreasSorting .dropdown-toggle {
+  border-radius: 10px;
+  background: var(--white, #fff);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border: 1px solid var(--stroke, #c4c5bf);
+}
+
+.allAreasSorting .dropdown-toggle::after {
+  display: none !important;
+}
+
+.allAreasSorting .dropdown-toggle svg {
+  margin-right: 0px;
+}
+
+
+.allAreasSorting ul.dropdown-menu.filterLocationList.show {
+    max-width: 200px !important;
+    width: 200px !important;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(-160px, 45px) !important;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.16);
+    border: 0;
+}
+
+span.closeSortIcon,
+.allAreasSorting button.dropdown-toggle.show span.openSortIcon {
+    display: none;
+}
+.allAreasSorting button.dropdown-toggle.show span.closeSortIcon {
+    display: block;
+    font-size: 30px;
+    padding-bottom: 3px;
+}
+
+@media (max-width:1431px) {
+    .allAreasSorting ul.dropdown-menu.filterLocationList.show{ transform: translate(0px, 45px) !important;}
+    .allAreasBlurb img{
+        height: 400px;
+    }
+}
+
+@media (max-width:1300px) {
+    .allAreasBlurb img{
+        height: 390px;
+    }
+}
+
+@media (max-width:991px) {
+    .allAreasBlurb .col-lg-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .allAreasBlurb .col-lg-6 .areaImageBox img {
+        height: 285px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width:600px) {
+    .allAreasSorting .filterLocationList input {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .allAreasSorting .filterLocationList input:checked[type=radio] {
+        background-size: 80% !important;
+    }   
+
+    .backBtn a button {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+    }
+
+    .allAreasBlurb {
+        margin-top: 30px !important;
+        gap: 24px 0px !important;
+    }
+
+    .backBtn a button svg {
+        margin-right: 9px;
+    }
+
+  
+    
+    .allAreasBlurb .col-lg-6 .areaImageBox img {
+        height: 165px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .allAreasBlurb .areaImageBox {
+        margin-bottom: 0;
+    }   
+
+
+    .allAreasBlurb .col-lg-12 .areaImageBox img {
+        height: 185px;
+    }
+}
+
+@media (max-width:350px) {
+    .allAreasBlurb .col-lg-6 .areaImageBox img {
+        height: 135px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}

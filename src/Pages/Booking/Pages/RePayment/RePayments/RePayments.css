@@ -1,0 +1,22 @@
+.paymentSlctCountry .css-b62m3t-container .css-13cymwt-control,
+.paymentSlctCountry .css-b62m3t-container .css-t3ipsp-control {
+    padding: 8px 5px;
+    border-radius: 10px;
+    box-shadow: none !important;
+}
+
+
+.paymentSlctCountry .css-b62m3t-container .css-t3ipsp-control {
+   
+    border-color: #1f1f1f !important;
+    
+}
+
+
+.paymentSlctCountry .css-b62m3t-container .css-13cymwt-control span.css-1u9des2-indicatorSeparator,
+.paymentSlctCountry .css-b62m3t-container .css-t3ipsp-control span.css-1u9des2-indicatorSeparator {
+    display: none;
+    border-color: #1f1f1f !important;
+    box-shadow: none !important;
+}
+

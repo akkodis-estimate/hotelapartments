@@ -1,0 +1,688 @@
+.accountSettingmainContent table tr td {
+  vertical-align: middle;
+  padding: 15px 5px;
+}
+
+.dropdown.bookingDD .dropdown-toggle::after {
+  display: none;
+}
+
+.paymenticon {
+  font-size: 25px;
+}
+.bookingDD button {
+  color: #696969;
+  font-size: 22px;
+}
+
+.bookingDD button svg {
+  margin: 0;
+}
+
+.bookingDD button:hover {
+  color: #696969;
+}
+
+.bookingTable table.table thead tr th {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1f1f1f;
+}
+
+.bookingTable table.table tbody tr td {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f1f1f;
+}
+
+.bookingDD button:checked + .btn,
+.bookingDD button.active,
+.bookingDD button.show,
+.bookingDD button:first-child:active,
+:not(.btn-check) + .bookingDD button:active {
+  color: #696969 !important;
+}
+
+.bookingname p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f1f1f;
+  margin-bottom: 12px;
+}
+
+.bookingname span {
+  color: #696969;
+}
+
+img.bookingImg {
+  width: 99px;
+  height: 99px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+span.bookingStatus {
+  padding: 2px 10px 2px 8px;
+  border-radius: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.chatBtn span.notiBubble {
+  width: 12px;
+  height: 12px;
+  display: block;
+  background: #ff0000;
+  border-radius: 50px;
+  border: 3px solid #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.dropdown.bookingDD ul.dropdown-menu.show {
+  background: #ffffff;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  border: 0;
+  padding: 18px;
+  width: 243px;
+}
+
+.bookingTable table {
+  width: 95%;
+}
+
+.dropdown.bookingDD ul.dropdown-menu.show li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  margin-bottom: 16px;
+  color: #1f1f1f;
+}
+
+.dropdown.bookingDD ul.dropdown-menu.show li svg {
+  display: block;
+  width: 20px;
+  margin-right: 10px;
+  filter: brightness(0) saturate(100%) invert(45%) sepia(0%) saturate(1075%)
+    hue-rotate(292deg) brightness(88%) contrast(84%);
+}
+
+.viewReview {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1f1f1f;
+}
+
+.viewReview span {
+  text-decoration: underline;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.warningBookingContent {
+  width: 80%;
+  padding: 100px;
+}
+
+.row.noBookingWarning {
+  min-height: 600px;
+}
+
+.noBkkingContent span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #767760;
+}
+
+.noBkkingContent a {
+  text-decoration: none;
+}
+
+.refundPhoneInput {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  height: 35px;
+  border-radius: 0.25rem !important;
+}
+
+.transactionHistory svg {
+  width: 23px;
+  font-size: 18px;
+}
+
+.paymentModal .modal-content {
+  min-height: 650px;
+  overflow: auto;
+  max-height: 650px;
+}
+
+.paymentModal .modal-content table.table thead {
+  background: #f2f2f2;
+  position: sticky;
+  top: -40px;
+}
+
+.paymentModal {
+  max-width: 991px;
+}
+
+.paymentModal .modal-content table.table thead tr th {
+  border: 1px solid #9e9e9e;
+}
+
+.paymentModal .modal-content table.table tbody tr td {
+  border: 1px solid #9e9e9e;
+}
+
+.applicationModal .modal-content .modal-header h2 {
+  font-size: 25px;
+}
+
+.tableCustText span {
+  display: block;
+  width: auto;
+  max-width: fit-content;
+  white-space: nowrap;
+}
+
+.paymentlabelList .paymentLabelColumnList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 8px;
+}
+
+.paymentlabelList .paymentLabelColumnList .paymentPricingList {
+  border: 1px saddlebrown;
+}
+
+.paymentlabelList {
+  flex: 0 0 31.5%;
+  max-width: 31.5%;
+}
+
+
+.sndMsg .mantine-Menu-itemLabel svg {
+  font-size: 20px;
+}
+
+.ha--BookingTopRow {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.ha--mainBookingListUI table.mantine-Table-root th {
+  padding: 12px 16px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  color: #1F1F20;
+}
+
+.ha--mainBookingListUI table.mantine-Table-root td {
+  padding: 16px;
+}
+
+.ha--mainBookingListUI table.mantine-Table-root {
+  min-width: 100% !important;
+}
+
+.ha--modificationRqstModal {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.ha--modificationRqstModal .actionBtn {
+  margin-top: 20px;
+}
+
+.ha--Samerow {
+  display: flex;
+  gap: 16px;
+}
+
+.ha--Samerow .ha-sameRowCol {
+  width: 100%;
+  height: 100%;
+}
+
+.ha--modificationRqstModal input {
+  background: #fff;
+  border: 1px solid #c4c5bf;
+  border-radius: 10px;
+  color: #1f1f1f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 12px;
+  min-height: 30px !important;
+}
+
+.ha--modificationRqstModal .mantine-Input-wrapper {
+  height: 45px;
+}
+
+.ha--modificationRqstModal .mantine-Input-wrapper input {
+  height: 100%;
+}
+
+.ha--Samerow .ha-sameRowCol .mantine-Input-wrapper {
+  height: 45px;
+}
+
+.ha-sameRowCol button[disabled] {
+  background: #cdd4d830;
+  border-color: #CDD4D8;
+}
+
+@media (max-width:1536px) {
+  .ha--BookingTopRow {
+  
+    gap: 15px;
+  
+}
+}
+
+@media (max-width:1366px) {
+  .ha--BookingTopRow {
+  
+    gap: 8px;
+  
+}
+}
+
+@media (max-width:1065px) {
+  .paymentlabelList {
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
+
+  .ha--mainBookingListUI table.mantine-Table-root th{
+    white-space: nowrap;
+  }
+}
+
+@media (max-width:991px) {
+  button.bookingTableBtn {
+    font-size: 16px !important;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.warningBookingContent {
+  width: 98%;
+  padding: 100px;
+}
+
+}
+
+@media (min-width: 600px) {
+  .ViewTableSm {
+    display: none;
+  }
+  .mobileViewBooking {
+    display: none;
+  }
+
+  span.smUnreadIconDot {
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    width: 8px;
+    height: 8px;
+    background: #FF0000;
+    border-radius: 50px;
+    border: 1px solid #fff;
+}
+}
+
+@media (max-width: 600px) {
+  .bookingTableSm {
+    display: none;
+  }
+
+  .bookingTableDDSm {
+    width: 0rem !important;
+  }
+
+  .bookingTableDDSm > div {
+    width: 0rem !important;
+  }
+
+  .bookingname p,
+  .bookingname span {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .bookingname.cursor-pointer {
+    display: inline-flex;
+    flex-direction: column;
+    width: 5rem;
+  }
+
+  img.bookingImg {
+    width: 56px;
+    height: 56px;
+  }
+
+  .bookingTable table.table {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .bookingTable {
+    margin-top: 25px !important;
+  }
+  .bookingTable > div {
+    flex-wrap: wrap;
+  }
+
+  label.paymentLabel {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+
+  .accountSettingmainContent
+    .row
+    .col-lg-12.mb-5
+    .d-flex.justify-content-center.pe-5 {
+    padding-right: 0px !important;
+  }
+
+  .ViewTableSm {
+    display: block;
+    display: table-cell;
+  }
+
+  .ViewTableLg {
+    display: none;
+  }
+
+  .mobileViewBooking .viewBookingBlurb .mobileBookingImg{
+    height: 225px;
+  }
+
+  .mobileViewBooking .viewBookingBlurb .mobileBookingImg img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .mobileViewBooking .viewBookingBlurb .bookingTitleSm {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 8px;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+    align-items: center;
+  }
+
+  .mobileViewBooking .viewBookingBlurb .bookingTitleSm .bookingName p {
+    overflow: hidden;
+    color: #1f1f1f;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    width: 70%;
+    display: block;
+  }
+
+  .bookingName {
+    display: block;
+    width: -webkit-fill-available;
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+
+  .mobileViewBooking .viewBookingBlurb .bookingTitleSm .bookingName span {
+    color: #696969;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 70%;
+    display: block;
+  }
+
+  .viewBookingBlurb {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .bookingDetailSm {
+    margin-top: 16px;
+  }
+
+  .bookingDetailSm table {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    background: #fff;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
+  }
+
+  .bookingDetailSm table tr th,
+  .bookingDetailSm table tr td {
+    border: 1px solid #f2f2f2;
+    border-collapse: collapse;
+    padding: 12px 16px;
+  }
+
+  .bookingDetailSm table tr th {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+  }
+
+  .bookingDetailSm table tr td {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  .mobileViewBooking .backBtn {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 24px 0;
+  }
+
+  .tableCustText span {
+    display: flex;
+    max-width: unset !important;
+    white-space: unset !important;
+    justify-content: center;
+  }
+
+  .bookingTable table.mantine-Table-root {
+    min-width: auto !important;
+    width: 100%;
+}
+
+.bookingTable tbody tr td, .bookingTable table.mantine-Table-root thead tr th {
+  min-width: unset !important;
+  width: 0rem !important;
+  max-width: unset !important;
+}
+
+.bookingTable table.mantine-Table-root thead tr th:last-child, .bookingTable table.mantine-Table-root tbody tr td:last-child > div {
+  width: 3rem !important;
+  display: table-cell;
+  text-align:right !important;
+  padding-left:15px !important;
+}
+
+
+.bookingAction {
+  flex: 0 0 30%;
+  max-width: 30% !important;
+}
+
+.bookingAction > div {
+  display: flex;
+  justify-content: end;
+  padding-right: 15px;
+}
+
+.mobileDrawer .mantine-Drawer-inner .mantine-Drawer-content {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.mobileDrawer .mantine-Drawer-inner .mantine-Drawer-content .mantine-Drawer-header .mantine-Drawer-close {
+  opacity: 1 !important;
+  color: #000;
+}
+
+.bookingMobileDD {
+  position: unset;
+  padding: 20px 25px;
+}
+
+.bookingMobileDD li {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.bookingMobileDD li span.paymenticon, .bookingMobileDD li svg {
+  display: block;
+  width: 1.5rem;
+  filter: brightness(0) saturate(100%) invert(41%) sepia(11%) saturate(6%) hue-rotate(349deg) brightness(94%) contrast(89%);
+}
+
+.paymentModal .modal-content,
+.applicationModal .modal-content {
+  padding: 12px !important;
+}
+
+
+.paymentModal .modal-content .modal-header h2,
+.applicationModal .modal-content h2 {
+  font-size: 14px !important;
+}
+
+.paymentModal .modal-content .modal-body {
+  overflow: auto !important;
+}
+
+.paymentModal .modal-content .modal-body table.table {
+  /* display: flex; */
+  width: 100% !important;
+  /* justify-content: center; */
+}
+
+.paymentModal .modal-content .modal-body table.table thead tr th, .paymentModal .modal-content .modal-body table.table tbody tr td {
+  font-size: 12px;
+  /* display: block; */
+  white-space: nowrap;
+}
+
+.applicationModal .modal-content .row.mb-5.pt-2 .col-lg-6 {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.bookingDetailSm table .animateBtn button {
+  font-size: 12px;
+  padding: 12px !important;
+  height: 35px !important;
+}
+
+.reviewPara p {
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.leaveReplyMobileUi  textarea.form-control {
+  height: 125px;
+}
+
+.leaveReplyMobileUi .modalPageTitle h2 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.leaveReplyMobileUi .modalPageTitle p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.leaveReplyMobileUi form.w-100.mt-5 {
+  margin-top: 40px !important;
+}
+
+.leaveReplyMobileUi .mb-5.d-flex.flex-column.align-items-start {
+  margin-bottom: 40px !important;
+}
+
+.paymentModalSm .modal-content{
+  min-height: auto !important;
+}
+
+.paymentlabelList {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.paymentlabelList .paymentLabelColumnList .paymentPricingList {
+  flex: auto;
+  max-width: 100%;
+}
+
+
+span.smUnreadIconDot {
+  width: 9px;
+  height: 9px;
+  background: #FF0000;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  right: 1px;
+  position: absolute;
+  top: 0px;
+}
+
+.mobileViewBooking {
+  margin-bottom: 50px;
+}
+}

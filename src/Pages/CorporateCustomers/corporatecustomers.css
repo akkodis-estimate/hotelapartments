@@ -1,0 +1,836 @@
+/* Corporate Updated UI */
+
+.ha--corporateCustomer .ha--banner-container .bannerSection.ha--contactBnrSec li.breadcrumbItem {
+  color: #1F1F1F !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.ha--corporateCustomer .ha--banner-container .bannerSection.ha--contactBnrSec li.breadcrumbItem svg {
+  filter: brightness(0) saturate(100%) invert(8%) sepia(14%) saturate(11%) hue-rotate(343deg) brightness(88%) contrast(88%);
+}
+
+.ha--corporateCustomer .sectionTitleDesc h2 {
+  color: #1f1f1f !important;
+}
+
+.ha--AboutCustomer .sectionTitleDesc h2 {
+  margin-bottom: 30px;
+}
+
+.ha--CustomerLogo {
+  margin-top: 58px;
+}
+
+.ha--corporateCustomer .ha--banner-container .bannerSection.ha--contactBnrSec {
+  margin-bottom: 120px;
+}
+
+.ha--AboutmainContainer {
+  padding: 0px 40px;
+}
+
+.ha--AboutContainer {
+  max-width: 1385px;
+  width: 100%;
+  margin: auto;
+}
+
+
+.ha--StepsInquiryContainer {
+  max-width: 1380px;
+  width: 100%;
+  margin: auto;
+}
+
+.ha--StepsInquiryContainer .inquirySteps {
+  display: flex;
+  gap: 145px;
+}
+
+.ha--StepsInquiryContainer .inquirySteps .stepsContent {
+  max-width: 628px;
+  width: 100%;
+}
+
+.ha--StepsLayout {
+  display: flex;
+  gap: 16px;
+}
+
+.ha--StepsInquiryContainer .numberSteps {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 30px;
+}
+
+.ha--StepsInquiryContainer .inquirySteps .stepsContent .sectionTitleDesc h2 {
+  margin-bottom: 18px;
+}
+
+.ha--CstrmInquiryContainer {
+  padding-bottom: 194px;
+}
+
+
+.ha--TestimonialSecContainer {
+  max-width: 1382px;
+  width: 100%;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  gap:56px;
+}
+
+
+.ha--TestimonialPagination {
+  display: flex;
+  justify-content: end;
+}
+
+.ha--TestimonialPagination .ha--TestimonialPaginationItesm {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.ha--TestimonialActiveSlide {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 7px;
+}
+
+.ha--TestimonialBtn {
+  cursor: pointer;
+}
+
+.ha--TestiMonialSlider.testimonialSm {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.ha--TestiMonialSlider .mantine-Carousel-slide.fade-carousel-slide {
+  padding-bottom: 0px !important;
+}
+
+.ha--TestimonialSec {
+  margin-bottom: 129px;
+}
+
+/* End */
+
+ul.breadcrumbList > li:before {
+  content: "/";
+  margin-right: 12px;
+}
+
+ul.breadcrumbList > li:first-child:before {
+  content: unset !important;
+}
+
+ul.breadcrumbList li {
+  margin-right: 12px;
+}
+
+.bannerSection {
+  min-height: 285px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 56px;
+  margin-bottom: 120px;
+  border-radius: 20px 20px 150px 20px;
+  background-position: center;
+}
+
+.breadcrumbList li.breadcrumbItem a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1f1f1f !important;
+  text-decoration: none;
+}
+
+.aboutCustomers {
+  background: #f7f7f5;
+  border-radius: 40px;
+  padding: 125px;
+  margin-bottom: 160px !important;
+}
+
+.customersLogo {
+  padding: 0 125px;
+}
+
+.container.inquiryContainer {
+  max-width: 1380px;
+}
+
+.inquirySteps .stepsContent .sectionTitleDesc h2 {
+  font-size: 44px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  color: #1f1f1f;
+}
+
+.stepsLayout .stepsIcon span {
+    width: 48px;
+    height: 48px;
+    background: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1F1F1F;
+}
+
+.stepsLayout .stepsDetail h5 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1f1f1f;
+  margin-top: 8px;
+}
+
+.stepsLayout .stepsDetail p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  margin-top: 15px;
+}
+
+button.appBtn.bg-black {
+  color: #fff;
+}
+
+.testimonialLayout .testimonialPara p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.testimonialLayout img {
+  width: 48.85px;
+  height: 43px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.testimonialLayout {
+  padding: 40px 32px;
+}
+
+.testimonialLayout.active {
+  background: #fff;
+  box-shadow: 0px 42.4441px 61.3082px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+.testimonialLayout span.testimonialName {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1F1F1F;
+}
+
+.inquiryModal {
+  max-width: 1494px;
+}
+.inquiryModal .modal-content{
+padding: 35px;
+border: 0px;
+}
+
+.inputGap {
+  gap: 22px 0px;
+}
+
+/* File Upload */
+
+
+.userImageUpload .upload-img {
+  border-radius: 100%;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border: 1px solid #D9E1F0;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.userImageUpload .input-file-upload {
+  position: unset;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.userImageUpload .input-file-upload input[type="file"] {
+  opacity: 0;
+  padding: 10px 0;
+  height: 36px;
+  width: 150px;
+}
+
+.userImageUpload .upload-label {
+  background: #2849C7;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  border-radius: 24px;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.userImageUpload .input-file-upload:hover .upload-label {
+  background: #eaf5fe;
+  color: #3b70f1;
+}
+
+button.deleteBtn {
+  border: 1px solid #D9E1F0;
+  border-radius: 24px;
+  padding: 9px 16px;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111826;
+}
+
+span.errorMsg {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5D6883;
+  position: absolute;
+  bottom: -25px;
+}
+
+.PhoneInput {
+  padding: 12px;
+  background: #FFFFFF;
+  border: 1px solid #C4C5BF;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1F1F1F;
+}
+
+button.gnrtPassword {
+  border: 0;
+  background: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2849C7;
+}
+
+.customersLogo .slider {
+  display: none;
+}
+
+.row.aboutCustomers .sectionTitleDesc p {
+  width: 90%;
+  display: table;
+  margin: 0 auto;
+}
+
+.stepsIcon {
+  position: relative;
+}
+
+.stepOneIcon::after {
+  content: "";
+  width: 3px;
+  height: 70%;
+  border-left: 1px dashed #696969;
+  position: absolute;
+  left: 50%;
+  z-index: -1;
+  top: 60px;
+}
+
+
+.stepLineCust::after {
+  content: "";
+  width: 3px;
+  height: 70%;
+  border-left: 1px solid #C4C5BF;
+  position: absolute;
+  left: 50%;
+  z-index: -1;
+  top: 52px;
+}
+
+
+.ha--TestiMonialSlider.cprtSlider {
+  position: relative;
+}
+
+.ha--TestiMonialSlider.cprtSlider .sliderPagination {
+  position: absolute;
+  bottom: -84px;
+  right: 85px;
+}
+
+.ha--TestiMonialSlider.cprtSlider .mantine-Carousel-root .mantine-Carousel-controls {
+  bottom: -85px;
+  justify-content: end;
+  gap: 100px;
+  padding-left: 0px;
+  align-items: end;
+  right: 0px !important;
+}
+
+
+.ha--TestiMonialSlider.cprtSlider .mantine-Carousel-root .mantine-Carousel-controls .mantine-Carousel-control {
+  background: transparent;
+  box-shadow: none !important;
+  border: 0;
+}
+
+.ha--WhyHotelApartContent {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.ha--WhyHotelApartContainer {
+  max-width: 1380px;
+  width: 100%;
+  margin: auto;
+}
+
+.ha--WhyHotelApartContainer .ha--WhyHotelApartContent .ha--WhyHotelApartImg {
+  max-width: 1024px;
+  width: 100%;
+}
+
+.ha--WhyHotelApartContainer .ha--WhyHotelApartContent .ha--WhyHotelApartImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.ha--WhyHotelApartDesc p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.ha--WhyHotelApartDesc {
+  max-width: 695px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+@media (max-width:1536px) {
+/* Updated Css */
+
+.ha--corporateCustomer .ha--banner-container .bannerSection.ha--contactBnrSec{
+  margin-bottom:80px
+}
+
+.ha--CstrmInquiryContainer{
+  padding-bottom: 85px;
+}
+
+.ha--TestimonialSecContainer{
+  gap: 30px;
+}
+
+.ha--TestimonialSec{
+  margin-bottom: 85px;
+}
+
+.ha--InquiryModal .actionBtn {
+  margin-top: 25px;
+}
+
+
+/* End */
+
+  .bannerSection{
+    height: 185px;
+    margin-bottom: 80px;
+    padding: 30px;
+  }
+
+  .bannerSection .appBreadCrumb.mb-3 {
+    margin-bottom: 0px !important;
+}
+
+.aboutCustomers {
+  padding: 50px;
+  margin-bottom: 75px !important;
+}
+
+.inquirySteps .stepsContent .sectionTitleDesc h2 {
+  font-size: 32px;
+  line-height: 42px;
+}
+}
+
+@media (max-width:1366px) {
+  .ha--WhyHotelApartDesc p {
+    font-size: 16px;
+}
+}
+@media (max-width:1450px) {
+  .ha--StepsInquiryContainer .inquirySteps{
+    gap: 75px;
+    align-items: center;
+  }
+
+  .ha--StepsInquiryContainer .inquirySteps .stepsContent .sectionTitleDesc h2,
+  .ha--StepsInquiryContainer .numberSteps{
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width:1100px) {
+  .ha--WhyHotelApartDesc p {
+    font-size: 14px;
+}
+}
+
+@media (max-width:1024px) {
+
+  .ha--WhyHotelApartContainer .ha--WhyHotelApartContent .ha--WhyHotelApartImg img {
+    border-radius: 25px;
+}
+
+  .stepsLayout .stepsDetail h5{
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 5px;
+  }
+
+  .ha--StepsInquiryContainer .inquirySteps .stepsContent .sectionTitleDesc h2, .ha--StepsInquiryContainer .numberSteps{
+    margin-bottom: 20px;
+  }
+  .aboutCustomers {
+    padding: 75px;
+}
+
+.sectionTitleDesc br {
+    display: none;
+}
+.customersLogo {
+  padding: 0;
+}
+
+.ha--AboutmainContainer {
+  padding: 0px 25px;
+}
+}
+
+@media (max-width:991px) {
+
+  .ha--WhyHotelApartContent {
+    margin-top: 20px;
+    flex-direction: column-reverse;
+}
+
+.ha--WhyHotelApartContainer .ha--WhyHotelApartContent .ha--WhyHotelApartImg {
+  max-width: 100%;
+  width: 100%;
+  height: 500px;
+}
+
+.ha--WhyHotelApartDesc{
+  max-width: 100%;
+  width: 100%;
+}
+
+  .ha--StepsInquiryContainer .inquirySteps {
+    gap: 75px;
+    flex-direction: column;
+}
+
+.ha--StepsInquiryContainer .inquirySteps .stepsContent{
+  max-width: 100%;
+}
+
+  .col-lg-12.p-smSA-0 {
+    padding: 0;
+}
+
+.bannerSection{
+  border-radius: 0px  !important;
+  height: 220px;
+}
+
+.inquirySteps  img {
+  width: 75% !important;
+  margin: 0 auto !important;
+  display: table;
+}
+
+}
+
+@media (max-width:801px) {
+  .ha--WhyHotelApartContainer .ha--WhyHotelApartContent .ha--WhyHotelApartImg {
+    max-width: 100%;
+    width: 100%;
+    height: 350px;
+  }
+}
+
+@media (max-width:768px) {
+  .ha--corporateCustomer .ha--banner-container .bannerSection.ha--contactBnrSec{
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width:600px) {
+
+  .ha--WhyHotelApartContainer .ha--WhyHotelApartContent .ha--WhyHotelApartImg {
+    max-width: 100%;
+    width: 100%;
+    height: 250px;
+  }
+
+  .ha--StepsInquiryContainer .inquirySteps{
+    gap: 30px;
+  }
+
+
+  .ha--AboutmainContainer {
+    padding: 0px 20px;
+  }
+
+  .ha--CstrmInquiryContainer {
+    padding-bottom: 58px;
+}
+
+.ha--TestimonialSec {
+  margin-bottom: 44px;
+}
+
+.ha--corporateCustomer .ha--banner-container .bannerSection.ha--contactBnrSec {
+  margin-bottom: 36px;
+  padding: 30px 20px;
+}
+
+.ha--bannerSection-breadcrumb .sectionTitleDesc {
+  margin-bottom: 12px;
+}
+
+.ha--corporateCustomer .ha--banner-container h2 {
+  color: #fff !important;
+}
+
+.ha--corporateCustomer .ha--banner-container .bannerSection.ha--contactBnrSec li.breadcrumbItem {
+  color: #fff !important;
+}
+
+.ha--corporateCustomer .ha--banner-container .bannerSection.ha--contactBnrSec li.breadcrumbItem svg{
+  filter: brightness(0) saturate(100%) invert(93%) sepia(0%) saturate(7479%) hue-rotate(102deg) brightness(119%) contrast(99%);
+}
+  .bannerSection {
+    padding: 18px 20px;
+    height: 135px;
+    border-radius: 0px  !important;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 36px;
+    
+    background-image: url("/src/Assets/Images/CorporateCustomersIcons/CorporateBannerSM.png") !important;
+  }
+
+  .bannerSection .appBreadCrumb ul.breadcrumbList li.breadcrumbItem {
+    color: #fff !important;
+}
+
+.bannerSection > div.d-flex {
+  flex-direction: column-reverse !important;
+}
+
+.bannerSection .sectionTitleDesc h2 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  color: #fff;
+  padding: 0;
+}
+
+.appBreadCrumb ul.breadcrumbList li.breadcrumbItem svg {
+  filter: brightness(0) saturate(100%) invert(93%) sepia(1%) saturate(1091%) hue-rotate(30deg) brightness(89%) contrast(82%);
+}
+
+ul.breadcrumbList > li:before {
+  content: "/";
+  margin-right: 12px;
+  color: #fff;
+}
+
+.customersLogo .slider {
+  display: block;
+}
+
+.customersLogo .sliderLg{
+  display: none;
+}
+
+.aboutCustomers {
+  background: transparent;
+  border-radius: 0px;
+  padding: 0px;
+  margin-bottom: 61px !important;
+}
+
+.stepsContent {
+  padding: 25px 0px;
+}
+
+.corporateTestimonial{
+  padding-top: 35px !important;
+}
+
+.stepsContent .sectionTitleDesc {
+  text-align: center;
+}
+
+.stepsDetail h5 {
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 3px !important;
+}
+
+.stepsContent .animateBtn {
+  width: 100%;
+}
+
+.stepsContent .animateBtn button.appBtn.bg-black {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.testimonialLayout {
+  background: #fff;
+  box-shadow: 0px 42.4441px 61.3082px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.stepsDetail p {
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  margin-top: 10px !important;
+}
+
+  .bannerSection .appBreadCrumb {
+    margin-bottom: 0 !important;
+  }
+
+  .aboutCustomers .customersLogo {
+    background: #F7F7F5;
+    padding: 25px;
+}
+
+.aboutCustomers .customersLogo .slider .slideTrack .slide img {
+  border-right: 0px !important;
+  padding-right: 0px;
+  height: 100px;
+}
+
+.aboutCustomers .sectionTitleDesc p {
+  font-size: 16px;
+}
+
+.inquirySteps img {
+  width: 70% !important;
+  display: table;
+  margin: 0 auto;
+}
+
+.inquirySteps .col-lg-6.pe-5.p-sm-0 {
+  display: flex;
+  justify-content: center;
+}
+.inquiryContainer .col-lg-12.pt-5 {
+  padding-top: 0px !important;
+}
+
+.inquirySteps .stepsContent .sectionTitleDesc h2 {
+  font-size: 28px;
+}
+
+.inquirySteps .col-lg-6.ps-5 {
+  padding-left: 0px !important;
+}
+
+.testimonialSec {
+  margin-top: 0px;
+}
+
+.testimonialSec .col-lg-12.mb-5 {
+  margin-bottom: 0px !important;
+}
+
+.testimonialSm .col-lg-4 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+.container.inquiryContainer {
+  padding: 15px;
+}
+
+.mobileFormSm .col-lg-6,
+.mobileFormSm .col-lg-12{
+  padding: 0px !important;
+}
+
+
+.ha--TestiMonialSlider.cprtSlider .mantine-Carousel-root .mantine-Carousel-controls .mantine-Carousel-control {
+  display: none;
+}
+
+.ha--TestiMonialSlider.cprtSlider .sliderPagination {
+  display: none;
+}
+
+}
+
+@media (max-width:400px) {
+  .testimonialSm .col-lg-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .inquirySteps img{
+    width: 95% !important;
+  }
+
+  .inquirySteps .col-lg-6.pe-5.p-smSA-0 {
+    padding-right: 0px !important;
+}
+}

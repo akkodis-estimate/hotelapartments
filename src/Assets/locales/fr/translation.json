@@ -1,0 +1,20 @@
+{
+    "select_language": "Choisir la langue",
+    "dashboard_page": "Tableau de bord",
+    "footer_page": "Page de pied de page",
+
+    "header": {
+      "ddl_logout": "Se déconnecter"
+    },
+
+    "side_bar": {
+      "dashboard": "Tableau de bord",
+      "settings": {
+        "main_title": "Paramètres",
+        "users": "Utilisatrices",
+        "roles": "Les rôles",
+        "master": "Maître"
+      }
+    }
+  }
+  

@@ -1,0 +1,181 @@
+.checkoutTitle h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #000000;
+  }
+  
+  .payOption label.form-check-label {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1f1f1f;
+  }
+  
+  span.payNote {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #1f1f1f;
+  }
+  
+  /* .payOption .form-check .form-check-input {
+    flex: 0 0 6%;
+    max-width: 6%;
+  } */
+  
+  .priceOption p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.870588);
+  }
+  
+  .row.checkoutForm .col-lg-6 {
+      flex: 0 0 48.4%;
+  }
+  
+  .row.checkoutForm {
+      gap: 15px;
+  }
+  
+  .form-check.checkoutCheck span {
+      text-decoration: underline;
+      cursor: pointer;
+  }
+  .checkoutContainer{
+    max-width: 1383px !important;
+  }
+  
+  
+  
+  .properiesDetailSumContent p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1F1F1F;
+    margin-bottom: 16px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    width: 100%;
+  }
+  
+  .properiesDetailSumContent p.previewSummryDtl {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F1F1F;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    width: 100%;
+  }
+  
+  .COTitle h6 {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 28px;
+      color: #1F1F1F;
+  }
+  
+  .checkoutCard {
+      padding: 30px;
+      background: #FFFFFF;
+      border: 1px solid #C4C5BF;
+      border-radius: 10px;
+  }
+  
+  .pricingDetails h6 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.870588);
+  }
+  
+  .pricingDetails p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.870588);
+    white-space: nowrap;
+  }
+  
+  .dicountColor h6,
+  .dicountColor p{
+    color: #2D53D3DE;
+  }
+  
+  .dicountColorSuccess h6,
+  .dicountColorSuccess p{
+    color: #009F13;
+  }
+
+  .row.paymentCardDetails .col-lg-6 {
+    flex: 0 0 48.9%;
+    max-width: 49%;
+}
+
+.row.paymentCardDetails {
+  gap: 10px;
+}
+
+.cnacelationNote p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 160%;
+  color: #000000;
+  margin-bottom: 18px;
+}
+
+span.pricingInfoCust {
+  /* margin-right: -25px; */
+  font-size: 18px;
+}
+
+.inclTaxText {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.priceDtlPop td.text-right {
+  text-align: left;
+  padding-left: 25px;
+}
+
+.priceDtlPop table tr td {
+  font-size: 16px;
+}
+
+span.pDtlCurrency {
+  text-align: left !important;
+}
+
+.priceDtlPop td.text-right b {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.priceDtlPop table tr:nth-last-child(2) td {
+  padding-bottom: 5px;
+}
+
+.priceDtlPop table tr:nth-last-child(1) td {
+  padding-top: 7px;
+}
+
+span.pricingInfoCust .mantine-Popover-dropdown {
+  z-index: 9999 !important;
+}
+
+@media (max-width:600px) {
+  span.pricingInfoCust {
+    font-size: 16px;
+  }
+}

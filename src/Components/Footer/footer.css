@@ -1,0 +1,378 @@
+footer.footer {
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+    /* left: 0; */
+    padding: 45px 40px;
+}
+
+.ftrSummary p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #1F1F1F;
+}
+
+.ftrLinksContent .ftrHeader h5 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 14px;
+}
+
+.ftrLinks ul li.ftrNavItems a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #1F1F1F;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.ftrLinks ul li.ftrNavItems a:hover {
+    color: #000;
+}
+
+.ftrLinks ul li.ftrNavItems.policyLinks {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #1F1F1F;
+    text-decoration: none;
+}
+
+.ftrLinks ul li.ftrNavItems.policyLinks:hover {
+    color: #000;
+}
+
+li.ftrNavItems {
+    margin-bottom: 3px;
+}
+
+.topFooter{
+    padding: 40px 28px;
+    background: #F2F2F2;
+    border-radius: 30px;
+}
+.topFooter .container{
+    padding: 0;
+}
+.socialConnects .socialCircle {
+    background: #D9D9D9;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    height: 56px;
+    width: 56px;
+}
+
+.socialConnects a{
+    color: #1F1F1F;
+}
+.socialConnects {
+    gap: 30px;
+}
+
+span.chpaLogo {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.bottomFooter {
+    background: #1F1F1F;
+    border-radius: 30px;
+    padding: 23px 40px;
+    margin: 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p.copyrightText {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #696969;
+}
+
+.BlogBg {
+    background: #fbfbfb;
+}
+
+@media (min-width:768px) {
+    .aprtmentSm{
+        display: none;
+    }
+}
+
+@media (max-width:1400px) {
+    .ftrSummary p {
+       
+        width: 100%;
+    }
+}
+
+/* @media (max-width:1225px) {
+    .footerContainerRow .col-lg-5, .footerContainerRow .col-lg-7 {
+        width: 100%;
+    }
+    .footerContainerRow{
+        gap:25px
+    }
+
+    .footerContainerRow .footerLinksSm .col-lg-4 {
+        width: 40%;
+        padding: 0;
+    }
+
+    .footerContainerRow .footerLinksSm .col-lg-3 {
+        width: 30%;
+        padding: 0;
+    }
+} */
+
+@media (max-width:1536px) {
+    .ftrLinksContent .ftrHeader h5 {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18.707px;
+        margin-bottom: 7px;
+    }
+
+    .ftrLinks ul li.ftrNavItems a,
+    .ftrLinks ul li.ftrNavItems.policyLinks {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+    }
+
+    li.ftrNavItems {
+        margin-bottom: 0px;
+    }
+
+    .ftrSummary p {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+    }
+
+    .ftrLogoContent .ftrLogo {
+        margin-bottom: 20px !important;
+    }
+
+
+    .socialConnects .socialCircle {
+        width: 32px;
+        height: 32px;
+        font-size: 16px;
+    }
+
+    span.chpaLogo {
+        font-size: 14.03px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 18.707px;
+    }
+
+    p.copyrightText {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+    }
+
+    .topFooter {
+        padding: 24px;
+    }
+
+    .topFooter .container {
+        padding: 0;
+    }
+
+    .bottomFooter {
+        padding: 13px 24px;
+    }
+    .bottomFooter .col,
+.bottomFooter .container{
+    padding: 0;
+}
+
+}
+
+@media (max-width:1024px) {
+
+    .footerLinksSm {
+        justify-content: start !important;
+        margin-bottom: 15px;
+    }
+
+    /* footer.footer .col-lg-6 {
+        flex: 0 0 100%;
+        margin-bottom: 25px;
+    } */
+    
+    footer.footer .col-lg-4 {
+        padding: 0;
+    }
+
+    /* footer.footer .topFooter .row.mt-5 {
+        margin: 0px !important;
+    } */
+
+    footer.footer .topFooter {
+        padding: 35px 15px;
+    }
+
+    .ftrSummary p {
+        width: 100%;
+    }
+
+    .footerLinksSm .col-lg-4 {
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+}
+
+
+@media (max-width:991px) {
+    /* .ftrLinksContent .ftrHeader h5 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+    .ftrLinks li.ftrNavItems a {
+        font-size: 16px !important;
+    } */
+
+    footer.footer {
+        padding: 25px 15px;
+    }
+
+    .footerContainerRow .col-lg-5, .footerContainerRow .col-lg-7 {
+        width: 50%;
+    }
+
+    .footerLinksSm .col-lg-3 {
+        width: 33%;
+    }
+
+    .row.mt-5.socialAndChpa .col-lg-6 {
+        width: 50%;
+    }
+}
+
+
+@media (max-width:768px) {
+    .aprtmentSm{
+        display: block;
+    }
+    .aprtmentXl{
+        display: none;
+    }
+}
+@media (max-width:600px) {
+
+    footer.footer .topFooter {
+        padding: 35px 15px 45px;
+    }
+
+
+    .footerContainerRow .col-lg-5, .footerContainerRow .col-lg-7 {
+        width: 100%;
+    }
+
+    .row.mt-5.socialAndChpa{
+        gap:30px;
+        margin-top: 35px !important;
+    }
+
+    .row.mt-5.socialAndChpa .col-lg-6 {
+        width: 100%;
+    }
+    footer.footer {
+        padding: 40px 10px;
+    }
+
+    .ftrLogoContent .ftrLogo {
+        text-align: center;
+    }
+
+    .ftrSummary p,
+    .ftrLinks ul li.ftrNavItems a, 
+    .ftrLinks ul li.ftrNavItems.policyLinks {
+        font-size: 12px !important;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 16px;
+    }
+
+    .ftrLinksContent .ftrHeader h5 {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+ 
+
+  
+
+    footer.footer .col-lg-6, footer.footer .col-lg-4, .topFooter .container {
+        padding: 0;
+    }
+
+    .socialConnects,
+    .chpaLogoSm {
+        justify-content: center;
+    }
+
+    .chpaLogoSm span.chpaLogo {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .chpaLogoSm {
+        margin-top: 15px;
+    }
+
+    .bottomFooter .col.d-flex.justify-content-end {
+        display: none !important;
+    }
+
+    .bottomFooter {
+        padding: 15px 7px 7px;
+    }
+
+    p.copyrightText {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 16px;
+    }
+
+    .socialConnects .socialCircle {
+        margin-right: 0px !important;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        font-size: 18px;
+    }
+    
+    .socialConnects {
+        gap: 30px;
+    }
+
+    .ftrLogoContent .ftrSummary {
+        margin-bottom: 42px;
+    }
+}
+

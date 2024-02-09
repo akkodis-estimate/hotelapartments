@@ -1,0 +1,198 @@
+
+
+@media (max-width:600px) {
+
+  .choosePay .checkoutTitle {
+    margin-bottom: 0px;
+}
+
+.row.checkoutForm.mt-5 {
+  margin-top: 32px !important;
+}
+
+.form-check.checkoutCheck {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.actionBtn .AuthBtn {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  padding: 12px 24px;
+}
+
+  .checkoutContainer .backBtn {
+    margin: 0px !important;
+}
+
+  .container.checkoutContainer > .row {
+    margin-bottom: 11px !important;
+  }
+
+  .container.checkoutContainer .row:last-child .col-lg-5.p-5,
+.container.checkoutContainer .row:last-child .col-lg-7.p-5{
+  padding: 6px !important;
+  padding-bottom: 0px !important;
+}
+
+.checkoutContainer .backBtn {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.bookingPropertyIcon img {
+  width: 83px;
+  height: 65px;
+  border-radius: 10px;
+}
+
+.bookingPropertyContent h5 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.bookingPropertyContent p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.previewPriceDetails {
+  margin: 32px 0px;
+}
+
+.previewPriceDetails span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  text-decoration-line: underline;
+}
+
+.yourTripDetail h5 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.checkoutTitle h5 {
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+}
+
+.payOption label.form-check-label {
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+}
+
+.payOption .form-check-input {
+  width: 18px;
+  height: 18px;
+}
+
+.payOption.form-check-input:checked[type="radio"] {
+  background-size: 78% !important;
+}
+
+span.payNote {
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  line-height: 22px !important;
+}
+
+.row.checkoutForm .actionBtn {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.payOption hr {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+.form-check.checkoutCheck {
+  display: flex;
+}
+
+.priceOption p {
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+}
+
+.payOption .row .col-lg-8 {
+  flex: 0 0 70%;
+  max-width: 70%;
+}
+.payOption .row .col-lg-4 {
+  flex: 0 0 30%;
+  max-width: 70%;
+}
+
+.row.checkoutForm .col-lg-6 {
+  flex: 0 0 100% !important;
+  max-width: 100%;
+}
+
+.relatedApartImg{
+  max-width: 122px;
+  height: 128px;
+  min-width:  122px;
+}
+
+.relatedApartImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+  border: 0px solid var(--grey-bg, #F2F2F2);
+  object-fit: cover;
+}
+
+.moreAppartmentSmLayout {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.relatedApartContent h5 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.relatedApartContent p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.bookingPreviewSm {
+  border-bottom: 1px solid #CDD4D8;
+  padding-bottom: 30px;
+}
+
+.cnacelationNote p{
+  font-size: 16px;
+}
+}

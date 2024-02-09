@@ -1,0 +1,541 @@
+.playBtn {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+}
+
+.luxuryContainer {
+  max-width: 1214px !important;
+}
+
+.luxuryHeader {
+  position: absolute;
+  bottom: 7px;
+  padding: 44px 80px;
+  height: 396px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  left: 0;
+  background: rgba(255, 255, 255, 0.35);
+  border-width: 0.5px 0.5px 0px 0px;
+  border-style: solid;
+  border-color: #ffffff;
+  backdrop-filter: blur(17px);
+  border-radius: 0px 10px 0px 0px;
+}
+
+.luxuryHeaderTitle h2 {
+  font-family: "IvyMode", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 160%;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+
+.luxuryHeaderTitle p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.luxuryFilter ul.luxuryFilterList li.luxuryFilterListItem {
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #1f1f1f;
+  cursor: pointer;
+}
+
+.luxuryFilter ul.luxuryFilterList li.luxuryFilterListItem.active {
+  color: #843f5b;
+  border-bottom: 2px solid #843f5b;
+  font-weight: 500;
+}
+
+ul.luxuryFilterList {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.luxuryListing
+  .propertyCard
+  .propertyImageSlider
+  .propertyCardBody
+  .propertyCardPrice {
+  display: none;
+}
+
+.luxuryListing .propertyCard .propertyImageSlider .propertyCardBody {
+  min-height: 10rem;
+}
+
+.luxuryVideos video {
+  height: 856px;
+  object-fit: cover;
+}
+
+.luxuryVideos video::-webkit-media-controls {
+  opacity: 0;
+}
+
+
+.ultraLuxuryBG {
+  background: #4d4a49;
+  margin-top: -7px;
+  padding-top: 105px;
+  padding-bottom: 149px;
+}
+
+.pauseBtn svg {
+  margin: 0;
+}
+
+.pauseBtn {
+  font-size: 85px;
+  color: #fff;
+}
+
+/* New Ultra Luxury */
+
+.ultraLuxuryUI {
+  background: #404040;
+}
+
+.ultraLuxuryUI .ULALayout {
+  background: #1f1f1f;
+  border-radius: 40px 40px 0px 0px;
+  margin: 0px;
+  padding: 71px 80px;
+}
+
+.ultraLuxuryUI .ULALayout .ULAHeader h1 {
+  color: #fff;
+  font-family: "IvyMode", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.ultraLuxuryUI .ULALayout .ULAHeader p {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+  width: 45%;
+}
+
+.ULACityList ul.ULAListing {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.ULACityList ul.ULAListing li.ULACityListItem {
+  padding: 10px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: #fff;
+  border-bottom: 2px solid transparent;
+}
+
+.ULACityList ul.ULAListing li.ULACityListItem.active {
+  color: #843f5b;
+  border-color: #843f5b;
+}
+
+.ULACityList {
+  margin-top: 67px;
+  margin-bottom: 80px;
+}
+
+.ULACityImage .carousel-item{
+  height: 533px;
+}
+
+.ULACityImage img {
+  height: 100%;
+  border-radius: 10px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.ULACityImage {
+  margin-bottom: 48px;
+}
+
+.ULAFeatureTitle h3 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #fff;
+}
+
+.ULAFeatureTitle p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #fff;
+}
+
+.ULAFeatureTitle {
+  margin-bottom: 40px;
+}
+
+.ULAFeaturesLIst ul.ULAListing {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: #fff;
+  gap: 16px;
+  list-style: disc;
+}
+
+.ULAFeaturesLIst {
+  margin-bottom: 50px;
+  padding-left: 22px;
+}
+
+.ULAFeaturesLIst ul.ULAListing li {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+hr.ULLining {
+  margin: 104px 0;
+  border-color: #f2f2f2;
+  opacity: 1;
+}
+
+.ULALayout .ha--ULAListRow .ha--ULACard:nth-last-child(1) hr.ULLining:last-child {
+  opacity: 0;
+  margin: 0px 0;
+}
+
+.ULASendEnquiry .animateBtn button {
+    padding: 12px 24px;
+    border-radius: 50px;
+    border: 1px solid var(--white, #FFF);
+    background: transparent !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    color: #fff;
+}
+
+.ULAPagination {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: end;
+    padding: 0 30px;
+}
+
+.ULAPagination .ULAPaginationItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.ULAPagination .ULAPaginationItem span {
+    color: #FFF;
+    font-family: "IvyMode", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.ULAPagination .ULAPaginationItem .paginationIconULA {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.ULAHeaderMain .navContainer button {
+    color: #fff;
+}
+
+.ULAHeaderMain .navContainer .brandLogo svg,
+.ULAHeaderMain .navContainer .accountInfo .dropdown  button.dropdown-toggle svg,
+.ULAHeaderMain .navContainer .accountInfo .signInBtn svg{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(103%) contrast(101%);
+}
+
+.ULAHeaderMain .brandLogo a svg {
+  filter: unset !important;
+}
+
+.ultraLuxuryUI .container {
+  padding: 0 48px;
+}
+
+@media (max-width: 1600px) {
+  .ultraLuxuryUI .ULALayout .ULAHeader p {
+    width: 65%;
+  }
+}
+
+@media (max-width:1536px) {
+  .ultraLuxuryUI .ULALayout .ULAHeader h1 {
+    font-size: 28px;
+}
+
+.ultraLuxuryUI .ULALayout .ULAHeader p {
+    font-size: 16px;
+}
+
+.ultraLuxuryUI .ULALayout {
+    padding: 40px 40px;
+}
+
+.ULACityList {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.ULACityImage .carousel-item{
+  height: 350px;
+}
+
+.ULAFeatureTitle h3{
+  font-size: 18px;
+}
+
+.ULAFeatureTitle p{
+  font-size: 14px;
+}
+
+.ULASendEnquiry .animateBtn button {
+  font-size: 12px;
+  padding: 5px 12px;
+}
+
+.ULAPagination .ULAPaginationItem span {
+  font-size: 28px;
+}
+}
+
+@media (max-width: 1366px) {
+  .ULAFeaturesLIst ul.ULAListing {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 1200px) {
+  .ultraLuxuryUI .ULALayout .ULAHeader p {
+    width: 75%;
+  }
+}
+
+
+@media (max-width: 1024px) {
+
+    .ultraLuxuryUI .ULALayout .ULAHeader p {
+      width: 100%;
+      font-size: 20px;
+      }
+    
+      .ULACityList {
+        margin-top: 50px;
+        margin-bottom: 70px;
+      }
+
+      .ULACityImage .carousel-item{
+        height: 350px;
+      }
+    
+     
+    
+      .ULAFeaturesLIst ul.ULAListing {
+        grid-template-columns: 1fr;
+      }
+
+  .ultraLuxuryUI .ULALayout {
+    padding: 35px 35px;
+  }
+
+  .ultraLuxuryUI .ULALayout .ULAHeader h1 {
+    font-size: 38px;
+  }
+
+
+.ULAPagination {
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.ULAPagination .ULAPaginationItem span {
+    font-size: 40px;
+}
+
+.ULAPagination .ULAPaginationItem .paginationIconULA {
+  width: 45px;
+  height: 45px;
+}
+
+.ULAPagination .ULAPaginationItem {
+    gap: 15px;
+}
+
+.ultraLuxuryUI .container {
+  padding: 0 20px;
+}
+
+.paginationIconULA svg {
+  max-width: 25px;
+}
+}
+
+@media (max-width: 768px) {
+  .luxuryVideos video {
+    height: 750px;
+    object-fit: cover;
+  }
+
+  .playBtn {
+    top: -100px;
+  }
+
+  .luxuryHeaderTitle p br {
+    display: none;
+  }
+
+  .ULACityList ul.ULAListing {
+    flex-wrap: nowrap;
+    overflow: auto;
+    white-space: nowrap;
+    padding-bottom: 12px;
+  }
+
+  .ULACityList {
+    margin-top: 35px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .ultraLuxuryUI{
+    padding-top: 15px;
+  }
+  .luxuryHeaderTitle h2 {
+    font-size: 30px;
+  }
+
+  .luxuryHeaderTitle p {
+    font-size: 22px;
+  }
+
+  .luxuryHeader {
+    padding-left: 25px;
+    padding-right: 15px;
+    height: 360px;
+  }
+
+  .ultraLuxuryUI .ULALayout .ULAHeader h1 {
+    font-size: 30px;
+  }
+
+  .ultraLuxuryUI .ULALayout .ULAHeader p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .ULACityList ul.ULAListing li.ULACityListItem {
+    font-size: 16px;
+  }
+
+  .ultraLuxuryUI .ULALayout {
+    margin: 0px;
+    padding: 20px 15px;
+  }
+
+  .ULASpacingSM {
+    padding: 0px;
+  }
+
+  .ULAFeatureTitle h3 {
+    font-size: 20px;
+}
+
+.ULAFeatureTitle {
+    margin-bottom: 25px;
+}
+
+.ULAFeaturesLIst ul.ULAListing li{
+    font-size: 16px;
+}
+
+.ULAFeaturesLIst ul.ULAListing{
+    gap: 10px;
+}
+.ULASendEnquiry {
+    justify-content: start !important;
+}
+
+.ULAPagination .ULAPaginationItem span {
+    font-size: 25px;
+}
+
+.ULAPagination .ULAPaginationItem .paginationIconULA {
+    width: 45px;
+    height: 45px;
+}
+
+.ULAPagination .ULAPaginationItem .paginationIconULA svg {
+    height: 25px;
+    width: 25px;
+}
+
+.ULACityImage .carousel-item{
+  height: 280px;
+}
+
+.ULACityList ul.ULAListing {
+      gap: 15px;
+}
+
+hr.ULLining{
+  margin: 60px 0;
+}
+
+.ULACityList {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+}
+
+
+.carousel-control-next, .carousel-control-prev{
+  opacity: 1 !important;
+}

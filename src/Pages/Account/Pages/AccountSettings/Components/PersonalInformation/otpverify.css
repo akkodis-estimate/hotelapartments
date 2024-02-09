@@ -1,0 +1,73 @@
+.otpMainDes {
+  height: 78vh;
+}
+
+.otpDesign .otpHeader h2 {
+  font-weight: 400;
+  font-size: 51.008px;
+  line-height: 61px;
+  color: #101828;
+  margin-bottom: 20px;
+}
+
+.otpDesign .otpHeader p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  color: #667085;
+}
+.accountSettingOtpDesign {
+  padding: 5% 17%;
+}
+
+span.counterSec {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #667085;
+  margin-bottom: 12px;
+}
+
+p.sendAgainCode {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1f1f1f;
+}
+
+.otpInput input.form-control {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 51.008px;
+  line-height: 61px;
+  color: #1f1f1f;
+}
+
+.otpInput input.form-control::-webkit-outer-spin-button,
+.otpInput input.form-control::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.otpInput input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#partitioned {
+  padding-left: 15px;
+  letter-spacing: 42px;
+  border: 0;
+  background-image: linear-gradient(
+    to left,
+    black 70%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: bottom;
+  background-size: 50px 1px;
+  background-repeat: repeat-x;
+  background-position-x: 35px;
+  width: 220px;
+  outline: none;
+}

@@ -1,0 +1,1039 @@
+#hide {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  margin-top: 15px;
+}
+
+#height {
+  position: fixed;
+  top: 95px;
+  left: 0;
+  width: 100%;
+}
+
+.sectionNavbar {
+  padding: 25px 270px 15px;
+  background: #ffffff;
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.08));
+}
+
+.sectionNavbarList a {
+  padding: 10px;
+  border-bottom: 2px solid #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1f1f1f;
+  cursor: pointer;
+}
+
+.sectionNavbarList a.active {
+  border-bottom: 2px solid #767760;
+  color: #767760;
+}
+
+.propertyDetailHeader h4 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #1f1f1f;
+}
+
+.shareDD button {
+  padding: 12px 10px;
+  border: 1px solid #c4c5bf;
+  border-radius: 10px;
+  background: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f1f1f;
+}
+
+.shareDD button::after {
+  display: none;
+}
+
+.shareDD button:hover {
+  background-color: #fff !important;
+  color: #1f1f1f;
+}
+
+.shareDD button:focus-visible,
+.shareDD button:active {
+  background-color: #fff !important;
+  color: #1f1f1f;
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  background-color: unset;
+  color: unset;
+}
+
+.propertyGallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.mainPDetailImage img {
+  height: 465px;
+}
+
+.mainPDetailImage .animateBtn {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.mainPDetailImage .animateBtn button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f1f1f;
+  padding: 10px 20px;
+}
+
+.ammenitiesHighlights .ammenities {
+  padding-right: 20px;
+  border-right: 1px solid #c4c5bf;
+  margin-right: 20px;
+}
+
+.ammenitiesHighlights span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1f1f1f;
+}
+
+.ammenitiesHighlights .ammenities:last-child {
+  border-right: 0px;
+}
+
+.propertyDetailSectionTitle h6 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.highlightsCard {
+  padding: 6px 17px;
+  border: 0.716103px solid #c4c5bf;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 12.8899px;
+  line-height: 163%;
+  letter-spacing: 0.02em;
+  color: #1f1f1f;
+}
+
+.highlightsCard svg {
+  display: block;
+  height: 30px;
+}
+
+.propertiesAboutListing p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.ammenitiesItem span {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #1f1f1f;
+  border-radius: 50px;
+}
+
+.ammenitiesRow {
+  gap: 35px 0;
+}
+
+.ammenitiesItem p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #151515;
+}
+
+.ammenitiesRow .col-lg-4 {
+  padding: 0;
+}
+
+span.ammenitiesModal {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  text-decoration: underline;
+  color: #767760;
+  cursor: pointer;
+}
+
+ul.termsList li svg {
+  font-size: 18px;
+}
+
+ul.termsList li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1f1f1f;
+  margin-bottom: 18px;
+}
+
+ul.termsList.notAllowed svg {
+  color: #a2001d;
+}
+
+ul.termsList.Allowed svg {
+  color: #379a59;
+  font-size: 24px;
+}
+
+.termsRules .col-lg-2 {
+  padding: 0;
+}
+
+.exploreProperties {
+  padding: 40px;
+  background: #ececec;
+  border-radius: 10px;
+}
+
+.exploreList .exploreContent {
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f1f1f;
+}
+
+ul.closeChecklist li.closeChecklistItem {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1f1f1f;
+  padding: 6px 16px;
+  border: 1px solid #ececec;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+ul.closeChecklist li.closeChecklistItem svg {
+  filter: brightness(0) saturate(100%) invert(42%) sepia(0%) saturate(1%)
+    hue-rotate(37deg) brightness(97%) contrast(95%);
+}
+
+ul.closeChecklist li.closeChecklistItem:hover {
+  border: 2px solid #c4c5bf;
+}
+
+ul.closeChecklist li.closeChecklistItem.active {
+  background: #696969;
+  color: #fff;
+  border: 2px solid #696969;
+}
+
+ul.closeChecklist li.closeChecklistItem.active:hover {
+  border: 2px solid #696969;
+}
+
+ul.closeChecklist li.closeChecklistItem.active svg {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(99%) saturate(2%)
+    hue-rotate(101deg) brightness(108%) contrast(101%);
+}
+
+.reviewSectionList .reviewSectionItem .reviewerIcon img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.reviewSectionList .reviewSectionItem .reviewerName h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f1f1f;
+}
+
+.reviewSectionList .reviewSectionItem .reviewerName span.reviewDate {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #696969;
+}
+
+.reviewSectionList .reviewSectionItem .reviewPara {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f1f1f;
+}
+
+.reviewSectionList .reviewSectionItem .reviewShowMore span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1f1f1f;
+  cursor: pointer;
+}
+
+.reviewSectionItem {
+  padding: 26px 0;
+  border-bottom: 1px solid #c4c5bf;
+}
+
+.reviewSectionItem:last-child {
+  border: 0px;
+}
+
+.closeToAppartment .col-lg-3,
+.closeToAppartment .col-lg-9 {
+  padding: 0;
+}
+
+.similarProperties .col-lg-4 .propertySummary,
+.similarProperties .propertyCardBtn,
+.similarProperties
+  .propertyCard
+  .propertyImageSlider
+  .carousel
+  .carousel-inner
+  .carousel-item,
+.similarProperties .carousel-indicators-custom {
+  display: none;
+}
+
+.similarProperties
+  .propertyCard
+  .propertyImageSlider
+  .carousel
+  .carousel-inner
+  .carousel-item:first-child {
+  display: block;
+}
+
+.similarProperties
+  .propertyCard
+  .propertyImageSlider
+  .carousel
+  .carousel-inner
+  .carousel-item
+  img {
+  height: 350px;
+}
+
+.similarProperties h2 {
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 54px;
+  color: #1f1f1f;
+}
+
+.similarProperties span.viewAll {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  color: #1f1f1f;
+}
+
+.shareDD ul.dropdown-menu.show {
+  width: 35rem;
+}
+
+.sharePropertyTitle img {
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+}
+
+.shareContent {
+  padding: 20px;
+}
+
+.shareContent h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.sharingOptionCard {
+  padding: 20px;
+  border: 1px solid #c4c5bf;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sharingOptionCard svg {
+  font-size: 25px;
+}
+
+.sharingOptionsRow {
+  gap: 20px 0;
+}
+
+.sharingOptionCard:hover {
+  background-color: #f7f7f7;
+}
+
+.bookingRequestAside {
+  background: #ffffff;
+  border: 1px solid #c4c5bf;
+  box-shadow: 0px 23px 24px -10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.bookingRequestAside .reqTitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #1f1f1f;
+}
+
+.bookingRequestAside .bookingCount .startsFrom span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #767760;
+}
+
+.bookingRequestAside .bookingCount .startsFrom p {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 33.6px;
+  color: #1f1f1f;
+}
+
+span.hiddenfeesNote {
+  display: block;
+  padding: 8px 16px;
+  background: #e5f2f7;
+  border-radius: 4px;
+}
+
+.bookinghNote h6 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+
+.bookinghNote p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+
+.bookinghNote span {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.bookinghNote {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 45px 32px;
+  box-shadow: 0px 23px 24px -10px rgba(0, 0, 0, 0.1);
+}
+
+.disableButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.disableButton.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.bookingDateRange .mantine-DatePickerInput-root {
+  height: 56px;
+}
+
+.videoSection .highlightsCard {
+  cursor: pointer;
+}
+
+.videoSection .highlightsCard svg {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.videoSection .highlightsCard:hover {
+  background: #f5f5f5;
+  border-color: #000;
+}
+
+.carousel-indicators-custom {
+  margin-bottom: 40px !important;
+}
+
+.videoGallery video {
+  height: 850px !important;
+  object-fit: cover;
+}
+
+.videoGalleryModalDes
+  .modal-content
+  .carousel
+  .carousel-inner
+  .carousel-item::after {
+  display: none;
+}
+
+.videoGalleryModalDes .modal-content .carousel .carousel-control-next,
+.videoGalleryModalDes .modal-content .carousel .carousel-control-prev {
+  opacity: 1;
+  top: 40%;
+  height: 84px;
+}
+
+.ratingDetail {
+  font-size: 15px;
+  color: gold;
+}
+
+.responisveCalDateCust button:disabled,
+.responisveCalDateCust button[disabled] {
+  background: #cdd4d830;
+  border-color: #cdd4d8;
+}
+
+@media (max-width: 1366px) {
+  .sectionNavbar {
+    padding: 15px 0px 4px;
+  }
+}
+
+@media (max-width: 991px) {
+  .propertyDetailExtraGallerySm {
+    display: none;
+  }
+
+  .propertyDetailHeader h4 {
+    font-size: 25px;
+  }
+
+  ul.closeChecklist {
+    flex-wrap: nowrap;
+    display: flex;
+    overflow: auto;
+    padding-bottom: 10px;
+  }
+
+  ul.closeChecklist li.closeChecklistItem {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+  }
+
+  .sectionNavbar,
+  .shareSASm {
+    display: none !important;
+  }
+
+  .closeToAppartment {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  span.hotelNameText {
+    padding-left: 32px;
+    font-size: 14px;
+}
+
+  .ha--closeToApartment {
+    display: block !important;
+  }
+
+  .row.smTermsList .col-lg-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .row.smTermsList .col-lg-2 ul.termsList.notAllowed li .gap-3 {
+    gap: 8px !important;
+  }
+
+  .propertyDetailHeader h4 {
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+  }
+
+  .mobilePropertySlider {
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .mobilePropertySlider img {
+    height: 285px !important;
+    border-radius: 10px;
+  }
+
+  .mobilePropertySlider .mantine-Carousel-controls {
+    display: none;
+  }
+
+  .imagesTotalCount {
+    position: absolute;
+    bottom: 26px;
+    right: 16px;
+  }
+
+  .imagesTotalCount span {
+    padding: 10px 20px;
+    border-radius: 9999px;
+    background: var(--white, #fff);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+  }
+
+  .propertyDetailSectionTitle h6 {
+    font-size: 16px;
+  }
+
+  .reqBookinSm .bookingCount .reqBookingPriceSM span {
+    color: var(--gray-09, #5e6e78);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  .reqBookinSm .bookingCount .reqBookingPriceSM p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .reqBookinSm button.appBtn {
+    padding: 12px 24px !important;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+  }
+
+  .reqBookinSm {
+    padding: 24px 20px 24px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: var(--core-white, #fff);
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+    left: 0;
+    z-index: 1;
+  }
+
+  .similarProperties h2 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .similarProperties a {
+    display: none;
+  }
+
+  .productDetailSLiderAction .carousel-control-next,
+  .productDetailSLiderAction .carousel-control-prev {
+    position: unset !important;
+    color: #000 !important;
+    z-index: 0;
+  }
+
+  .productDetailSLiderAction button span {
+    color: #1f1f1f;
+    font-size: 20px;
+  }
+
+  .productDetailSLiderAction button span svg {
+    margin-right: 0px !important;
+  }
+
+  .productDetailSLiderAction .carousel-indicators-custom [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 23px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: 0;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 1;
+    transition: opacity 0.6s ease;
+    color: #000;
+  }
+
+  .productDetailSLiderAction .carousel-indicators-custom {
+    margin: 0px !important;
+  }
+
+  .productDetailSLiderAction .carousel-indicators-custom button.active {
+    display: block;
+    margin: -6px !important;
+  }
+
+  .productDetailSLiderAction .carousel-indicators-custom button {
+    display: none;
+  }
+
+  .carousel-item
+    .propertyCard
+    .propertyImageSlider
+    .imageslist
+    .propertyImages
+    img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .carousel-item
+    .propertyCard
+    .propertyImageSlider
+    .imageslist
+    .propertyImages {
+    height: 300px;
+  }
+
+  .viewAllPropertiesSm button.appBtn {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 12px 24px;
+  }
+
+  .reviewMoreBtn span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    margin-top: 6px;
+  }
+
+  .bookingDetailCustSm h4 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  .bookingDetailCustSm .bookingCalendarSm {
+    border-radius: 10px;
+    border: 1px solid var(--stroke, #c4c5bf);
+    background: var(--white, #fff);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
+    height: 76px;
+    cursor: pointer;
+  }
+  .bookingDetailCustSm .calContentSm p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+  }
+  .bookingDetailCustSm .calContentSm span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #696969;
+  }
+
+  .bookingDetailCustSm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  /* .mantine-Drawer-body {
+  height: 87%;
+} */
+
+  .noHiddenText span {
+    border-radius: 4px;
+    background: #e5f2f6;
+    padding: 8px 16px;
+    width: 100%;
+    display: block;
+  }
+
+  .bookingCustomDR .mantine-DatePicker-monthLevelGroup {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .bookingCustomDR {
+    width: 100%;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+  }
+
+  .bookingCustomDR
+    .mantine-DatePicker-monthLevelGroup
+    .mantine-MonthLevel-monthLevel {
+    margin: 0px !important;
+  }
+
+  .bookingCustomDR
+    .mantine-DatePicker-monthLevelGroup
+    .mantine-MonthLevel-monthLevel
+    .mantine-CalendarHeader-calendarHeader {
+    max-width: 100%;
+  }
+
+  .bookingCustomDR
+    .mantine-DatePicker-monthLevelGroup
+    .mantine-MonthLevel-monthLevel
+    table.mantine-Month-month {
+    width: 100%;
+  }
+
+  .bookingCustomDR
+    .mantine-Calendar-calendar
+    .mantine-MonthLevelGroup-monthLevelGroup
+    .mantine-MonthLevel-monthLevel
+    .mantine-CalendarHeader-calendarHeaderControl:last-child {
+    position: absolute;
+    top: 0;
+    display: flex;
+    right: 45px;
+    justify-content: center;
+  }
+
+  .bookingCustomDR .mantine-Day-day[data-selected] {
+    background-color: #696969 !important;
+    color: #fff !important;
+  }
+
+  .bookingCustomDR .mantine-Day-day[data-in-range] {
+    background-color: #ececec;
+  }
+
+  .bookingCustomDR .mantine-Day-day[data-weekend] {
+    color: #000;
+  }
+
+  /* .bookingCustomDR .mantine-DatePicker-monthLevelGroup .mantine-MonthLevel-monthLevel:first-child {
+  padding-bottom: 30px;
+  margin-bottom: 30px !important;
+  border-bottom: 1px solid #C4C5BF;
+} */
+
+  .resBookingDateBtn {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    display: table;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .resBookingDateBtn .animateBtn button.appBtn {
+    padding: 12px 24px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+  }
+
+  .mainCalBooking {
+    position: relative;
+    height: 52vh;
+    overflow: auto;
+  }
+
+  .bookingForSmSa .mantine-Drawer-body {
+    height: 91%;
+  }
+
+  .bookingForSmSa section.mantine-Paper-root.mantine-Drawer-content {
+    overflow: hidden;
+  }
+
+  .ammenitiesHighlights .ammenities {
+    padding-right: 12px;
+    border-right: 1px solid #c4c5bf;
+    margin-right: 12px;
+  }
+
+  .policyNote h4 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 19px;
+  }
+
+  .policyNote .policyNoteTitle h6 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+  }
+
+  .policyNote .policyNoteTitle p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  .policyNote .policyNoteAction {
+    padding-top: 145px;
+  }
+
+  .policyNote {
+    padding: 20px;
+  }
+
+  .policyNote button.appBtn {
+    padding: 12px 19px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+  }
+
+  .closeToAppartment .col-lg-2 {
+    width: 100% !important;
+    margin-bottom: 15px;
+    padding-left: 0;
+  }
+
+  .closeToAppartment .col-lg-8 {
+    width: 100% !important;
+  }
+
+  ul.closeChecklist {
+    flex-direction: row !important;
+    height: auto !important;
+  }
+
+  .noLongerContent {
+    font-size: 14px;
+  }
+
+  .bookingReqBtn {
+    flex: 0 0 unset !important;
+    max-width: unset !important;
+  }
+
+  .smHighlightsCardCust {
+    gap: 16px 8px;
+  }
+
+  .highlightsCard {
+    flex: 0 0 48%;
+    max-width: 48%;
+    gap: 8px;
+  }
+
+  .ammenitiesHighlights .ammenities:last-child {
+    border-right: 0px;
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .smPropertyDetail .spacing32 {
+    margin-bottom: 32px !important;
+  }
+
+  .smPropertyDetail .spacing40 {
+    margin-bottom: 40px !important;
+  }
+
+  .mantine-Drawer-content .mantine-Drawer-header h2 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000;
+  }
+
+  .modal-header.ammenitiesModalSm {
+    display: none;
+  }
+
+  .ammenitiesModalContentSm ul.ammenistiesList li {
+    padding: 16px 0;
+    border-bottom: 1px solid #f2f2f2;
+  }
+
+  .ammenitiesModalContentSm ul.ammenistiesList li.ammenitiesItem p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+  }
+
+  .ammenitiesModalContentSm ul.ammenistiesList li:first-child {
+    padding-top: 0px;
+  }
+
+  .modal-body.ammenitiesModalContentSm {
+    padding-top: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .ammenitiesHighlights .ammenities {
+    padding-right: 10px !important;
+    border-right: 1px solid #c4c5bf;
+    margin-right: 0 !important;
+  }
+
+  .ammenitiesHighlights .ammenities svg {
+    max-width: 20px;
+  }
+}

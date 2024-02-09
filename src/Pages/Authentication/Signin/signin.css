@@ -1,0 +1,388 @@
+/* Updated CSS For Authentication */
+
+.authColumns {
+    display: flex;
+    gap: 64px;
+    max-width: 1280px;
+    width: 1280px;
+    justify-content: center;
+    padding: 0 32px;
+    align-items: center;
+    margin-bottom: 84px;
+  }
+  
+  .ha--auth-container {
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+  }
+  
+  .signInContent form {
+    max-width: 480px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+  }
+  
+  .signInContent form .authForm {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .signInOptions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .forgotPassword {
+    text-align: right;
+  }
+  
+  .authImg,
+  .ha--Auth-main-img {
+      height: 100%;
+  }
+
+  .ha--textUnderlineMain{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+  }
+
+  span.ha--textUnderline {
+    text-decoration: underline;
+    display: flex;
+}
+  
+  /* End */
+  /* .authTitle,
+  .authForm,
+  .actionBtn {
+      margin-bottom: 56px;
+  } */
+  
+  .authTitle h3 {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: 0.84px;
+    color: #1f1f1f;
+  }
+  
+  label.form-label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1f1f1f;
+    margin-bottom: 4px;
+  }
+  
+  input.form-control,
+  select.form-select {
+    padding: 12px;
+    background: #ffffff;
+    border: 1px solid #c4c5bf;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1f1f1f;
+  }
+  
+  input.form-control::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #696969;
+  }
+  
+  .form-control:focus,
+  .form-select:focus {
+    color: #1f1f1f;
+    background-color: #fff;
+    border-color: #1f1f1f;
+    outline: 0;
+    box-shadow: none;
+  }
+  
+  .forgotPassword a {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #767760;
+    text-decoration: none;
+  }
+  
+  .actionBtn .AuthBtn {
+    padding: 14px 28px;
+    background: #1f1f1f;
+    border-radius: 9999px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #fff;
+    border: 1px solid #1f1f1f;
+  }
+  
+  .actionBtn .AuthBtn.disable {
+    background: #cdd4d8;
+    border-color: #cdd4d8;
+    pointer-events: none;
+  }
+  
+  button svg {
+    margin-right: 12px;
+  }
+  
+  button.signInOptionBtn {
+    background: #ffffff;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 10px;
+    padding: 10px 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344054;
+  }
+  
+  .signUpBtn {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #767760;
+    text-align: center;
+  }
+  
+  .signUpBtn a {
+    color: #767760 !important;
+    margin-left: 5px;
+  }
+  
+  .signInContent {
+    max-width: 576px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .authImg img {
+    border-radius: 10px 10px 10px 280px;
+    object-fit: cover;
+    height: 100%;
+  }
+  
+  @media (max-width: 1600px) {
+    .authColumns {
+      gap: 35px;
+      max-width: 1200px;
+      width: 1200px;
+    }
+  
+    .signInContent form {
+      gap: 40px;
+      width: 450px;
+    }
+  
+    .signInContent {
+      width: 500px;
+    }
+
+  }
+  @media (max-width: 1450px) {
+    .signInContent {
+      width: 470px;
+    }
+  
+    .signInContent form {
+      width: 400px;
+    }
+  }
+  /* @media (max-width:1536px) {
+      .signInContent {
+          width: 100%;
+      }
+  } */
+  
+  @media (max-width: 1366px) {
+    .signupAuthColumn {
+      align-items: flex-start !important;
+    }
+  
+    .signupAuthColumn .col-lg-4 {
+      flex: 0 0 45%;
+      max-width: 45%;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    /* .authColumns .signInContent,
+  .authColumns .authImg img{
+      width: 100%;
+  } */
+  
+    .authColumns {
+      margin-bottom: 78px;
+    }
+  
+    .authColumns .col-lg-4 {
+      flex: 0 0 45%;
+      max-width: 45%;
+    }
+  
+    .authForm .col {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .signInContent form {
+      width: 350px;
+      gap: 25px;
+    }
+  
+    .signInContent {
+      width: 430px;
+    }
+  }
+  
+  @media (max-width: 850px) {
+    .signInContent {
+      width: 400px;
+    }
+    .signInContent form {
+      width: 300px;
+      gap: 22px;
+    }
+  
+    .authImg img {
+      border-radius: 10px 10px 10px 185px;
+    }
+  
+    .authColumns {
+      padding: 0px;
+    }
+  
+    .ha--auth-container {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .authTitle h3 {
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 38px;
+    }
+  
+    .authColumns {
+      align-items: flex-start !important;
+      flex-direction: column-reverse;
+    }
+  
+    .authImg {
+      height: 250px;
+      width: 100%;
+    }
+  
+    .authImg img {
+      border-radius: 10px 10px 10px 120px;
+      object-fit: cover;
+      height: 100%;
+    }
+  
+    .ha--Auth-main-img,
+    .signInContent,
+    .signInContent form {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .signInContent form {
+      gap: 32px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .authColumns {
+      gap: 24px;
+      align-items: flex-start !important;
+      flex-direction: column-reverse;
+    }
+  
+    .authColumns .col-lg-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    .authImg {
+      height: 145px;
+    }
+  
+    .authImg img {
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px 10px 10px 80px;
+    }
+  
+    /* .authTitle {
+          margin-bottom: 20px;
+      } */
+  
+    .signupAuthColumn .col-lg-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    .authForm .col {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    .signupContainerSm {
+      margin-top: 15px !important;
+    }
+  
+    .authBorderStyle {
+      border-bottom: 0px !important;
+  }
+  
+  .ha--auth-container{
+      padding-top: 0px;
+  }
+
+  .otpMainDes.ha--forgotFlow.ha--successFlow {
+    padding-top: 0px;
+    margin-top: 48px !important;
+}
+
+.ha--successFlow .ha--forgotFlowDes .otpHeader h2 {
+  margin-bottom: 40px;
+}
+.ha--successFlow .ha--forgotFlowDes{
+  gap: 40px;
+
+}
+
+.ha--successFlow .ha--forgotFlowDes .actionBtn {
+  width: 70% !important;
+  margin: auto;
+}
+  }
+  
+  @media (max-width:600px) {
+      .ha--name-surname {
+          flex-direction: column;
+          gap: 20px;
+      }
+      .ha--signUp-Auth .authForm {
+          gap: 20px !important;
+      }
+  }
+  

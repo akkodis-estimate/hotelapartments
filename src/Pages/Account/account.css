@@ -1,0 +1,358 @@
+/* Updated CSS For Accounts */
+
+.ha--AcountContainer {
+    display: flex;
+    align-items: start;
+    gap: 48px;
+    padding: 32px 42px;
+}
+
+.ha--AcountSideBar a.ha--accountsAsideLinks {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px !important;
+}
+
+.ha--AcountSideBar {
+    max-width: 267px;
+    width: 100%;
+}
+
+.ha--PINavPills li.nav-item button {
+    margin-right: 0px !important;
+    padding: 10px;
+}
+
+.ha--PINavPills {
+    margin-bottom: 40px !important;
+    display: flex;
+    gap: 24px;
+}
+
+.ha--accountTabContent .ha--PIForm .signInContent.PIContent {
+    width: 100%;
+    max-width: 100%;
+    justify-content:start;
+}
+
+.ha--PIForm {
+    max-width: 670px;
+    width: 100%;
+}
+
+.ha--PiTitle h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #000;
+    margin-bottom: 32px;
+}
+
+.ha--PIForm .authForm {
+    gap: 20px !important;
+}
+.ha--PIForm .authForm .mb-3 {
+    margin-bottom: 0px !important;
+}
+
+
+.ha--PaymentUI .checkoutTitle h5 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #000;
+}
+
+.ha--PaymentUI {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ha--PIForm .signInContent.PIContent form {
+    gap: 32px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.ha--accountTabContent {
+    margin-bottom: 30px;
+}
+
+
+.ha--ChangePassUITitle h3 {
+    margin-bottom: 0;
+}
+
+.authForm.ha--ChangePassUI {
+    gap: 16px !important;
+}
+
+.deleteBtn svg {
+    margin-right: 0px;
+}
+
+.ha--successModal .modal-header {
+    width: 100%;
+}
+
+/* End */
+
+.accountSettingsAside ul.BIMenuList li.BIMenuListItem a {
+    padding: 10px 12px;
+    background: transparent;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F1F1F;
+    text-decoration: none;
+}
+
+.accountSettingsAside ul.BIMenuList li.BIMenuListItem{
+    margin-bottom: 8px;
+}
+
+.accountSettingsAside ul.BIMenuList li.BIMenuListItem a svg{
+    margin-right: 10px;
+    filter: brightness(0) saturate(100%) invert(10%) sepia(7%) saturate(18%) hue-rotate(77deg) brightness(98%) contrast(94%);
+}
+
+.accountSettingsAside ul.BIMenuList li.BIMenuListItem a.active{
+    background: #F7F7F5;
+border-radius: 4px;
+}
+
+.BIMenu hr {
+    margin: 32px 6px;
+    border-color: #F2F2F2;
+    opacity: 1;
+}
+
+.ha--LoyalityPointsLabel {
+    margin-bottom: 15px;
+}
+
+.ha--refuntRqstBtn {
+    margin-top: 25px;
+}
+
+.ha--refuntRqstBtn .appMainBtn button.appBtn span.btnIcon {
+    display: none;
+}
+
+@media (min-width:1920px) {
+    .ha--MainAside .accountSettingmainContent, .ha--MainAside{
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width:1900px) {
+    .ha--MainAside .accountSettingmainContent, .ha--MainAside{
+        max-width: 1250px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:1650px) {
+    .ha--MainAside .accountSettingmainContent, .ha--MainAside{
+        max-width: 1150px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:1536px) {
+
+
+    .ha--AcountContainer{
+        gap: 25px;
+        padding: 25px 30px;
+    }
+
+    .accountSettingsAside {
+        padding: 10px 0px;
+    }
+    /* .accountSettingsAside ul.BIMenuList li.BIMenuListItem a {
+        font-size: 12px;
+    }
+
+    .accountSettingsAside ul.BIMenuList li.BIMenuListItem a svg {
+        max-width: 16px;
+        margin-right: 7px;
+    } */
+
+    .accountSettingsAside ul.BIMenuList li.BIMenuListItem {
+        margin-bottom: 2px;
+    }
+    .accountSettingmainContent {
+        padding: 10px 0px;
+    }   
+
+    .ha--PINavPills{
+        margin-bottom: 32px !important;
+    }
+    .ha--MainAside .accountSettingmainContent, .ha--MainAside{
+        max-width: 1070px;
+        width: 100%;
+    }
+    
+
+}
+
+@media (max-width:1366px) {
+    .applicationModal.ha--successModal .successModal {
+        min-height: 270px;
+    }
+    
+    .applicationModal.ha--successModal {
+        max-width: 530px;
+        width: 100%;
+    }
+
+    .ha--MainAside .accountSettingmainContent, .ha--MainAside{
+        max-width: 950px;
+    }
+    
+}
+
+
+@media (max-width:1150px) {
+    .ha--MainAside .accountSettingmainContent, .ha--MainAside{
+        max-width: 750px;
+        width: 100%;
+    }
+}
+
+@media (max-width:1024px) {
+    .ha--MainAside .accountSettingmainContent, .ha--MainAside{
+        max-width: 650px;
+        width: 100%;
+    }
+}
+
+@media (max-width:991px) {
+
+    .ha--InboxStyleAside .ha--AcountSideBar {
+        display: none;
+    }
+
+    .ha--InboxStyleAside .ha--MainAside,
+    .ha--InboxStyleAside .accountSettingmainContent {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .ha--AcountContainer {
+        padding: 20px;
+    }
+
+    .ha--MainAside .accountSettingmainContent, .ha--MainAside{
+        max-width: 625px;
+        width: 100%;
+    }
+}
+
+@media (max-width:870px) {
+    .ha--MainAside .accountSettingmainContent, .ha--MainAside{
+        max-width: 575px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:840px) {
+    .ha--MainAside .accountSettingmainContent, .ha--MainAside{
+        max-width: 525px;
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 786px) {
+
+    .ha--MainAside .accountSettingmainContent, .ha--MainAside{
+        max-width: 100% !important;
+    }
+
+    .warningBookingContent {
+       
+        padding: 25px !important;
+    }
+
+    .accountSettingsAside {
+        padding-bottom: 0px;
+    }
+
+    .accountSettingsAside,
+    .ha--AcountSideBar {
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+
+    .ha--AcountContainer {
+        padding: 16px 20px;
+    }
+
+    .accountSettingsAside .BIMenu {
+
+        justify-content: start;
+
+    }
+
+    .accountSettingsAside {
+        padding: 32px 7px;
+    }
+
+
+    .authForm .userImageUpload .input-file {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .ha--PaymentUI{
+        gap: 24px
+    }
+
+    .ha--PIForm .authForm {
+        gap: 24px !important;
+    }
+
+    .ha--accountTabContent {
+        margin-bottom: 23px;
+    }
+
+    .ha--PINavPills {
+        gap: 8px;
+    }
+
+    .accountSettingmainContent {
+        padding: 0 !important;
+    }
+
+
+.deleteBtn svg {
+    margin-right: 0px !important;
+}
+
+.userImageUpload .upload-img{
+    margin-right: 0px !important;
+}
+
+.ha--RefundRequestUI .ha--mainBookingListUI table.mantine-Table-root thead th {
+    white-space: nowrap;
+}
+
+
+   
+}

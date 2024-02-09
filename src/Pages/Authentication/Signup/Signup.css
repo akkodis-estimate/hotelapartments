@@ -1,0 +1,61 @@
+.ha--signUp-Auth .signInContent {
+    flex-direction: column;
+    gap: 40px;
+}
+
+.ha--signUp-Auth {
+    padding-top: 46px !important;
+}
+
+.ha--name-surname {
+    display: flex;
+    gap: 20px;
+}
+
+.ha--name-surname > div {
+    width: 100%;
+}
+
+
+.ha--signUp-Auth .signInContent form{
+    max-width: 100%;
+width: 100%;
+}
+
+label.form-label span.required, .authForm label.label span.required{
+    color: #1F1F1F;
+}
+
+@media (max-width:850px) {
+    .ha--signUp-Auth .signInContent form{
+        width: 400px;
+    }
+
+    .ha--name-surname {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+} 
+
+@media (max-width:768px) {
+    .ha--signUp-Auth .signInContent form{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .ha--signUp-Auth .signInContent {
+        flex-direction: column;
+        gap: 40px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .ha--signUp-Auth .authForm {
+        gap: 20px !important;
+    }
+
+    .ha--signUp-Auth {
+        padding-top: 0px !important;
+    }
+}

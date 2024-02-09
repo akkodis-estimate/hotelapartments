@@ -1,0 +1,684 @@
+/* Updated Css */
+
+.ha--ForHotelServices {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.ha--ForHotelServices .ha--ForHotelServicesImgCol {
+    max-width: 653px;
+    width: 100%;
+}
+
+.ha--ForHotelServices .ha--ForHotelServicesContentCol {
+    max-width: 695px;
+    width: 100%;
+}
+
+.ha--ForHotelAccordian {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.ha--ForHotelAccordianLeft {
+    max-width: 740px;
+    width: 100%;
+}
+
+.ha--ForHotelAccordianRight {
+    max-width: 536px;
+    width: 100%;
+}
+
+.ha--ForHotelAccordianRight img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.ha--WhatGetDes {
+    padding-top: 160px;
+}
+
+.ha--HotelMainContainer{
+padding: 0px 40px;
+}
+
+/* End */
+
+.container.includedService {
+    max-width: 1380px;
+}
+
+.includedService .includedBlurb .includeImage img {
+    width: 90%;
+    display: table;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 200px 200px 10px 10px;
+    height: 626px;
+}
+.includedBlurb .includedImageBox {
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.90);
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.20);
+    -webkit-backdrop-filter: blur(17px);
+    backdrop-filter: blur(17px);
+    width: 325px;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    gap: 12px;
+}
+
+.includedBlurb .includedImageBox .includedImageBoxImg img {
+    width: 84.535px;
+    height: 101.849px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.includedBlurbContent h6 {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 6px;
+}
+
+.includedBlurbContent p {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: 16px;
+}
+
+.includedImageBox.boxOne {
+    position: absolute;
+    top: 145px;
+    right: 0;
+}
+
+.includedBlurb {
+    position: relative;
+}
+
+.includedImageBox.boxTwo {
+    position: absolute;
+    bottom: 80px;
+    left: -40px;
+}
+
+.ourServiceIncluded h2 {
+    font-family: "Carmen Sans", sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.88px;
+}
+
+.serviceIconBoxes {display: flex;flex-wrap: wrap;}
+
+.serviceIconBoxes .iconBox {
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 20px 45px;
+    border: 1px solid #C4C5BF;
+    height: 100%;
+    text-align: center;
+    gap: 16px;
+}
+
+.serviceIconBoxes .iconBox:nth-child(1) {
+    border-top: 0;
+    border-left: 0;
+}
+
+.serviceIconBoxes .iconBox:nth-child(2) {
+    border-top: 0;
+    border-right: 0;
+}
+
+.serviceIconBoxes .iconBox:nth-child(3) {
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.serviceIconBoxes .iconBox:nth-child(4) {
+    border-bottom: 0;
+    border-right: 0;
+}
+
+.ourServiceIncluded {
+    margin-bottom: 70px;
+}
+
+.serviceIconBoxes .iconBox .iconBoxContent p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+.hotelSpacing {
+    margin-bottom: 160px !important;
+}
+
+.hotelInfoGap {
+    gap: 1rem 0;
+}
+
+.listHotelForm .sectionTitleDesc p {
+    width: 55%;
+    margin: auto;
+}
+
+.listHotelForm .sectionTitleDesc {
+    margin-bottom: 104px;
+}
+
+.hotelFormBg .listingHotelForm h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.hotelFormBg .listingHotelForm {
+    padding: 56px 40px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.16);
+    position: absolute;
+    bottom: -10rem;
+    right: 15rem;
+    left: -8.5rem;
+}
+
+.hotelFormBg {
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    height: 765px;
+    position: relative;
+    margin-left: 120px;
+}
+
+.hotelListingSubmit button.appBtn span::after {
+    content: '🡢';
+     position: absolute;
+     opacity: 0;
+     top: 0;
+     right: -20px;
+     transition: 0.5s;
+     font-size: 25px;
+ }
+ 
+ .hotelListingSubmit button.appBtn span {
+     cursor: pointer;
+     display: inline-block;
+     position: relative;
+     transition: 0.3s;
+ }
+ 
+ .hotelListingSubmit button.appBtn:hover span {
+  padding-right: 15px;
+ }
+ 
+ .hotelListingSubmit button.appBtn:hover span:after {
+  opacity: 1;
+ 
+ }
+ 
+ .hotelListingSubmit button.appBtn:hover {
+     padding-right: 40px;
+ }
+ 
+ .hotelListingSubmit button.appBtn {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .hotelAccordian .mantine-Accordion-control span.mantine-qfepok.mantine-Accordion-chevron svg {
+    filter: brightness(0) saturate(100%) invert(49%) sepia(2%) saturate(3134%) hue-rotate(23deg) brightness(91%) contrast(85%);
+}
+
+.hotelAccordian > div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hotelAccordian .mantine-Accordion-item .mantine-Accordion-control .mantine-Accordion-label {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.hotelAccordian .mantine-Accordion-item[data-active]{
+    background: unset !important;
+}
+
+.whatGetbG {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+
+.hotelSlctCountry .css-b62m3t-container .css-13cymwt-control,
+.hotelSlctCountry .css-b62m3t-container .css-t3ipsp-control {
+    padding: 6px 5px;
+    border-radius: 10px;
+    box-shadow: none !important;
+}
+
+
+.hotelSlctCountry .css-b62m3t-container .css-t3ipsp-control {
+   
+    border-color: #1f1f1f !important;
+    
+}
+
+
+.hotelSlctCountry .css-b62m3t-container .css-13cymwt-control span.css-1u9des2-indicatorSeparator,
+.hotelSlctCountry .css-b62m3t-container .css-t3ipsp-control span.css-1u9des2-indicatorSeparator {
+    display: none;
+    border-color: #1f1f1f !important;
+    box-shadow: none !important;
+}
+
+.ha--ForHotelAccordianLeft .faqSection .mantine-Accordion-item .mantine-Accordion-chevron{
+    padding-top: unset !important;
+  }
+  
+  .ha--ForHotelAccordianLeft .faqSection .mantine-Accordion-item .mantine-Accordion-label{
+  padding-top: 0px !important;
+  padding-bottom: 0px;
+  }
+  
+  .ha--ForHotelAccordianLeft .faqSection.hotelAccordian .mantine-Accordion-item {
+    padding: 20px;
+  }
+
+@media (max-width:1536px) {
+    .hotelSpacing {
+        margin-bottom: 120px !important;
+    }
+
+    .ha--WhatGetDes {
+        padding-top: 120px;
+    }
+
+    .hotelAccordian > div {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .ha--ForHotelAccordianLeft .faqSection.hotelAccordian .mantine-Accordion-item {
+        padding: 15px;
+    }
+}
+
+@media (max-width:1366px) {
+    .hotelAccordian > div {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .ha--ForHotelAccordianLeft .faqSection.hotelAccordian .mantine-Accordion-item {
+        padding: 12px;
+    }
+
+    .ha--ForHotelAccordianLeft .faqSection .mantine-Accordion-item .mantine-Accordion-label {
+      
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1250px) {
+    .serviceIconBoxes .iconBox {
+        padding: 24px 0;
+    }
+
+    .includedImageBox.boxTwo {
+        left: -10px;
+    }
+}
+
+@media (max-width:1080px) {
+    .ourServiceIncluded h2 {
+        font-size: 35px;
+    }
+
+    .serviceIconBoxes .iconBox .iconBoxContent p {
+        font-size: 20px;
+    }
+
+    .hotelFormBg .listingHotelForm{
+        right: 8rem ;
+    }
+}
+
+@media (max-width:1024px) {
+    .ourServiceIncluded {
+        margin-bottom: 35px;
+    }
+
+    .hotelFormBg .listingHotelForm {
+        bottom: -150px;
+        right: 55px;
+        left: -75px;
+    }
+
+    .serviceIconBoxes .iconBox .iconBoxContent p{
+        font-size: 20px;
+    }
+
+    .ha--ForHotelServices {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .ha--HotelMainContainer {
+        padding: 0px 20px;
+    }
+
+    .ha--ForHotelAccordianRight {
+        max-width: 390px;
+        width: 100%;
+    }
+
+    .ha--ForHotelAccordianLeft {
+        max-width: 850px;
+        width: 100%;
+    }
+
+    .ha--ForHotelAccordian {
+       
+        align-items: start;
+        
+    }
+}
+
+@media (max-width:991px) {
+    .ha--HotelMainContainer {
+        padding: 0px 20px;
+    }
+    .ourServiceIncluded h2 {
+        font-size: 26px;
+    }
+
+    .includedImageBox.boxOne {  
+        top: 32px;
+    }
+
+    .includedImageBox.boxTwo{
+        bottom: 25px;
+    }
+
+    .serviceIconBoxes .iconBox .iconBoxContent p {
+        font-size: 18px;
+    }
+
+    .hotelFormBg .listingHotelForm {
+        position: unset;
+    }
+    
+    .hotelFormBg {
+        height: auto;
+        margin-left: 0;
+    }
+
+    .hotelSpacing{
+        margin-bottom: 75px !important;
+    }
+
+    .whatGetSm {
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+    }
+
+    .listHotelForm .sectionTitleDesc h2 {
+        font-size: 38px;
+    }
+
+    .listHotelForm .sectionTitleDesc p {
+        width: 75%;
+    }
+
+    .listHotelForm .sectionTitleDesc {
+        margin-bottom: 65px;
+    }
+
+    .hotelInfoGap .col-lg-6 {
+        padding: 0;
+    }
+
+    .hotelFormBg .listingHotelForm h3.ps-2 {
+        padding-left: 0px !important;
+    }
+
+    .hotelFormBg .listingHotelForm form > .row {
+        gap: 25px;
+    }
+
+    .whatGetSm .sectionTitleDesc {
+        margin-bottom: 45px;
+    }
+
+    .col-lg-5.whatGetbG {
+        height: 500px;
+    }
+
+    .hotelAccordian > div {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .ha--ForHotelAccordianLeft .faqSection .mantine-Accordion-item .mantine-Accordion-label {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    /* .accordianHotelSm {
+        flex-direction: column-reverse;
+        gap: 20px;
+    } */
+}
+
+@media (max-width:850px) {
+    .forHotelIncluded > .row {
+        flex-direction: column;
+    }
+
+    .ha--ForHotelAccordian {
+        flex-direction: column-reverse;
+    }
+
+    .ha--ForHotelAccordianRight {
+        max-width: 100%;
+        width: 100%;
+        height: 380px;
+    }
+
+    .ha--ForHotelAccordianLeft {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .ha--ForHotelAccordianLeft .faqSection.hotelAccordian .mantine-Accordion-item {
+        padding: 10px 0;
+    }
+
+    .hotelFormBg .listingHotelForm {
+        padding: 25px;
+
+    }
+}
+
+
+@media (max-width:768px) {
+    .ha--ForHotelServices.hotelSpacing {
+        flex-direction: column;
+    }
+
+    .ourServiceIncluded h2 {
+        font-size: 26px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .includedService .includedBlurb .includeImage img {
+        width: 100%;
+        display: table;
+        margin: 0 auto;
+        object-fit: cover;
+        border-radius: 100px 100px 10px 10px;
+        height: 465px;
+    }
+
+    .ha--ForHotelAccordianLeft .faqSection.hotelAccordian .mantine-Accordion-item {
+        padding: 7px 0;
+    }
+
+
+}
+
+@media (max-width:600px) {
+
+    .includedService .includedBlurb .includeImage img {
+        width: 100%;
+        display: table;
+        margin: 0 auto;
+        object-fit: cover;
+        border-radius: 50px 50px 10px 10px;
+        height: 350px;
+    }
+
+    .whatGetbG {
+        height: 385px;
+    }
+
+    .hotelAccordian > div {
+        gap: 15px;
+    }
+
+    .hotelAccordian .mantine-Accordion-item .mantine-Accordion-control {
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    .hotelAccordian .mantine-Accordion-item .mantine-Accordion-control .mantine-Accordion-label {
+        font-size: 18px;
+        padding: 0px;
+    }
+
+    .faqSection .mantine-Accordion-item .mantine-Accordion-panel .mantine-Accordion-content{
+        font-size: 16px;
+        padding-left: 7px;
+    }
+
+    .hotelAccordian .mantine-Accordion-control span.mantine-qfepok.mantine-Accordion-chevron svg {
+        width: 18px;
+    }
+
+    .accordianHotelSm .col-lg-7 {
+        padding: 0px;
+    }
+
+    .listingHotelForm .col {
+        flex: 0 0 100%;
+    }
+
+    .ha--ForHotelAccordianLeft .faqSection.hotelAccordian .mantine-Accordion-item {
+        padding: 5px 0;
+    }
+}
+
+@media (max-width:500px) {
+
+    .hotelAccordian .mantine-Accordion-item .mantine-Accordion-control .mantine-Accordion-label {
+        font-size: 15px;
+    }
+
+    .serviceIconBoxes .iconBox .iconBoxContent p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .serviceIconBoxes .iconBox .boxicon svg {
+        width: 45px;
+    }
+
+
+}
+
+@media (max-width:450px) {
+    .serviceIconBoxes .iconBox {
+        border: 0px;
+        padding-bottom: 0;
+    }
+
+    .serviceIconBoxes .iconBox .iconBoxContent p br {
+        display: none;
+    }
+
+    .hotelFormBg .listingHotelForm {
+        padding: 15px;
+    }
+
+    .includedService .includedBlurb .includeImage img {
+        height: 275px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .ourServiceIncluded {
+        margin-bottom: 0;
+    }
+
+    .includedImageBox.boxOne {
+        left: -20px;
+    }
+
+    .includedImageBox{
+        display: none !important;
+    }
+}
+
+@media (max-width:340px) {
+    .ourServiceIncluded {
+        margin-bottom: 5px;
+    }
+
+    .serviceIconBoxes .iconBox {
+        flex: 0 0 100%;
+        max-width: 100%;
+        align-items: flex-start;
+    }
+
+    .col-lg-5.whatGetbG {
+        height: 330px;
+    }
+}

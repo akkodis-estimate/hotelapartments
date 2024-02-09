@@ -1,0 +1,4 @@
+export default {
+	SHOW_MASKING: 'SHOW_MASKING',
+	HIDE_MASKING: 'HIDE_MASKING',
+}

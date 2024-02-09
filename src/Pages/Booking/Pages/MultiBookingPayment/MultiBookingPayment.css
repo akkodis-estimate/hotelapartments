@@ -1,0 +1,6 @@
+@media (max-width:600px) {
+    .row.paymentCardDetails .col-lg-6 {
+      flex: 0 0 100% !important;
+      max-width: 100% !important; 
+    }
+  }

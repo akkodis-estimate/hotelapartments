@@ -1,0 +1,33 @@
+.paymentLabel{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111826;
+    background: rgba(40, 73, 199, 0.1);
+    border-radius: 4px;
+    padding: 5px 12px;
+}
+
+.priceColor{
+    color: #2849C7;
+}
+
+.creditLimitBtn{
+    padding: 7px 35px !important;
+    font-size: 14px;
+}
+
+.ha--LyalityPointsTable {
+    margin-top: 20px;
+}
+
+.ha--refuntRqstBtn .animateBtn.appMainBtn span.btnIcon {
+    display: none;
+}
+
+.ha--refuntRqstBtn {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}   

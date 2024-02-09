@@ -1,0 +1,394 @@
+/* Updated CSS For Contact Us */
+
+.ha--contact-main-container,
+.ha--banner-container {
+  padding: 0px 40px;
+}
+
+.ha--contactForm-content {
+  display: flex;
+  align-items: start;
+  gap: 174px;
+}
+
+.ha--contactForm-content .contactDetailsSm {
+  max-width: 583px;
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+}
+
+.ha--contactForm {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 42px;
+}
+
+.contactSummary {
+  max-width: 556px;
+}
+
+.contactBlurb {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 583px;
+}
+
+.contactBlurb .ha--contactBlurb-iconText,
+.contactBlurb .ha--contactBlurb-iconText a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ha--contactBlurb-iconText .contactBlurb--content {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #1f1f1f;
+}
+
+.contactFormFields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: #ffffff;
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  padding: 56px 40px;
+  margin-top: -190px;
+  max-width: 534px;
+  width: 534px;
+}
+
+.PhoneInput--focus {
+  border-color: #1f1f1f;
+}
+
+.ha--contactBnrSec .ha--bannerSection-breadcrumb {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+ul.ha--breadcrumbList {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.ha--contactBlurb-iconText svg {
+  color: #696969;
+  font-size: 25px;
+}
+/* Updated CSS For Contact Us */
+
+.ha--contactBnrSec .ha--appBreadCrumb ul li a,
+.ha--contactBnrSec .ha--appBreadCrumb ul li,
+.ha--contactBnrSec .sectionTitleDesc h2 {
+  color: #fff;
+}
+
+.ha--contactBnrSec .ha--appBreadCrumb ul li svg {
+  filter: brightness(0) saturate(100%) invert(93%) sepia(7%) saturate(144%)
+    hue-rotate(30deg) brightness(85%) contrast(91%);
+}
+
+.ha--contactBnrSec {
+  margin-bottom: 66px;
+  border-radius: 20px 20px 150px 20px;
+  min-height: 294px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container.ha--contactForm {
+  max-width: 1380px;
+}
+
+.contactSummary h6 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1f1f1f;
+}
+
+.contactTimingSm {
+  display: none;
+}
+
+.contactBlurbIconSm {
+  display: none;
+}
+
+/* Updated CSS Media Queries For Contact US */
+
+@media (max-width: 1600px) {
+  .ha--contactForm-content {
+    gap: 134px;
+  }
+
+  .bannerSection {
+    min-height: 260px;
+  }
+
+  .contactFormFields {
+    margin-top: -170px;
+    padding: 40px 35px;
+  }
+}
+
+@media (max-width: 1450px) {
+  .ha--contactForm-content {
+    gap: 50px;
+  }
+
+  .ha--contactBlurb-iconText .contactBlurb--content {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .ha--contactForm-content {
+    gap: 35px;
+  }
+
+  .bannerSection {
+    min-height: 230px;
+  }
+
+  .ha--contactBnrSec .ha--bannerSection-breadcrumb {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .contactSummary,
+  .contactBlurb,
+  .contactFormFields {
+    width: 480px;
+    max-width: 480px;
+  }
+
+  .ha--contact-main-container,
+  .ha--banner-container {
+    padding: 0px 30px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .contactSummary,
+  .contactBlurb,
+  .contactFormFields {
+    width: 435px;
+    max-width: 435px;
+  }
+
+  .ha--contact-main-container,
+  .ha--banner-container {
+    padding: 0px 25px;
+  }
+
+  .ha--contactBlurb-iconText svg {
+    font-size: 22px;
+  }
+}
+@media (max-width: 991px) {
+  /* New Css */
+
+  .ha--banner-container {
+    padding: 20px;
+  }
+
+  .ha--contactForm-content .contactDetailsSm {
+    gap: 40px;
+    max-width: 100%;
+  }
+
+  .contactSummary,
+  .contactBlurb {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contactFormFields {
+    margin-top: 0px;
+    width: 100%;
+    max-width: 100%;
+  }
+  /* End */
+
+  .ha--contactBnrSec {
+    margin-bottom: 30px;
+    border-radius: 20px 20px 85px 20px !important;
+    background-position: center;
+    background-size: cover;
+    height: auto !important;
+  }
+
+  .col-lg-12.p-4.pt-0.p-smSA-0 {
+    padding: 0px !important;
+  }
+
+  .container.p-smSA-0 {
+    padding: 0px;
+  }
+
+  .ha--contactForm-content {
+    flex-direction: column;
+    width: 100%;
+  }
+  .ha--contactForm-form {
+    width: 100%;
+  }
+
+  .ha--contactBnrSec .sectionTitleDesc h2 {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .ha--contactBnrSec .sectionTitleDesc h2 {
+    padding: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Updated CSS */
+
+  .ha--contactBnrSec .sectionTitleDesc p {
+    color: #fff;
+}
+
+  .ha--contact-main-container, .ha--banner-container {
+    padding: 0px 20px;
+}
+  .ha--banner-container {
+    padding: 0px;
+  }
+
+  .ha--contactBnrSec {
+    border-radius: 0px !important;
+    height: 100%;
+    min-height: 100%;
+    margin-bottom: 0px;
+  }
+
+  .ha--contactBnrSec .ha--bannerSection-breadcrumb {
+    gap: 6px;
+    flex-direction: column-reverse;
+  }
+
+  .ha--contactBlurb-iconText svg {
+    font-size: 25px !important;
+  }
+
+  .ha--contactBlurb-iconText .contactBlurb--content {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    color: #1f1f1f;
+  }
+
+  .contactBlurb {
+    gap: 10px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: 1px solid var(--white, #fff);
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(8px);
+    margin-top: -20px;
+  }
+
+  .contactBlurbIconSm {
+    display: block;
+  }
+
+  .contactBlurbIconLg {
+    display: none;
+  }
+  /* End */
+
+  .ha--contactForm-content .contactDetailsSm {
+    flex-direction: column-reverse;
+  }
+
+  .ha--contactBnrSec {
+    margin-bottom: 35px;
+    height: 145px;
+  }
+
+  .ha--contactForm .col-lg-6.p-5 {
+    padding: 0px 20px !important;
+  }
+
+  .contactBlurb svg,
+  .contactBlurb span,
+  .contactBlurb a span {
+    font-size: 16px;
+  }
+
+  .contactFormFields {
+    margin-top: 25px;
+    padding: 25px;
+    padding: 0;
+    box-shadow: none;
+    background: transparent;
+  }
+
+  .container.contactForm.mb-5.pb-5 {
+    padding: 0;
+  }
+
+  .contactTimingSm {
+    display: block;
+  }
+
+  .contactTimingLg {
+    display: none;
+  }
+
+  .contactDetailsSm {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+
+  .contactSummary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 32px;
+    margin-bottom: 10px !important;
+  }
+
+  .ha--contactForm-content {
+    gap: 28px;
+  }
+
+  .ha--contactForm {
+    margin-bottom: 78px;
+  }
+
+  .contactSummary h4.contactTimingSm {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .contactSummary h6 {
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+}

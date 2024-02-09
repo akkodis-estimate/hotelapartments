@@ -1,0 +1,96 @@
+@media (max-width: 600px) {
+  .inboxListSm .backBtn {
+    margin: 32px 0 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+
+  .chatToDetailBtn {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration-line: underline;
+  }
+
+  .recieverMsgs,
+  .sendermsgs {
+    margin-bottom: 36px;
+  }
+
+  .inboxChatMsgInput {
+    margin: 15px 0px 0px;
+  }
+
+  .inboxListSm .backBtn button svg {
+    margin-right: 8px;
+  }
+
+  .inboxListSm .col-lg-12.inboxChatSm {
+    margin: 25px 0 16px;
+  }
+
+  .recieverMsgs {
+    padding-left: 0px !important;
+  }
+
+  .sendermsgs {
+    padding-right: 0px !important;
+  }
+
+  .rsrvImg {
+    height: 140px;
+    width: 135px;
+  }
+
+  .rsrvImg img {
+    height: 100%;
+    max-width: 100%;
+  }
+
+  .resrvBlurbContent .rsrvTitle p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .resrvBlurbArea .resrvBlurbItem {
+    gap: 12px;
+  }
+
+  .resrvBlurbContent .rsrvTitle {
+    margin-bottom: 0px !important;
+  }
+
+  .resrvBlurbContent .rsrvDate,
+  .resrvBlurbContent .rsrvAmmenities {
+    margin-bottom: 12px;
+  }
+
+  .resrvBlurbContent .rsrvPricing p span.rsrvBoldPrice {
+    font-weight: 500;
+  }
+
+  .resertvationProprtySummarySm {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 24px;
+  }
+
+  .inboxListSm.ha--InboxListSm {
+    padding: 0 20px 20px;
+}
+
+.inboxChatSm {
+  margin: 32px 0px 16px;
+}
+}
+
+.disableChatTyping {
+  opacity: 0.5;
+  pointer-events: none;
+}

@@ -1,0 +1,868 @@
+.propertyDetailPage{
+  padding-top: 24px;
+}
+.propertyDetailPage .container{
+  max-width: 1420px;
+}
+.propertyDetailHeader{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 17px;
+  gap: 35px;
+}
+.propertyDetailHeader .breadCrumbProperties .breadcrumbList{
+  margin: 0;
+}
+.propertyDetailHeader .breadCrumbProperties{
+  margin: 0 0 4px;
+}
+.propertyDetailContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#hide {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  margin-top: 15px;
+}
+
+#height {
+  position: fixed;
+  top: 95px;
+  left: 0;
+  width: 100%;
+}
+
+.sectionNavbar {
+  padding: 25px 270px 15px;
+  background: #ffffff;
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.08));
+}
+
+.sectionNavbarList a {
+  padding: 10px;
+  border-bottom: 2px solid #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1f1f1f;
+  cursor: pointer;
+}
+
+.sectionNavbarList a.active {
+  border-bottom: 2px solid #767760;
+  color: #767760;
+}
+
+.propertyDetailHeader h4 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #1f1f1f;
+}
+
+.shareDD button {
+  padding: 12px 10px;
+  border: 1px solid #c4c5bf;
+  border-radius: 10px;
+  background: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f1f1f;
+}
+
+.shareDD button::after {
+  display: none;
+}
+
+.shareDD button:hover {
+  background-color: #fff !important;
+  color: #1f1f1f;
+}
+
+.shareDD button:focus-visible,
+.shareDD button:active {
+  background-color: #fff !important;
+  color: #1f1f1f;
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+  background-color: unset;
+  color: unset;
+}
+
+.propertyGallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.mainPDetailImage img {
+  height: 465px;
+}
+
+.mainPDetailImage .animateBtn {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.mainPDetailImage .animateBtn button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1F1F1F;
+  padding: 10px 20px;
+}
+
+.ammenitiesHighlights .ammenities {
+  padding-right: 20px;
+  border-right: 1px solid #C4C5BF;
+  margin-right: 20px;
+}
+
+.ammenitiesHighlights span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1F1F1F;
+}
+
+.ammenitiesHighlights .ammenities:last-child {
+  border-right: 0px;
+}
+.propertiesHighlights{
+  margin: 0 0 36px;
+}
+.propertiesAboutListing{
+  margin: 0 0 36px;
+}
+.termsRules{
+  margin: 0 0 36px;
+}
+.termsRules .terms_rules {
+  gap: 40px;
+}
+.termsRules .terms_rules .col-lg-3{
+  padding: 0;
+  width: auto;
+}
+.propertyDetailSectionTitle h6 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  margin: 0 0 24px;
+}
+
+.highlightsCard {
+  padding: 6px 17px;
+  border: 0.716103px solid #C4C5BF;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 12.8899px;
+  line-height: 163%;
+  letter-spacing: 0.02em;
+  color: #1F1F1F;
+
+}
+
+.highlightsCard svg {
+  display: block;
+  height: 30px;
+}
+
+.propertiesAboutListing p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.ammenitiesItem span {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #1F1F1F;
+  border-radius: 50px;
+}
+
+.ammenitiesRow {
+  gap: 35px 0;
+}
+
+.ammenitiesItem p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #151515;
+}
+
+.ammenitiesRow .col-lg-4 {
+  padding: 0;
+}
+
+span.ammenitiesModal {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  text-decoration: underline;
+  color: #767760;
+  cursor: pointer;
+}
+
+ul.termsList li svg {
+  font-size: 18px;
+}
+
+ul.termsList li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1F1F1F;
+  margin-bottom: 18px;
+}
+
+ul.termsList.notAllowed svg {
+  color: #A2001D;
+}
+
+ul.termsList.Allowed svg {
+  color: #379A59;
+  font-size: 24px;
+}
+
+.termsRules .col-lg-2 {
+  padding: 0;
+}
+
+.exploreProperties {
+  padding: 40px;
+  background: #ECECEC;
+  border-radius: 10px;
+}
+
+.exploreList .exploreContent {
+  font-size: 16px;
+  line-height: 24px;
+  color: #1F1F1F;
+}
+
+ul.closeChecklist li.closeChecklistItem {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1F1F1F;
+  padding: 6px 10px;
+  border: 1px solid #ECECEC;
+  border-radius: 50px;
+  cursor: pointer;
+  gap: 8px;
+}
+
+ul.closeChecklist li.closeChecklistItem svg {
+  filter: brightness(0) saturate(100%) invert(42%) sepia(0%) saturate(1%) hue-rotate(37deg) brightness(97%) contrast(95%);
+}
+
+ul.closeChecklist li.closeChecklistItem:hover {
+  outline: 2px solid #C4C5BF;
+  border-width: 1px;
+}
+
+ul.closeChecklist li.closeChecklistItem.active {
+  background: #696969;
+  color: #fff;
+  border: 2px solid #696969;
+}
+
+ul.closeChecklist li.closeChecklistItem.active:hover {
+  border: 2px solid #696969;
+}
+
+ul.closeChecklist li.closeChecklistItem.active svg {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(99%) saturate(2%) hue-rotate(101deg) brightness(108%) contrast(101%);
+}
+
+.reviewSectionList .reviewSectionItem .reviewerIcon img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.reviewSectionList .reviewSectionItem .reviewerName h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1F1F1F;
+}
+
+.reviewSectionList .reviewSectionItem .reviewerName span.reviewDate {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #696969;
+}
+
+.reviewSectionList .reviewSectionItem .reviewPara {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1F1F1F;
+}
+
+.reviewSectionList .reviewSectionItem .reviewShowMore span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1F1F1F;
+  cursor: pointer;
+}
+
+.reviewSectionItem {
+  padding: 26px 0;
+  border-bottom: 1px solid #C4C5BF;
+}
+.reviewSectionItem:last-child {
+  border: 0px;
+}
+
+.closeToAppartment .col-lg-3,
+.closeToAppartment .col-lg-9 {
+  padding: 0;
+}
+
+.similarProperties .col-lg-4 .propertySummary,
+.similarProperties .propertyCardBtn,
+.similarProperties .propertyCard .propertyImageSlider .carousel .carousel-inner .carousel-item,
+.similarProperties .carousel-indicators {
+  display: none;
+}
+
+.similarProperties .propertyCard .propertyImageSlider .carousel .carousel-inner .carousel-item:first-child {
+  display: block;
+}
+
+.similarProperties .propertyCard .propertyImageSlider .carousel .carousel-inner .carousel-item img {
+  height: 350px;
+}
+
+.similarProperties h2 {
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 54px;
+  color: #1F1F1F;
+}
+
+.similarProperties span.viewAll {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  color: #1F1F1F;
+}
+
+.shareDD ul.dropdown-menu.show {
+  width: 35rem;
+}
+
+.sharePropertyTitle img {
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+}
+
+.shareContent {
+  padding: 20px;
+}
+
+.shareContent h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.sharingOptionCard {
+  padding: 20px;
+  border: 1px solid #c4c5bf;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sharingOptionCard svg {
+  font-size: 25px;
+}
+
+.sharingOptionsRow {
+  gap: 20px 0;
+}
+
+.sharingOptionCard:hover {
+  background-color: #f7f7f7;
+}
+
+.bookingRequestAside {
+  background: #FFFFFF;
+  border: 1px solid #C4C5BF;
+  box-shadow: 0px 23px 24px -10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.bookingRequestAside .reqTitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #1F1F1F;
+}
+
+.bookingRequestAside .bookingCount .startsFrom span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #767760;
+}
+
+.bookingRequestAside .bookingCount .startsFrom p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33.6px;
+  color: #1F1F1F;
+}
+
+span.hiddenfeesNote {
+  display: block;
+  padding: 8px 16px;
+  background: #E5F2F7;
+  border-radius: 4px;
+}
+
+.bookinghNote h6 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+
+.bookinghNote p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+
+.bookinghNote span {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.bookinghNote {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 45px 32px;
+  box-shadow: 0px 23px 24px -10px rgba(0, 0, 0, 0.1);
+}
+
+.disableButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.disableButton.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.bookingDateRange .mantine-DatePickerInput-root {
+  height: 56px;
+  margin: 0;
+}
+
+.bookingReqBtn {
+  flex: 0 0 13rem;
+  max-width: 13rem;
+}
+
+.videoSection .highlightsCard {
+  cursor: pointer;
+}
+
+.videoSection .highlightsCard svg {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.videoSection .highlightsCard:hover {
+  background: #f5f5f5;
+  border-color: #000;
+}
+
+.carousel-indicators {
+  margin-bottom: 40px !important;
+}
+
+.videoGallery video {
+  height: 850px !important;
+  object-fit: cover;
+}
+
+.videoGalleryModalDes .modal-content .carousel .carousel-inner .carousel-item::after {
+  display: none;
+}
+
+.videoGalleryModalDes .modal-content .carousel .carousel-control-next,
+.videoGalleryModalDes .modal-content .carousel .carousel-control-prev {
+  opacity: 1;
+  top: 40%;
+  height: 84px;
+}
+
+
+.similarProperties .propertyCard .propertNameLocation h5 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 99%;
+}
+.ratingDetail {
+  font-size: 15px;
+  color: gold;
+  /* margin: 10px 0 0; */
+}
+
+.bookingRequestAside .bookingDateRange button:disabled, .bookingRequestAside .bookingDateRange button[disabled] {
+  background: #cdd4d830;
+  border-color: #CDD4D8;
+}
+
+.propertyDetailContainer .col8column {
+  width: 68%;
+  padding-right: 30px;
+}
+
+.propertyDetailContainer .col4column {
+  width: 32%;
+}
+
+.propertyDetailContainer .ammenitiesHighlights{
+  margin: 16px 0 48px;
+}
+
+
+.closeToAppartment  .col-lg-2 {
+  width: 25%;
+}
+
+.closeToAppartment .col-lg-8 {
+  width: 50%;
+}
+
+ul.closeChecklist{
+  flex-direction: column;
+  display: flex;
+  gap: 12px;
+  height: 320px;
+}
+
+ul.closeChecklist li.closeChecklistItem.active img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(260deg) brightness(102%) contrast(108%);
+}
+
+p.minRentalText {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.noLongerContent {
+  /* border: 1px solid #c4c5bf;
+  border-radius: 10px; */
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.propertyDetailImgColumn .col-lg-6:nth-last-child(1), .propertyDetailImgColumn .col-lg-6:nth-last-child(2) {
+  margin-bottom: 0px !important;
+}
+
+.similarProperties .propertyCard{
+  box-shadow: 0px 4px 30px 0px rgba(38, 41, 68, 0.10);
+}
+
+.similarProperties .propertyCard .propertyImageSlider .imageslist .propertyImages {
+  min-height: 325px;
+}
+
+.reviewMoreBtn span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  margin-top: 6px;
+}
+
+.closeToAppartment.closeApartmentWhenTwo {
+  grid-template-columns: 2fr 4fr;
+}
+
+.closeToAppartment.closeApartmentWhenTwo .facelities_list h6 br {
+  display: none;
+}
+
+.similarProperties .similar_list .simi_col .propertyCardBody .propertySummary {
+  display: none;
+}
+
+.bookinginfoTextDtls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.hotelNameText {
+  line-height: 19px;
+}
+
+@media (max-width:1536px) {
+  .propertyDetailGallery .prptyDtlImageCol:nth-child(1) span.prptyDtlImage .animateBtn button.appBtn {
+    font-size: 14px;
+    padding: 7px 16px;
+}
+
+.bookingRequestAside .reqTitle{
+  font-size: 20px;
+}
+
+.ammenitiesItem p{
+  
+  font-size: 14px;
+  
+}
+
+.ammenitiesRow {
+  gap: 15px 0;
+}
+
+.ammenitiesItem span {
+  width: 16px;
+  height: 16px;
+}
+
+.ammenitiesItem {
+  gap: 7px !important;
+}
+
+.propertyDetailSectionTitle h6{
+  font-size: 15px;
+    line-height: 25px;
+}
+
+.ammenitiesHighlights,
+.propertiesHighlights,
+.videoSection,
+.propertiesAboutListing,
+.termsRules {
+    margin-bottom: 25px !important;
+}
+
+.similarProperties h2,
+.similarProperties span.viewAll{
+  font-size: 24px;
+    line-height: 34px;
+}
+.propertyDetailHeader h4{
+  font-size: 24px;
+    line-height: 34px;
+}
+
+.shareSASm .shareDD button {
+  font-size: 13px;
+  padding: 5px 10px;
+}
+
+.shareSASm .shareDD button svg {
+  max-width: 17px;
+  margin-right: 4px;
+}
+
+.shareContent {
+  padding: 10px;
+}
+
+.shareContent .row.mb-4 {
+  margin-bottom: 10px !important;
+}
+
+.shareContent h4 {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.sharingOptionCard {
+  padding: 10px 10px;
+  font-size: 14px;
+}
+
+.sharingOptionCard svg {
+  font-size: 20px;
+}
+
+.sharingOptionCard .gap-3 {
+  gap: 8px !important;
+}
+
+.sharingOptionsRow {
+  gap: 15px 0;
+}
+}
+
+@media (max-width:1366px) {
+  .sectionNavbar {
+    padding: 15px 0px 4px !important;
+}
+.propertyDetailContainer .col8column {
+  width: 62%;
+}
+
+.propertyDetailContainer .col4column {
+  width: 38%;
+}
+}
+
+@media (max-width:991px) {
+  .propertyDetailExtraGallerySm {
+    display: none;
+}
+
+.propertyDetailHeader h4 {
+  font-size: 22px;
+}
+
+ul.closeChecklist {
+  flex-wrap: nowrap;
+  display: flex;
+  overflow: auto;
+  
+}
+
+ul.closeChecklist li.closeChecklistItem {
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  gap: 8px;
+}
+
+.sectionNavbar,
+.shareSASm {
+  display: none !important;
+}
+
+.similarProperties h2 {
+  font-size: 22px;
+}
+
+.similarProperties a span {
+  font-size: 18px !important;
+}
+
+.propertyDetailContainer .col8column,
+.propertyDetailContainer .col4column{
+    width: 100%;
+}
+.propertyDetailContainer .col8column{
+  padding: 0;
+}
+}
+
+@media (max-width:800px) {
+  .closeToAppartment .col-lg-2{
+    width: 50%;
+  }
+
+
+  .closeToAppartment .col-lg-8{
+    width: 100%;
+  }
+
+  .propertyDetailSectionTitle h6 br{
+    display: none;
+    }
+}
+.bookingRequestAside button.appBtn .btnIcon{
+  transition: all 0.5s ease;
+}
+.bookingRequestAside button.appBtn .btnIcon svg{
+  margin: 0;
+}
+.bookingRequestAside button.appBtn .btnIcon::after{
+  display: none;
+}
+.similarProperties{
+  margin:70px 0 140px;
+}
+.similarProperties .similar_list{
+  margin: 40px 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, 31%);
+  gap: 40px;
+}
+.closeToAppartment {
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr;
+  gap: 20px;
+}
+
+@media (max-width:1500px){
+  .propertyDetailPage .container {max-width: 100%; padding: 0 40px;}
+  .similarProperties .similar_list .propertyCard .propertyImageSlider .imageslist .propertyImages {
+    min-height: 300px;
+}
+  
+}
+@media (max-width:1199px){
+  .ammenitiesHighlights .ammenities {padding-right: 15px; margin-right: 15px;}
+  .similarProperties .similar_list .propertyCard .propertyImageSlider .imageslist .propertyImages {
+    min-height: 275px;
+}
+}
+@media (max-width:1023px){
+  .propertyDetailPage .container {padding: 0 20px;}
+  .similarProperties .similar_list {gap: 20px;}
+  .similarProperties {margin: 70px 0;}
+}
+@media (max-width:991px){
+  .propertyDetailGallery {gap: 10px;}
+  .similarProperties .similar_list .propertyCard .propertyImageSlider .imageslist .propertyImages {
+    min-height: 200px;
+}
+
+.similarProperties .similar_list  .propertyCard .propertyImageSlider .propertyCardBody {
+  gap: 0px;
+  padding: 15px;
+}
+}
+@media (max-width:767px){
+  .propertyDetailGallery {grid-template-columns: repeat(2, 1fr);}
+  .similarProperties .similar_list {grid-template-columns: repeat(1, 1fr);}
+  .similarProperties .similar_list .propertyCard .propertyImageSlider .imageslist .propertyImages {
+    min-height: 300px;
+}
+}

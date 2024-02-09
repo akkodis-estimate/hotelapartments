@@ -1,0 +1,1846 @@
+
+
+.homeColumnDes{
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: 99%;
+  background-size: cover;
+  border-radius: 0px 40px 280px 0px;
+  background-image: url("Assets/Images/HomeIcons/HomeBanner.png");
+}
+
+.homeMainContent {
+  padding: 96px;
+  background: #fff;
+}
+
+.homeMainContent h1 {
+  font-family: "Carmen Sans", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 130%;
+  color: #1f1f1f;
+}
+
+.homeMainContent p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #696969;
+}
+
+span.scrollMore {
+  font-weight: 400;
+  font-size: 21.9021px;
+  line-height: 100%;
+  color: #1f1f1f;
+}
+
+span.scrollMore svg {
+  margin-right: 16px;
+}
+
+.bookingSection {
+  padding: 132px 140px;
+  background: #f2f2f2;
+  border-radius: 50px;
+}
+
+.bookingContainer .container{
+  max-width: 100%;
+    padding: 0 130px;
+}
+
+.sectionTitleDesc h2 {
+  font-family: "Carmen Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 51.008px;
+  line-height: 61px;
+  color: #18181b;
+  margin-bottom: 16px;
+}
+
+.sectionTitleDesc p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1f1f1f;
+}
+
+.bookingImageBox .boxImage {
+  margin-bottom: 45px;
+}
+
+.bookingImageBox .boxtitle {
+  margin-bottom: 18px;
+}
+
+.bookingImageBox .boxtitle h5 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #18181b;
+}
+
+.bookingImageBox .boxPara{
+  display: flex;
+  justify-content: center;
+}
+
+.bookingImageBox .boxPara p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f1f1f;
+  max-width: 330px;
+  margin: 0 auto;
+}
+
+.bookingColumns {
+  gap: 128px 0px;
+}
+
+.areaImageBox img {
+  width: 100%;
+  height: 386.95px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.areaImageBox.centerImage img {
+  height: 874px;
+  object-fit: cover;
+  border-radius: 10px 150px 10px 10px;
+}
+
+.areaImageBox {
+  margin-bottom: 46px;
+}
+
+.areaImageBox h4 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  color: #000000;
+  margin-top: 16px;
+}
+
+/* Animate Btn */
+
+.appMainBtn .appBtn {
+  border: 1.3px solid #1f1f1f;
+  border-radius: 9999px;
+  padding: 14px 28px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1f1f1f;
+  background: transparent;
+  display: inline-block;
+  align-items: center;  
+}
+button.appBtn {
+  border: 1.3px solid #1f1f1f;
+  border-radius: 9999px;
+  padding: 14px 28px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1f1f1f;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+.appMainBtn .appBtn span::after, button.appBtn span::after{
+  content: '🡢';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   font-size: 20px;
+   transition: all 0.5s ease;
+}
+
+.appMainBtn .appBtn span.btnIcon, button.appBtn span.btnIcon{
+  font-size: 24px;
+  margin-left: 15px;
+  display: none;
+}
+
+.appMainBtn .appBtn:hover span.btnIcon, button.appBtn:hover span.btnIcon{
+  display: block;
+}
+
+
+.appMainBtn .appBtn span, button.appBtn span{
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.3s;
+}
+
+.appMainBtn .appBtn:hover span, button.appBtn:hover span{
+padding-right: 15px;
+}
+
+.appMainBtn .appBtn:hover span:after, button.appBtn:hover span:after {
+opacity: 1;
+
+}
+
+.appMainBtn .appBtn:hover{
+   padding-right: 43px;
+}
+
+.read_more .appMainBtn{
+  text-align: center;
+}
+
+/* Carousel */ 
+
+.homeCarousel img.w-100 {
+  max-height: 920px;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+/* .homeCarousel {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 920px;
+  border-radius: 40px;
+} */
+
+.homeCarousel .carousel,
+.homeCarousel .carousel .carousel-inner .carousel-item {
+  height: 100%;
+}
+
+.homeCarousel .carousel .carousel-inner {
+  position: absolute;
+  max-width: 648px;
+  width: 100%;
+  left: -1px;
+  text-align: left;
+  bottom: -1px;
+  background: #ffffff;
+  border-radius: 0px 40px 0px 0px;
+  padding: 55px 64px 52px 36px;
+}
+
+.homeCarousel .carousel .carousel-inner .carousel-item .carousel-caption {
+  text-align: left;
+  height: 100%;
+  width: 100%;
+  position: unset;
+  display: flex !important;
+  flex-direction: column;
+  padding: 0 0 25px;
+}
+
+.homeCarousel .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+  font-family: "Carmen Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 51.008px;
+  line-height: 61px;
+  color: #18181b;
+}
+
+.homeCarousel .carousel .carousel-inner .carousel-item .carousel-caption p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1f1f1f;
+  margin-top: 11px;
+}
+
+/* .carouselSlide {
+  position: absolute;
+  bottom: 79px;
+  width: 140px;
+  right: 30px;
+} */
+
+.carouselSlide button .carousel-control-prev-icon,
+.carouselSlide button .carousel-control-next-icon {
+  background-image: unset;
+  font-size: 22px;
+}
+
+.carouselSlide .carousel-indicators button {
+  display: none;
+}
+
+.carouselSlide .carousel-indicators button.active {
+  display: block;
+}
+
+.carouselSlide .carousel-indicators {
+  position: unset;
+}
+
+.carouselSlide .carousel-indicators [data-bs-target] {
+  text-indent: unset !important;
+  height: 0px;
+}
+
+/* Logo Slider */
+
+.slideHomeMain {
+  border-right: 1px solid #c4c5bf;
+  padding: 0 30px;
+}
+
+.logoSliderSection {
+  padding: 90px 50px 100px;
+  background: #f2f2f2;
+  border-radius: 50px;
+}
+.logoSliderSection  .sectionTitleDesc{
+  margin: 0 0 90px;
+  text-align: center;
+}
+
+.slider .slideTrack .slide {
+  border-right: 1px solid #c4c5bf;
+  padding: 0 30px;
+  /* animation: scroll 25s linear infinite; */
+}
+
+.slider .slideTrack .slide:last-child img {
+  border-right: 0px;
+}
+.slideTrack {
+  width: 100%;
+  display: flex;
+  gap: 0;
+  overflow: hidden;
+}
+
+.LogoSliderContainer .container{
+  max-width: 100%;
+  padding: 0 90px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translatex(-1000%);
+  }
+}
+
+/* Featured Section */
+
+.propertyCardSlideSm {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 40px;
+  margin-bottom: 140px;
+}
+
+.propertyCardsLayout {
+  height: 100%;
+}
+
+.propertyCardsLayout .item {
+  height: 550px;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+
+
+.propertyCardSlideUp {
+  max-width: 100%;
+}
+
+
+
+.featuredAppartNav .featuredAppartNavLink {
+  padding: 20px 10px;
+  margin-right: 50px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #1f1f1f;
+  border-bottom: 1px solid #1f1f1f00;
+  cursor: pointer;
+}
+
+.featuredAppartNav .featuredAppartNavLink.active {
+  color: #767760;
+  border-bottom: 1px solid #767760;
+}
+
+.featuredAppartNav {
+  padding-left: 30px;
+}
+
+.propertyCardsLayout .item a:hover ~ .item__overlay, 
+.propertyCardsLayout .item .tagSlider:hover ~ .item__overlay {
+  transform: translate3d(0, 0, 0);
+  justify-content: end;
+  top: 0px;
+  bottom: 0px;
+}
+
+.propertyCardsLayout .item a,
+.propertyCardsLayout .item .tagSlider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.svDefault .item a,
+.svDefault .item .tagSlider
+ {
+  cursor: default;
+}
+
+.propertyCardsLayout img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.item__overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+  position: absolute;
+  width: 100%;
+  bottom: 60px;
+  background: linear-gradient(
+    360deg,
+    #000000 -4.22%,
+    rgba(0, 0, 0, 0.431105) 45.85%,
+    rgba(0, 0, 0, 0) 97.19%
+  );
+  transform: translate3d(0, calc(100% - 3.5rem), 0);
+  transition: all 0.5s ease;
+}
+
+.titleAndPrice h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.titleAndPrice span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+.item__overlay .titleAndPrice {
+  padding: 35px 32px;
+  background: linear-gradient(
+    360deg,
+    #000000 -4.22%,
+    rgba(0, 0, 0, 0.431105) 45.85%,
+    rgba(0, 0, 0, 0) 97.19%
+  );
+}
+
+.item__overlay.spoffer-des {
+  bottom: 80px;
+}
+/* .spoffer-des .titleAndPrice{
+  padding: 45px 32px;
+} */
+
+/* .spoffer-des {
+  bottom: 100px;
+} */
+
+.offervalid-date span{
+  font-size: 14px;
+}
+
+.propertyCardsLayout .item a:hover ~ .item__overlay .titleAndPrice, 
+.propertyCardsLayout .item .tagSlider:hover ~ .item__overlay .titleAndPrice 
+{
+  background: unset;
+  padding-bottom: 0px;
+}
+
+.propertyCardsLayout .item .item__overlay .item__body {
+  padding: 35px 32px;
+}
+
+.propertyCardsLayout .item a:hover ~ .item__overlay .item__body,
+.propertyCardsLayout .item .tagSlider:hover ~ .item__overlay .item__body
+ {
+  padding-top: 15px;
+}
+
+span.ammenitiesDisplay {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+span.ammenitiesDisplay svg {
+  margin-right: 5px;
+}
+
+.container.areaSection.sectionSpacing {
+  max-width: 1407px;
+}
+.areaSection .container, .homeCarousel .container {
+  padding: 0 20px;
+  max-width: 1420px;
+}
+.areaSection .sectionTitleDesc, .homeCarousel .container .sectionTitleDesc{
+  margin: 0 0 70px;
+}
+
+.saHome .saHomeColumn,
+.saHome .saHomeContainer {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.homeSliderAction .carouselSlide {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.homeSliderAction .carouselSlide .carousel-control-prev,
+.homeSliderAction .carouselSlide .carousel-control-next {
+  position: unset !important;
+}
+
+/* Search bar */
+
+.homeSearch {
+  width: 100%;
+  position: unset;
+  bottom: 170px;
+  left: 0;
+  margin-top: -205px;
+  margin-bottom: 116px;
+}
+
+.homeSearchLayout {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px 32px 28px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #ffffff;
+  backdrop-filter: blur(17px);
+  border-radius: 70px;
+}
+
+.homeSearchLayout .searchTitle h3 {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 46px;
+  color: #000000;
+}
+
+.searchInput input {
+  border: 0 !important;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #1f1f1f;
+}
+
+.searchInput input:focus {
+  border: 0 !important;
+}
+
+.searchInput .form-floating label {
+  padding-left: 49px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #696969;
+}
+
+.searchBarItem {
+  background: #ffffff;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  padding: 15px 30px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  height: 98px;
+}
+
+.searchInput .mantine-kcpopt[data-with-icon] {
+  padding-left: 2.75rem;
+}
+
+.searchInput .mantine-Select-input::placeholder {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #696969;
+}
+
+
+
+.searchInput .form-floating input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #696969;
+  opacity: 0;
+}
+
+.searchInput .form-floating input:focus::placeholder {
+  opacity: 1;
+}
+
+.searchInput .form-floating > .form-control-plaintext:focus,
+.searchInput .form-floating > .form-control-plaintext:not(:placeholder-shown),
+.searchInput .form-floating > .form-control:focus,
+.form-floating > .form-control:not(:placeholder-shown) {
+  padding-top: 1.625rem !important;
+  padding-bottom: 0.625rem;
+}
+
+.searchInput .form-floating > .form-control-plaintext ~ label,
+.searchInput .form-floating > .form-control:focus ~ label,
+.searchInput .form-floating > .form-control:not(:placeholder-shown) ~ label,
+.searchInput .form-floating > .form-select ~ label {
+  opacity: 1;
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1f1f1f !important;
+}
+
+.searchBarAction button {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+.onSearchClick {
+  height: auto;
+  width: 100%;
+  padding: 30px 45px;
+}
+
+.popularSearchResultTitle p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f1f1f;
+}
+
+.searchResult .col-lg-2,
+.searchResult .col-lg-3 {
+  padding: 0;
+}
+
+.searchResult ul.searchList li {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 16px;
+  color: #1f1f1f;
+  cursor: pointer;
+}
+
+.searchIcon button svg {
+  margin: 0;
+
+  width: 35px;
+}
+
+.searchIcon.active button {
+  padding: 0px 28px;
+  background: #000000;
+  border-radius: 9999px;
+}
+
+.searchIcon.active button svg {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%)
+    hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.searchInput .searchBarAction {
+  position: absolute;
+  top: -6px;
+  right: 0;
+}
+
+.searchInput .mantine-Select-rightSection {
+  opacity: 0;
+}
+
+.searchInput .mantine-Select-input {
+  padding-bottom: 6px;
+}
+
+.searchBarAction .searchIcon button svg {
+  width: unset !important;
+}
+
+.homeSliderAction .carouselSlide .carousel-indicators {
+  margin-bottom: 20px !important;
+}
+
+.propertyCardsLayout .item__overlay .titleAndPrice h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 99%;
+}
+
+/* .mantine-Select-dropdown.mantine-ufuzch {
+  display: none;
+} */
+
+.areaImageBox.tallest img {
+  height: 877px;
+  border-radius: 10px 150px 10px 10px;
+}
+
+/* Grid */
+.areaSectionBlurbs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 57px;
+  margin: 64px 0;
+}
+
+.areaSectionBlurbs img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.areaBlurbs:nth-child(2) {
+  grid-row: 1/3;
+  grid-column: 2;
+}
+
+span.areaImg {
+  display: block;
+  height: 400px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.areaMainImgCust span.areaImg.areaMainimg {
+  height: 100%;
+}
+
+span.areaBoxTitle {
+  display: block;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    margin-top: 16px;
+    color: #212529;
+}
+
+.areaMainimg img {
+  border-radius: 10px 150px 10px 10px;
+}
+
+.areaMainImgCust {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.position-relative.homeCarousel{
+  padding: 0 50px 220px;
+}
+
+.homeBookingCarousel{
+  display: none;
+}
+
+/* New CSS For Home Searchitem */
+
+.ha--HomeSearch input.mantine-Input-input {
+  height: 98px;
+  background: #ffffff;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  padding: 15px 70px 24px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  color: #696969;
+  line-height: 140%;
+  border: 0px;
+}
+
+.ha--HomeSearch .mantine-Input-icon {
+  left: 17px;
+  bottom: 2px;
+  font-size: 26px;
+}
+
+.ha--HomeSearch .mantine-Input-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.ha--searchBarAction {
+  padding: 14px 28px;
+  right: 15px;
+}
+
+.ha--HomeSearch .mantine-Input-rightSection {
+  right: 30px;
+}
+
+.ha--homeSearchDD {
+  padding: 20px 20px 20px 30px;
+  background: #fff;
+  box-shadow: 0px 8px 10px -6px rgba(0, 0, 0, 0.10), 0px 20px 25px -5px rgba(0, 0, 0, 0.10);
+  position: absolute;
+  width: 90%;
+  z-index: 999;
+  border-radius: 20px 20px 20px 20px;
+  left: 5%;
+  top: 95%;
+}
+
+.ha--HomeMainSearchDes {
+  position: relative;
+}
+
+/* .ha--HomeSearch input.mantine-Input-input:focus,
+.ha--HomeSearch input.mantine-Input-input:focus-visible{
+  border-radius: 50px 50px 0px 0px;
+} */
+
+
+span.ha--listTitle {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #1F1F1F;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.ha--homeSearchDDList ul {
+  margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 15px;
+}
+
+.ha--homeSearchDDList ul li{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  color: #1F1F1F;
+  padding: 3px;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+span.ha--SeemoreText {
+  font-weight: 400;
+}
+
+.ha--homeSearchDDList ul li:hover {
+  background: #f2f2f2;
+  font-weight: 300;
+}
+
+.scrollable-container {
+  max-height: 300px; /* Set your desired max height */
+  overflow-y: auto; /* Enable vertical scrolling when content overflows */
+}
+
+span.ha--horizontalLine {
+  width: 100%;
+  height: 1px;
+  background: #c4c5bf;
+  margin: 0px 6px;
+}
+
+
+
+.holder {
+  position: relative;
+}
+
+.dropdownCustForHomeSearchBar {
+  position: absolute;
+  display: none;
+}
+
+#myInput:focus + #myDropdown {
+  display: block;
+}
+
+span.searchedTextCust {
+  font-weight: 600;
+}
+
+/* End */
+
+.haIconColorHomeSearch svg {
+  filter: brightness(0) saturate(100%) invert(43%) sepia(11%) saturate(9%) hue-rotate(5deg) brightness(90%) contrast(87%);
+}
+/* Responsive */
+
+.tagSlider{
+  cursor: pointer !important;
+}
+
+.strikePriceDes {position: relative;padding-top: 8px;}
+ 
+.strikePriceDes span.strikeOldPriceDes {
+    position: absolute;
+    left: 69px;
+    top: -7px;
+    font-size: 13px;
+    text-decoration: line-through;
+    white-space: nowrap;
+}
+
+.svultraDs{
+  bottom: 45px;
+}
+
+@media (max-width: 1601px) {
+  .homeMainContent h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1536px) {
+  /* .homeMainContent h1 br {
+    display: none;
+  } */
+
+  .homeMainContent {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .bookingSection {
+    padding: 132px 85px;
+  }
+}
+@media (max-width: 1450px) {
+  .homeSearch{
+    margin-top: -155px;
+  }
+}
+
+@media (max-width:1400px) {
+  .homeMainContent {
+padding-top: 0px;
+  }
+  .bookingSection {
+    padding: 51px;
+}
+
+.bookingColumns {
+  gap: 48px 0px;
+}
+
+.homeCarousel .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+  font-size: 38px;
+  line-height: 46px;
+}
+
+.areaImageBox h4 {
+  font-size: 20.564px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.048px;
+}
+
+.bookingSection > .col-lg-12.mb-5 {
+  margin-bottom: 10px !important;
+}
+}
+
+@media (max-width: 1366px) {
+
+  .propertyCardsLayout .item{
+    height: 350px;
+  }
+  
+  .homeMainContent h1 {
+    font-size: 35px;
+    margin-bottom: 20px !important;
+}
+
+  .homeSearchLayout .searchTitle h3{
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .homeSearchLayout {
+    padding: 20px 32px;
+  }
+
+  .homeSearchLayout .searchTitle {
+    margin-bottom: 15px !important;
+}
+
+
+  .homeMainContent p {
+    font-size: 22px;
+    margin-bottom: 20px !important;
+  }
+
+  .searchBarItem{
+    height: 70px;
+  }
+
+  .bookingImageBox .boxPara p{
+    width: 100%;
+  }
+  .featuredAppartNav .featuredAppartNavLink {
+    margin-right: 0;
+    font-size: 20px;
+  }
+  .featuredAppartNav {
+    padding-bottom: 5px;
+    gap: 20px;
+    padding-left: 0;
+}
+}
+
+@media (max-width:1200px) {
+
+  .item__overlay.spoffer-des {
+    bottom: 70px;
+}
+
+  .homeMainContent h1{
+    font-size: 28px;
+  }
+
+  .homeMainContent p {
+    font-size: 18px;
+    line-height: 28px;
+}
+.areaImageBox.tallest img {
+  height: 618px;
+}
+
+.areaImageBox img {
+  height: 262px;
+}
+
+.container.areaSection.sectionSpacing .col-lg-12, .container.areaSection.sectionSpacing .col-lg-12 .col.appartmentBlurbColumnSA {
+  padding: 0px;
+}
+
+.appartmentBlurb {
+  gap: 45px;
+}
+
+.logoSliderSection {
+  padding: 60px;
+}
+
+.featuredAppartNav {
+  padding-bottom: 5px;
+  gap: 20px;
+} 
+
+
+
+
+}
+
+@media (max-width: 1024px) {
+  .homeMainContent h1 br {
+    display: none;
+    
+}
+
+.homeMainContent h1  {
+  margin-bottom: 8px !important;
+  
+}
+
+
+  .homeMainContent {
+    padding-left: 35px;
+    border-radius: 0px 40px 280px 0px;
+    padding-bottom: 30px;
+  }
+
+  .bookingSection {
+    padding: 50px;
+  }
+
+  .sectionSpacing {
+    padding-bottom: 75px !important;
+  }
+
+
+  .bookingColumns .col-lg-4 {
+    width: 50%;
+}
+
+  .featuredAppartNav .featuredAppartNavLink {
+    margin: 0 !important;
+    font-size: 14px !important;
+  }
+
+  .propertyCardSlideUp {
+    flex: 0 0 50%;
+    max-width: 100%;
+  }
+
+  .propertyCardSlideSm {
+    gap: 10px;
+}
+
+  .homeBannerDes .col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+
+
+  .homeBannerDes {
+    display: none;
+  }
+
+  .homeBannerSm .col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .homeSearch {
+    margin-top: -110px;
+  }
+
+  .appartmentBlurbColumnSA {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.appartmentBlurbColumnSA .twoBlockBlurb {
+    flex-direction: row !important;
+    gap: 20px
+}
+
+.appartmentBlurbColumnSA .twoBlockBlurb .col-lg-12 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.appartmentBlurbColumnSA .twoBlockBlurb .areaImageBox img {
+  height: 275px;
+}
+
+.areaImageBox.tallest img {
+  height: 425px;
+}
+
+.appartmentBlurb {
+  gap: 0px;
+}
+
+.appartmentBlurbColumnSA .twoBlockBlurb .col-lg-12.cursor-pointer {flex: 0 0 auto;max-width: 48.7%;}
+}
+
+@media (max-width: 991px) {
+
+  span.areaBoxTitle {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.areaSectionBlurbs {
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.homeSearch{
+  margin-bottom: 58px;
+  bottom: 90px;
+  left: -25px;
+}
+
+.saHomeContainer{
+  padding-bottom: 0px !important;
+}
+  .bookingColumns .col-lg-4,
+  .appartmentBlurb .col-lg-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+
+  .bookingSection {
+    padding: 35px 25px;
+  }
+
+  .homeBannerImg img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.sectionTitleDesc h2,
+.homeCarousel .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+  font-size: 32px;
+  line-height: 140%;
+}
+
+.areaBlurbs:nth-child(2) {
+  grid-row: auto;
+  grid-column: 1/3;
+}
+.areaBlurbs.cursor-pointer.thirdAreablurb {
+  grid-row: 1;
+  grid-column: 2;
+}
+}
+
+@media (max-width:800px) {
+  .appartmentBlurbColumnSA .twoBlockBlurb{
+    gap:15px;
+  }
+
+  /* .spoffer-des {
+    bottom: 100px !important;
+  } */
+}
+
+/* @media (max-height:801px) {
+  .homeSearch {
+    bottom: 0;
+  
+}
+} */
+
+@media (max-width: 768px) {
+
+
+  .homeCarousel .container .sectionTitleDesc{
+    margin: 0 0 32px;
+  }
+
+  .homeMainContent h1 br {
+    display: block;
+}
+
+  span.areaImg{
+    height: 250px;
+  }
+
+  span.areaBoxTitle {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.areaMainimg img {
+  border-radius: 10px 150px 10px 10px;
+  width: 100%; 
+   
+}
+
+span.areaImg.areaMainimg  {
+  max-height: 300px;
+}
+
+span.areaImg img {
+  max-height: 250px;
+  width: 100%;
+}
+
+.propertyCardSlideUp {
+  flex: 0 0 70%;
+  max-width: 100%;
+}
+
+.propertyCardSlideSm {
+  display: flex;
+  gap: 15px;
+  overflow: auto;
+}
+  .homeMainContent h1 {
+    font-size: 45px;
+  }
+
+
+  .homeSearchLayout .searchTitle h3 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .searchBarItem {
+    position: unset;
+    width: 100%;
+    height: 60px
+  }
+
+  .sectionTitleDesc h2,
+  .homeCarousel .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .areaImageBox img {
+    height: 285px;
+  }
+
+  .propertyCardsLayout img {
+    height: 100%;
+  }
+
+  .propertyCardsLayout .item {
+    height: 300px;
+}
+
+  /* .propertyCardSlideUp {
+    margin-bottom: 25px !important;
+  } */
+
+  .homeCarousel .carousel .carousel-inner {
+    width: 100%;
+    left: 0px;
+  }
+
+  /* .homeCarousel {
+    height: 650px;
+  } */
+
+  .carouselSlide .carousel-indicators [data-bs-target] {
+    margin-top: 3px;
+  }
+
+  .bottomFooter .col {
+    flex: 0 0 100%;
+    justify-content: center !important;
+    display: flex;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .featuredAppartNav {
+    padding-left: 15px;
+    overflow: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 5px;
+  }
+
+  .featuredAppartNav .featuredAppartNavLink {
+    flex: 0 0 auto;
+  }
+  /* .propertyCardSlideUp {
+    flex: 0 0 80%;
+    max-width: 80%;
+  } */
+
+  .areaImageBox.tallest img {
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+}
+
+@media (min-width: 1025px) {
+  .homeBannerSm {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+
+  /* .spoffer-des {
+    bottom: 80px !important;
+  } */
+  
+  .areaMainimg img {
+    border-radius: 10px;
+    width: 100%; 
+     max-height: 250px;
+  }
+
+  span.areaImg {
+    
+    height: 200px;
+   
+}
+
+
+
+span.areaImg img {
+  max-height: 200px;
+}
+
+.areaSectionBlurbs {
+  gap: 20px;
+}
+  .homeSearch {
+    margin-top: -72px;
+    padding: 0 11px;
+    margin-bottom: 60px;
+}
+
+
+
+  .homeSearchLayout {
+    padding: 14px 25px;
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .areaImageBox img {
+    height: 325px;
+  }
+
+  /* New Mobile UI Css */
+
+  .homeCarousel .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 16px;
+  }
+  .p-smSA-0,
+  .p-smSA-0 .container {
+    padding: 0px;
+  }
+
+  .homeBannerImg img {
+    height: 234px;
+    object-fit: cover;
+  }
+
+  .homeMainContent h1 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 8px !important;
+  }
+
+  .homeMainContent p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 3px !important;
+  }
+
+  .homeSearchLayout .searchTitle h3 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+
+  .homeMainContent {
+    padding: 24px 21px;
+  }
+
+  .homeSearchLayout .searchTitle.mb-4 {
+    margin-bottom: 8px !important;
+  }
+
+  .searchBarItem {
+    padding: 10px;
+    height: 48px;
+  }
+
+  .searchInput .mantine-kcpopt[data-with-icon] {
+    padding-left: 12px;
+}
+
+  .searchInput .mantine-Select-root .mantine-Select-icon {
+    display: none;
+  }
+
+  .searchInput .mantine-Select-root input {
+    padding: 8px 5px 11px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .searchBarAction .searchIcon button svg {
+    max-width: 25px;
+    margin-right: 7px;
+    padding-bottom: 4px;
+}
+
+  .searchInput .mantine-Select-root input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+  .appartmentBlurb .col-lg-4 {
+    flex: 0 0 50%;
+  }
+
+  .appartmentBlurb .col-lg-4 .areaImageBox img {
+    height: 165px;
+  }
+
+  .areaImageBox h4 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .sectionTitleDesc h2,
+  .homeCarousel .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+    font-size: 24px !important;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+  }
+
+  .areaSection .animateBtn {
+    width: 100%;
+  }
+
+  .areaSection a.appBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carouselSlide {
+    bottom: 45px;
+  }
+
+  /* .homeCarousel {
+    height: 800px;
+  } */
+
+  .logoSliderSection {
+    background: transparent;
+    padding: 0;
+  }
+
+  .slider .slideTrack .slide img {
+    width: 100px;
+    height: 70px;
+    padding-right: 30px;
+  }
+
+  .logoSliderSection .col-lg-12.pt-5 {
+    padding-top: 0 !important;
+  }
+
+  .bookingColumns {
+    flex-wrap: nowrap !important;
+    overflow: auto;
+  }
+
+  .bookingContainer .bookingSection {
+    background: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .bookingContainer .bookingSection .bookingColumns .col-lg-4 .bookingImageBox {
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+  }
+
+  .bookingContainer .bookingSection .bookingColumns .col-lg-4 {
+    flex: 0 0 76%;
+    max-width: 76%;
+  }
+
+  .bookingImageBox .boxtitle h5 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+  }
+
+  .bookingContainer .bookingSection .col-lg-12.pt-5 {
+    padding-top: 0px !important;
+  }
+
+
+
+  .bookingImageBox .boxPara p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    
+  }
+
+  .bookingColumns::-webkit-scrollbar,
+  .propertyCardSlideSm::-webkit-scrollbar {
+    width: 1em;
+    height: 0.5em;
+  }
+
+  .bookingColumns::-webkit-scrollbar-track,
+  .propertyCardSlideSm::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .bookingColumns::-webkit-scrollbar-thumb {
+    background-color: #76776038;
+    outline: 0px solid slategrey;
+  }
+
+  .areaSection .col-lg-12.d-flex.justify-content-center.mt-5 {
+    margin-top: 0px !important;
+  }
+
+  .areaSection .col-lg-12.pt-5 {
+    padding-top: 0px !important;
+  }
+
+  .homeSliderAction .carouselSlide .carousel-indicators {
+    margin-bottom:17px !important;
+  }
+  .homeCarousel .carousel .carousel-inner .appMainBtn button.appBtn span::after{
+    display: none;
+  }
+  .homeCarousel .appMainBtn button.appBtn:hover {
+    padding-right: 15px;
+}
+.homeSliderAction .animateBtn.appMainBtn{
+margin-top: 0 !important;
+}
+  .areaImageBox.tallest img {
+    height: 225px;
+    border-radius: 10px;
+}
+
+.appartmentBlurbColumnSA .twoBlockBlurb .areaImageBox img {
+  height: 225px;
+}
+
+.item__overlay{
+  bottom: 50px;
+}
+
+.container.areaSection.sectionSpacing .col-lg-12, .container.areaSection.sectionSpacing .col-lg-12 {
+  padding: 20px;
+}
+
+.row.flex-column.twoBlockBlurb .col-lg-12,
+.col.appartmentBlurbColumnSA, .row.h-100.oneMailCityBlurb .col-lg-12.cursor-pointer {
+  padding: 0 ;
+}
+
+.appartmentBlurbColumnSA .twoBlockBlurb {
+  gap: 12px;
+}
+
+.logoSliderSection{
+  padding: 0px 0px 25px !important;
+ 
+}
+
+.saHomeContainer {
+  padding-bottom: 0px !important;
+}
+
+
+.homeBookingCarousel .bookingImageBox {
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.homeBookingXL {
+  display: none;
+}
+
+.homeBookingCarousel{
+  display: block;
+  margin-top: 8px;
+
+}
+
+.homeCarousel .carousel .carousel-inner .carousel-item .carousel-caption{
+  padding: 0 0 12px;
+}
+
+.homeBookingCarousel .mantine-Carousel-controls button.mantine-Carousel-control svg {
+  margin-right: 0;
+}
+
+.homeSearch .homeSearchLayout .searchBarItem .searchInput .mantine-Select-root .mantine-Select-dropdown .mantine-Select-itemsWrapper .mantine-Group-root,
+.mantine-Select-dropdown .mantine-Select-item .mantine-Group-root.mantine-mc8o1v {
+  white-space: break-spaces;
+  gap: 10px;
+}
+
+.homeSearch .homeSearchLayout .searchBarItem .searchInput .mantine-Select-root .mantine-Select-dropdown .mantine-Select-itemsWrapper .mantine-Group-root svg,
+.mantine-Select-dropdown .mantine-Select-item .mantine-Group-root.mantine-mc8o1v svg {
+  min-width: 20px;
+  max-width: 20px;
+}
+.homeBookingCarousel .bookingImageBox .boxtitle{
+  margin: 0 0 8px;
+}
+.homeBookingCarousel .bookingImageBox .boxImage{
+  margin: 0 0 15px;
+}
+.homeBookingCarousel .bookingImageBox .boxImage svg{
+  max-width: 22px;
+  height: auto;
+}
+}
+
+@media (max-width: 500px) {
+  .bookingSection {
+    padding: 25px;
+  }
+
+  .bookingColumns {
+    gap: 50px 0px;
+  }
+
+  .logoSliderSection {
+    padding: 50px;
+  }
+
+  .areaSection .col-lg-12.pt-5 {
+    padding-top: 0px !important;
+  }
+
+  .sectionTitleDesc p {
+    font-size: 16px;
+  }
+
+  /* .carouselSlide {
+  position: absolute;
+  bottom: 0px;
+  left: 48px;
+} */
+
+  .homeCarousel .carousel .carousel-inner {
+    padding: 25px 35px 75px;
+  }
+
+  .appartmentBlurbColumnSA .twoBlockBlurb .col-lg-12.cursor-pointer {
+    flex: 0 0 auto;
+    max-width: 48%;
+}
+
+}
+@media (max-width:480px){
+  .bookingContainer .bookingSection{
+    padding: 0;
+  }
+  .bookingContainer .bookingSection .col-lg-12{
+    padding: 0;
+  }
+  .bookingContainer .bookingSection .bookingColumns .col-lg-4 {
+    flex: 0 0 267px;
+    max-width: 267px;
+}
+.ha-homeSearch .homeSearchLayout h3 {
+  font-size: 14px;
+  margin: 0 0 8px;
+  color: #000;
+  font-weight: 400;
+}
+.featuredAppartNav .featuredAppartNavLink {
+  font-size: 14px !important;
+}
+}
+
+@media (max-width: 400px) {
+
+  /* .spoffer-des {
+    bottom: 100px !important;
+  } */
+
+  .propertyCardSlideUp {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .bookingContainer .bookingSection .bookingColumns .col-lg-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .homeSliderAction .animateBtn button.appBtn {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .homeSliderAction .carouselSlide .carousel-indicators {
+    /* display: none; */
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .homeSliderAction .carouselSlide {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    justify-content: flex-end;
+    padding-right: 0;
+  }
+  .homeSliderAction .carousel-indicators [data-bs-target]{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 340px) {
+
+  .homeCarousel .carousel .carousel-inner {
+    padding: 25px 20px 50px;
+  }
+
+  .homeSliderAction .animateBtn button.appBtn {
+    font-size: 12px;
+    padding: 10px 8px;
+  }
+}
+
+

@@ -1,0 +1,30 @@
+.AmmenitiesModal {
+    max-width: 1021px;
+}
+
+.AmmenitiesModal .modal-header {
+    padding: 25px 56px;
+    border-color: #C4C5BF;
+}
+
+.modal-open div#hide {
+    z-index: 0;
+}
+
+.AmmenitiesModal .modal-body {
+    max-height: 800px;
+    overflow: auto;
+    padding: 15px 56px;
+}
+
+.AmmenitiesModal .modal-body ul.ammenistiesList li {
+    padding: 24px 0;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.AmmenitiesModal .modal-content .modal-header h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #000000;
+}

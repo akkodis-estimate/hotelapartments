@@ -1,0 +1,781 @@
+/* Updated CSS */
+
+.inboxContainer.ha--inboxContaierUI {
+  display: flex;
+  gap: 24px;
+}
+
+.ha--InboxSidebar {
+  max-width: 375px;
+  width: 100%;
+}
+
+.ha--InboxChatArea {
+  max-width: 711px;
+  width: 100%;
+}
+
+.ha--InboxRD {
+  max-width: 391px;
+  width: 100%;
+}
+
+.resrvBlurbContent {
+  max-width: 221px;
+  width: 100%;
+}
+
+.inboxSearchArea input.form-control {
+  border-radius: 8px;
+  border: 0;
+  background: #f2f2f2;
+  height: 36px;
+  padding-left: 36px;
+}
+
+.row.inboxListSm
+  .mantine-ScrollArea-root
+  .mantine-dks5v8.mantine-ScrollArea-viewport
+  > div,
+.inboxSidebar
+  .mantine-ScrollArea-root
+  .mantine-dks5v8.mantine-ScrollArea-viewport
+  > div {
+  display: unset !important;
+}
+
+span.inboxSearchIcon {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+}
+
+.inboxSearchArea input.form-control::placeholder {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #c4c5bf;
+}
+
+.inboxSidebar {
+  padding: 24px;
+}
+
+.inboxSearchArea {
+  margin-bottom: 33px;
+}
+
+
+.inboxTitle h4 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+}
+
+span.unreadTitleMsg {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.inboxUnreadMsgs {
+  margin-bottom: 24px;
+}
+
+.inboxTitle {
+  margin-bottom: 33px;
+}
+
+
+.unreadMsgs ul.unreadMsgsList {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.unreadMsgs ul.unreadMsgsList li.unreadMsgsItem .mainUnreadMSgs {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.unreadMsgs
+  ul.unreadMsgsList
+  li.unreadMsgsItem
+  .mainUnreadMSgs
+  .unreadMsgUsersContent
+  span {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.unreadMsgs
+  ul.unreadMsgsList
+  li.unreadMsgsItem
+  .mainUnreadMSgs
+  .unreadMsgUsersContent
+  p {
+  overflow: hidden;
+  color: var(--Black, #1f1f1f);
+  text-overflow: ellipsis;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  width: 99%;
+  white-space: nowrap;
+}
+
+.unreadMsgs ul.unreadMsgsList li.unreadMsgsItem ::marker {
+  color: #843f58;
+}
+
+.unreadMsgsItem {
+  display: flex;
+  align-items: start;
+}
+
+.mainUnreadMSgs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mainUnreadMSgs .unreadIcon {
+  width: 6px;
+  height: 6px;
+  display: block;
+  background: #843f5b;
+  border-radius: 50px;
+}
+
+.unreadMsgUsersContent span {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.unreadMsgUsersContent p {
+  overflow: hidden;
+  color: var(--Black, #1f1f1f);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  min-width: 74%;
+}
+
+span.inboxMsgsTime {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+/* .inboxContainer .col-lg-3 {
+  width: 25%;
+} */
+
+.inboxContainer .col-lg-6 {
+  width: 48%;
+}
+
+.unreadMsgs .unreadMsgsList .unreadMsgsItem {
+  padding: 24px 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.unreadMsgs .unreadMsgsList .unreadMsgsItem:last-child {
+  border-bottom: 1px solid #c4c5bf;
+  margin-bottom: 24px;
+}
+
+.otherMsgsList .otherMsgsListItem {
+  display: flex;
+  align-items: self-start;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.otherMsgsList .otherMsgsListItem .otherMsgsListItemContent p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.otherMsgsList .otherMsgsListItem .otherMsgsListItemContent p.msgExceprt {
+  overflow: hidden;
+  color: var(--Light-Text, #696969);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  width: 99%;
+}
+
+.otherMsgsList .otherMsgsListItem:last-child {
+  border-bottom: 0px;
+}
+
+.inboxChatArea {
+  background: #fbfbfb;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.chatAreaHeader .chatAreaContent p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+
+.chatAreaHeader .chatAreaContent span {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #696969;
+}
+
+/* Reservation Detail Css */
+
+.reservationDetail .rsrvDtlHeader h2 {
+  margin-bottom: 32px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.rsrvImg {
+  height: 158px;
+  width: 158px;
+}
+
+.rsrvImg img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.resrvBlurbArea .resrvBlurbItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.resertvationProprtySummary {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 32px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+
+  width: 100%;
+}
+
+/* .rsrvImg img {
+  height: 158px;
+  width: 158px;
+  border-radius: 10px;
+  object-fit: cover;
+} */
+
+.resrvBlurbContent .rsrvTitle {
+  margin-bottom: 8px;
+}
+
+.resrvBlurbContent .rsrvTitle p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  width: 100%;
+}
+
+.resrvBlurbContent .rsrvDate {
+  margin-bottom: 16px;
+}
+
+.resrvBlurbContent .rsrvDate span {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.resrvBlurbContent .rsrvAmmenities {
+  margin-bottom: 16px;
+}
+
+.resrvBlurbContent .rsrvAmmenities .allAmmenities .ammenitiesItem svg {
+  max-width: 20px;
+}
+
+.resrvBlurbContent .rsrvAmmenities .allAmmenities .ammenitiesItem {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.resrvBlurbContent .rsrvPricing p {
+  color: var(--Light-Text, #696969);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.resrvBlurbContent .rsrvPricing p span.rsrvBoldPrice {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #1f1f1f;
+}
+
+.chatAreaHeader {
+  padding: 20px 51px 45px;
+}
+
+.recieverMsgs {
+  padding-left: 51px;
+}
+
+.inboxTime {
+  margin: 56px 0px 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  color: #696969;
+}
+
+.inboxTime p span {
+  font-weight: 400;
+}
+
+.inboxChatBlurb {
+  display: flex;
+  align-items: start;
+  gap: 16px;
+  width: 288px;
+}
+
+.inboxChatBlurb {
+  display: flex;
+  align-items: start;
+  gap: 16px;
+  width: 288px;
+}
+
+.recieverMsgs .inboxChatBlurb .chatUserInitial,
+.sendermsgs .inboxChatBlurb .chatUserInitial {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background: #9b51e0;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.sendermsgs .inboxChatBlurb .chatUserInitial {
+  background: #1f1f1f;
+}
+
+.inboxChatContent p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -2px;
+}
+
+.sendermsgs {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 56px;
+  padding-right: 51px;
+  margin-bottom: 56px;
+}
+
+.sendermsgs .inboxChatBlurb {
+  flex-direction: row-reverse;
+}
+
+.recieverMsgs {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  margin-bottom: 56px;
+}
+
+.inboxChatMsgInput {
+  border-radius: 80px;
+  border: 1px solid #c4c5bf;
+  padding: 15px 28px;
+  margin: 42px;
+}
+
+.inboxChatMsgInput .typeYourMsgInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.inboxChatMsgInput .typeYourMsgInput input {
+  width: 100%;
+  border: 0;
+  background: transparent;
+}
+
+.inboxChatMsgInput .typeYourMsgInput input:focus-visible {
+  outline: none;
+}
+
+.inboxChatMsgInput .typeYourMsgInput button.sendBtn {
+  background: transparent;
+  border: 0;
+}
+
+.inboxChatMsgInput .typeYourMsgInput button.sendBtn svg {
+  margin-right: 0px;
+}
+
+.inboxChatMsgInput .typeYourMsgInput input::placeholder {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #c4c5bf;
+}
+.chatDateCustom {
+  font-size: 12px;
+  text-align: right;
+  color: #696969;
+}
+
+.otherMsgsListItemContent {
+  width: 80%;
+}
+
+@media (max-width: 1600px) {
+  .ha--InboxSidebar {
+    max-width: 310px;
+    width: 100%;
+  }
+
+  .ha--InboxChatArea {
+    max-width: 720px;
+    width: 100%;
+  }
+
+  .ha--InboxRD {
+    max-width: 420px;
+    width: 100%;
+  }
+
+  .rsrvImg {
+    height: 125px;
+    width: 125px;
+  }
+
+  .chatAreaHeader {
+    padding: 20px 20px;
+  }
+
+  .sendermsgs {
+    padding-right: 10px;
+    margin-bottom: 25px;
+  }
+
+  .recieverMsgs {
+    padding-left: 10px;
+    margin-bottom: 25px;
+  }
+
+  .inboxTime {
+    margin: 30px 0;
+  }
+
+  .chatAreaHeader .chatAreaContent p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .chatAreaHeader .chatAreaContent span {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .recieverMsgs .inboxChatBlurb .chatUserInitial,
+  .sendermsgs .inboxChatBlurb .chatUserInitial {
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+  }
+
+  .inboxChatBlurb {
+    gap: 8px;
+  }
+
+  .rsrvImg {
+    height: 80px;
+    width: 100px;
+  }
+
+  .resrvBlurbContent .rsrvTitle p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .resrvBlurbContent .rsrvDate span {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .resrvBlurbContent .rsrvTitle {
+    margin-bottom: 0px;
+  }
+  .resrvBlurbContent .rsrvDate {
+    margin-bottom: 5px;
+  }
+
+  .resrvBlurbContent .rsrvAmmenities .allAmmenities .ammenitiesItem svg {
+    max-width: 15px;
+    max-height: 15px;
+  }
+
+  .resrvBlurbContent .rsrvAmmenities .allAmmenities .ammenitiesItem {
+    font-size: 12px;
+  }
+
+  .resrvBlurbContent .rsrvAmmenities {
+    margin-bottom: 5px;
+  }
+
+  .resrvBlurbContent .rsrvPricing p {
+    font-size: 12px;
+  }
+
+  .resrvBlurbContent .rsrvPricing p span.rsrvBoldPrice {
+    font-size: 14px;
+  }
+
+  .resrvBlurbArea .resrvBlurbItem {
+    gap: 12px;
+  }
+
+  .resertvationProprtySummary {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 15px;
+  }
+
+  .reservationDetail .rsrvDtlHeader h2 {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 15px;
+  }
+
+  .inboxChatMsgInput {
+    margin: 25px;
+    padding: 10px 20px;
+  }
+
+  .mainInboxChat .mantine-ScrollArea-root,
+  .inboxSidebar .mantine-ScrollArea-root {
+    height: 20rem;
+  }
+}
+
+@media (max-width: 1376px) {
+  .inboxSidebar {
+    padding: 0px;
+  }
+
+  .ha--InboxSidebar {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .ha--InboxChatArea {
+    max-width: 450px;
+    width: 100%;
+  }
+
+  .ha--InboxRD {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .rsrvImg {
+    height: 125px;
+    width: 125px;
+  }
+
+  .resrvBlurbContent {
+    max-width: 160px;
+    width: 100%;
+  }
+
+  .ha--InboxSidebar {
+    flex: 0;
+  }
+}
+
+@media (max-width: 1250px) {
+  .chatAreaHeader .chatAreaContent p {
+    font-size: 16px;
+  }
+
+  .chatAreaHeader .chatAreaContent span {
+    font-size: 14px;
+  }
+
+  .inboxContainer.ha--inboxContaierUI {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .ha--InboxSidebar {
+    max-width: 275px;
+    width: 100%;
+  }
+
+  .ha--InboxChatArea {
+    max-width: 350px;
+    width: 100%;
+  }
+
+  .ha--InboxRD {
+    max-width: 285px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .ha--InboxSidebar {
+    flex: 0 0 41%;
+    max-width: 41%;
+  }
+
+  .ha--InboxChatArea {
+    flex: 0 0 55%;
+    max-width: 55%;
+  }
+
+  .ha--InboxRD {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .inboxContainer .col-lg-3 {
+    width: 40%;
+  }
+
+  .inboxContainer .col-lg-5 {
+    width: 60%;
+  }
+
+  .inboxContainer .col-lg-4 {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .inboxSidebar,
+  .inboxContainer .col-lg-3 {
+    padding-left: 0px;
+  }
+
+  .inboxChatMsgInput {
+    margin: 15px;
+  }
+
+  .chatAreaHeader {
+    padding: 20px 20px 45px;
+  }
+
+  .recieverMsgs {
+    padding-left: 20px;
+  }
+
+  .inboxTime {
+    margin: 35px 0px 35px 0;
+  }
+
+  .sendermsgs {
+    margin-bottom: 40px;
+    padding-right: 20px;
+  }
+
+  .recieverMsgs .inboxChatBlurb .chatUserInitial,
+  .sendermsgs .inboxChatBlurb .chatUserInitial {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .ha--InboxSidebar {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+
+  .ha--InboxChatArea {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .resrvBlurbContent {
+    max-width: 65%;
+    width: 100%;
+}
+}

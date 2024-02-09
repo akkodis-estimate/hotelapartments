@@ -1,0 +1,16 @@
+
+Jjavascript:S1128"".Remove this unused import of 'maskingActions'.(¨å‰İ
+>javascript:S3863%"'react' import is duplicated.(„„±ªıÿÿÿÿ
+Ojavascript:S1128'".Remove this unused import of 'PaymentSuccess'.(Ş›†¼ûÿÿÿÿ
+Jjavascript:S1128(".Remove this unused import of 'PaymentFailure'.(¢ÓŒ“
+Hjavascript:S1128)",Remove this unused import of 'InquiryModal'.(ÜğÑ
+:javascript:S1259"Remove this commented out code.(İ ’·
+Zjavascript:S1481="9Remove the declaration of the unused 'dispatch' variable.(‘âˆ•ÿÿÿÿÿ
+Wjavascript:S1854="6Remove this useless assignment to variable "dispatch".(‘âˆ•ÿÿÿÿÿ
+[javascript:S6754?":useState call is not destructured into value + setter pair(¿…§®üÿÿÿÿ
+:javascript:S125D"Remove this commented out code.( šøÔ
+:javascript:S125Q"Remove this commented out code.(Œ¾èê
+?javascript:S125X"Remove this commented out code.(Ã£ß¡şÿÿÿÿ
+}javascript:S6582¿"[Prefer using an optional chain expression instead, as it's more concise and easier to read.(­ñ—ªøÿÿÿÿ
+@javascript:S125×"Remove this commented out code.(„·Ö™ÿÿÿÿÿ
+@javascript:S125Š"Remove this commented out code.(¾ïü’şÿÿÿÿ

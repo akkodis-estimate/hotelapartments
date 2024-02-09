@@ -1,0 +1,125 @@
+.accountSettingmainContent li.nav-item .nav-link {
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  border-radius: 0;
+  margin-right: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1f1f1f;
+}
+
+.accountSettingmainContent li.nav-item .nav-link.active {
+  border-bottom: 2px solid #767760;
+  color: #767760;
+}
+
+.PIContent .authTitle h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.persionalInfoEmailDisabled label.form-label,
+.persionalInfoEmailDisabled .form-control::placeholder {
+  color: #cdd4d8;
+}
+
+.persionalInfoEmailDisabled .form-control:disabled {
+  background: #ffffff;
+  border: 1px solid #ebeeef;
+  border-radius: 10px;
+  color: #cdd4d8;
+}
+
+.input-file-upload.disabled .upload-label {
+  background: #cdd4d8;
+  color: black;
+}
+
+.input-file-upload.disabled .upload-label:hover {
+  background: unset !important;
+  pointer-events: none;
+}
+
+.userImageUpload .input-file-upload.disabled:hover .upload-label {
+  background: #cdd4d8;
+  color: unset !important;
+  /* pointer-events: none; */
+}
+
+@media (max-width:600px) {
+  .row.smAccountInfo .col-lg-6 {
+    padding: 0px !important;
+}
+
+.accountSettingmainContent li.nav-item .nav-link {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-right: 8px;
+}
+
+.smAccountInfo .authTitle {
+  margin: 0px 0px 32px !important;
+}
+
+.smAccountInfo .authForm .userImageUpload {
+  margin-bottom: 32px !important;
+}
+
+.smAccountInfo .authForm .mb-3 {
+  margin-bottom: 24px !important;
+}
+
+.smAccountInfo .authForm .mb-3:last-child {
+  margin-bottom: 0px !important;
+}
+
+.smAccountInfo .authForm {
+  margin-bottom: 32px;
+}
+
+.PIContent .authTitle h3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.accountSettingmainContent div#pillsPassword .col-lg-6 {
+  padding: 0px;
+}
+
+.accountSettingmainContent div#pillsPassword .authTitle.mb-4.mt-4 {
+  margin-top: 0px !important;
+}
+
+
+.successModal {
+  min-height: 100% !important;
+}
+
+.successModal .otpHeader h2 {
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 40px;
+}
+
+.successModal .otpHeader p.text-center {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.accSecOtpSm {
+  padding: 0;
+  margin-top: 48px !important;
+}
+}

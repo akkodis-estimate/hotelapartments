@@ -1,0 +1,135 @@
+
+.aboutContentTitle h2 {
+    font-family: "Carmen Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    color: #18181b;
+}
+
+.allAboutDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.allAboutDetails .aboutContentTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.aboutContentTitle p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.aboutPageContent .container {
+    padding: 0px  40px;
+    max-width: 1320px;
+}
+
+.growthSection img {
+    width: 252px;
+}
+
+.aboutCounterSecBlurbs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutCounterSecBlurbs .aboutCounterBlurb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.aboutCounterSecBlurbs .aboutCounterBlurb .counterBlurbIcon {
+    font-size: 35px;
+}
+
+.aboutCounterSecBlurbs .aboutCounterBlurb .counterBlurbTitle {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.aboutCounterSecBlurbs .aboutCounterBlurb .counterBlurbNumber {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.aboutCounterSec {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.aboutContentTitle.growthSection img.w-25 {
+    padding-top: 35px;
+}
+
+.aboutContentTitle.growthSection {
+    width: 70%;
+}
+
+@media (max-width:1366px) {
+    .aboutContentTitle h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .allAboutDetails .aboutContentTitle {
+        gap: 8px;
+    }
+
+    .aboutContentTitle p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .aboutCounterSecBlurbs .aboutCounterBlurb .counterBlurbNumber {
+        font-size: 32px;
+        line-height: 42px;
+        font-weight: 600;
+    }
+
+   
+}
+
+@media (max-width:991px) {
+    .aboutCounterSecBlurbs .aboutCounterBlurb .counterBlurbTitle {
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        
+    }
+
+    .aboutPageContent .container {
+        padding: 0px 20px;
+    }
+
+    .aboutContentTitle.growthSection {
+        width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    .aboutCounterSecBlurbs .aboutCounterBlurb .counterBlurbNumber {
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 600;
+    }
+
+    .aboutCounterSecBlurbs .aboutCounterBlurb .counterBlurbTitle {
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .aboutCounterSecBlurbs .aboutCounterBlurb .counterBlurbIcon {
+        font-size: 25px;
+    }
+}

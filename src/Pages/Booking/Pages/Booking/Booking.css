@@ -1,0 +1,210 @@
+.checkoutTitle h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #000000;
+  }
+  
+  .payOption label.form-check-label {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1f1f1f;
+  }
+  
+  span.payNote {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #1f1f1f;
+  }
+  
+  /* .payOption .form-check .form-check-input {
+    flex: 0 0 6%;
+    max-width: 6%;
+  } */
+  
+  .priceOption p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.870588);
+  }
+  
+  .row.checkoutForm .col-lg-6 {
+      flex: 0 0 48.4%;
+  }
+  
+  .row.checkoutForm {
+      gap: 20px;
+  }
+  
+  .form-check.checkoutCheck span {
+      text-decoration: underline;
+      cursor: pointer;
+  }
+  .checkoutContainer{
+    max-width: 1383px !important;
+  }
+  
+  .properiesDetailSumContent p {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      color: #1F1F1F;
+      margin-bottom: 16px;
+  }
+  
+  .properiesDetailSumContent span {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      color: #1F1F1F;
+  }
+  
+  .COTitle h6 {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 28px;
+      color: #1F1F1F;
+  }
+  
+  .checkoutCard {
+      padding: 30px;
+      background: #FFFFFF;
+      border: 1px solid #C4C5BF;
+      border-radius: 10px;
+  }
+  
+  .pricingDetails h6 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.870588);
+  }
+  
+  .pricingDetails p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.870588);
+  }
+  
+  .dicountColor h6,
+  .dicountColor p{
+    color: #2D53D3DE;
+  }
+  
+  .dicountColorSuccess h6,
+  .dicountColorSuccess p{
+    color: #009F13;
+  }
+
+  .row.paymentCardDetails .col-lg-6 {
+    flex: 0 0 48.9%;
+    max-width: 49%;
+}
+
+.row.paymentCardDetails {
+  gap: 15px;
+}
+
+.cnacelationNote p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 160%;
+  color: #000000;
+  margin-bottom: 18px;
+}
+
+.guestNameInput input {
+  padding: 6px 12px;
+}
+
+.guestNameUpdateDes button svg {
+    margin-right: 0;
+}
+
+.guestNameUpdateDes button {
+    background: transparent;
+    border: 0px;
+    padding: 0;
+    opacity: 0.8;
+}
+
+.guestNameUpdateDes button:hover {
+    opacity: 1;
+}
+
+@media (max-width:991px) {
+  .row.checkoutForm .col-lg-6 {
+    flex: 0 0 100%;
+}
+
+.container.checkoutContainer > .row {
+  margin-bottom: 25px !important;
+}
+
+
+.container.checkoutContainer .row:last-child .col-lg-5.p-5,
+.container.checkoutContainer .row:last-child .col-lg-7.p-5{
+  padding: 20px !important;
+  padding-bottom: 0px !important;
+}
+
+
+}
+
+@media (max-width:600px) {
+  .checkoutCard {
+    border: 0px !important;
+    padding: 12px !important;
+  }
+  .checkoutCard .COTitle  h6 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .checkoutCard .pricingDetails h6,
+  .checkoutCard .pricingDetails p,
+  .checkoutCard .pricingDetails p strong {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+
+  .pricingDetails .hiddenfeesNote {
+    display: none;
+  }
+
+  .pricingTotal
+  {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .checkoutContainer .moreAppartmentSm {
+    margin-bottom: 70px;
+}
+
+hr.cancelationHrCust {
+  margin: 32px 0;
+}
+
+.col-lg-12.bookingSMTable.p-sm-0.p-0 {
+  margin-bottom: 40px;
+}
+
+.bookingSMTable .animateBtn button.appBtn {
+  padding: 8px 30px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+}
+

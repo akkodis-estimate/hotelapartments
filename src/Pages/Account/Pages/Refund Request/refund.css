@@ -1,0 +1,153 @@
+.accountSettingmainContent table tr td {
+    vertical-align: middle;
+    padding: 15px 5px;
+}
+
+.dropdown.bookingDD .dropdown-toggle::after{
+    display: none;
+}
+
+.bookingDD button {
+    color: #696969;
+    font-size: 22px;
+}
+
+.bookingDD button svg {
+   margin: 0;
+}
+
+.bookingDD button:hover{
+    color: #696969;
+}
+
+.bookingTable table.table thead tr th {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1F1F1F;
+}
+
+.bookingTable table.table tbody tr td {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F1F1F;
+}
+
+.bookingDD button:checked+.btn, .bookingDD button.active, .bookingDD button.show, .bookingDD button:first-child:active, :not(.btn-check)+.bookingDD button:active{
+    color: #696969 !important;
+}
+
+.bookingname p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F1F1F;
+    margin-bottom: 12px;
+}
+
+.bookingname span {
+    color: #696969;
+}
+
+img.bookingImg {
+    width: 99px;
+    height: 99px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+span.bookingStatus {
+    padding: 2px 10px 2px 8px;
+    border-radius: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.chatBtn span.notiBubble {
+    width: 12px;
+    height: 12px;
+    display: block;
+    background: #FF0000;
+    border-radius: 50px;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.dropdown.bookingDD ul.dropdown-menu.show {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    border: 0;
+    padding: 18px;
+    width: 243px;
+}
+
+.bookingTable table{
+    width: 95%;
+}
+
+.dropdown.bookingDD ul.dropdown-menu.show li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    color: #1F1F1F;
+}
+
+.dropdown.bookingDD ul.dropdown-menu.show li svg {
+    display: block;
+    width: 20px;
+    margin-right: 10px;
+    filter: brightness(0) saturate(100%) invert(45%) sepia(0%) saturate(1075%) hue-rotate(292deg) brightness(88%) contrast(84%);
+}
+
+.viewReview {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1F1F1F;
+}
+
+.viewReview span {
+    text-decoration: underline;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.warningBookingContent {
+    width: 875px;
+    padding: 100px;
+}
+
+.row.noBookingWarning {
+    min-height: 600px;
+}
+
+.noBkkingContent span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #767760;
+}
+
+.noBkkingContent a{
+    text-decoration: none;
+}
+
+.refundPhoneInput{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    height: 35px ;
+    border-radius: 0.25rem !important;
+}
+
+.transactionHistory svg {
+    width: 23px;
+    font-size: 18px;
+}
+

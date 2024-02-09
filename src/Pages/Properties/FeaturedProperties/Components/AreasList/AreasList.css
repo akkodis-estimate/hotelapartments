@@ -1,0 +1,71 @@
+.AreasModal {
+    max-width: 1021px;
+}
+
+.AreasModal .modal-header {
+    padding: 56px 40px;
+    border-color: #C4C5BF;
+}
+
+.AreasModal .modal-header {
+    padding: 25px 56px;
+    border-color: #C4C5BF;
+}
+
+.modal-open div#hide {
+    z-index: 0;
+}
+
+.AreasModal .modal-body {
+    max-height: 800px;
+    overflow: auto;
+    padding: 15px 56px;
+}
+
+.AreasModal .modal-body ul.ammenistiesList li {
+    padding: 24px 0;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.AreasModal .modal-content .modal-header h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.AreasModal ul.ammenistiesList .ammenitiesItem a {
+    color: #151515;
+}
+
+.areasListSm ul.ammenistiesList li a {
+    color: #151515;
+}
+@media (max-width:600px) {
+    .areasListHeaderSm button.btn-close {
+        display: none;
+    }
+    
+    .areasListHeaderSm h2 {
+        font-size: 18px;
+    }
+    
+    .areasListSm {
+        margin-top: 12px;
+    }
+    
+    .areasListSm ul.ammenistiesList {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .areasListSm ul.ammenistiesList .ammenitiesItem {
+        padding-bottom: 14px;
+        border-bottom: 1px solid #00000026;
+    }
+
+    .areasListSm ul.ammenistiesList .ammenitiesItem:last-child{
+        border-bottom: 0px;
+    }
+}

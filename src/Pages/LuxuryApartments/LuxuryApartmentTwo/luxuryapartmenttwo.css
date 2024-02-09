@@ -1,0 +1,48 @@
+.luxuryVideo video{
+    height: 684px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.LABackground {
+    background: #ECECEC;
+}
+
+.LAHeaderTwo .luxuryHeaderTitle h2 {
+    font-family: 'IvyMode', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 160%;
+    color: #1F1F1F;
+    margin-bottom: 6px;
+}
+
+.LAHeaderTwo .luxuryHeaderTitle p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #1F1F1F;
+}
+
+.LATwoFilter ul.luxuryFilterList {
+    gap: 30px;
+    
+    justify-content: unset;
+}
+
+.LATwoFilter ul.luxuryFilterList li.luxuryFilterListItem {
+    color: #1F1F1F;
+
+}
+
+.LATwoFilter ul.luxuryFilterList li.luxuryFilterListItem.active {
+    color: #843F5B;
+    border-bottom: 2px solid #843F5B;
+    font-weight: 500;
+}
+
+.propertyCard {
+    border-radius: 10px;
+}

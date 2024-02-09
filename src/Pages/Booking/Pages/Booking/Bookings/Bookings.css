@@ -1,0 +1,501 @@
+/* Updated Css for Booking */
+
+.ha--BookingContaier {
+  padding: 0 40px;
+}
+
+.ha--BookingContaier .ha--MainContainerDesBooking {
+  max-width: 1376px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 65px;
+}
+
+.ha--BookingBackbtn {
+  padding: 56px 0px 24px 0px;
+  margin-bottom: 35px;
+}
+
+.ha--MainContainerDesBooking .bookingsMainSec {
+  display: flex;
+  gap: 73px;
+}
+
+.ha--bookingsMainSecColOne {
+  max-width: 784px;
+  width: 100%;
+}
+
+.ha--bookingsMainSecColTwo {
+  max-width: 519px;
+  width: 100%;
+}
+
+.ha--PayoptionRadio {
+  display: flex;
+  gap: 16px;
+  align-items: start;
+}
+
+.ha--PayoptionRadio .ha--payOptionColumnRadio {
+  max-width: 618px;
+  width: 100%;
+}
+
+
+.ha--payOptionColumnPrice .priceOption p {
+  white-space: nowrap;
+}
+
+hr.ha--payOptionHr {
+  margin: 48px 0px;
+}
+
+.ha--CheckOutFormBookingRow {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.ha--CheckOutFormBookingRow .ha--bookingFormColumn {
+  flex: 0 0 48.7%;
+  max-width: 48.7%;
+}
+
+.ha--CheckOutFormBookingRow .moreFilterLayout {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.ha--CheckOutFormBookingRow .moreFilterLayout .form-check.checkoutCheck {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.ha--CheckOutFormBookingRow .ha--bookingFormBtn {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.ha--CheckOutFormBooking.checkoutForm .checkoutTitleDetail {
+  margin-bottom: 18px;
+}
+
+.ha--RepyamentDes {
+  padding-top: 35px;
+}
+
+
+
+/* End */
+
+.checkoutTitle h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #000000;
+  }
+  
+  .payOption label.form-check-label {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1f1f1f;
+  }
+  
+  span.payNote {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #1f1f1f;
+  }
+  
+  /* .payOption .form-check .form-check-input {
+    flex: 0 0 6%;
+    max-width: 6%;
+  } */
+  
+  .priceOption p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.870588);
+  }
+  
+  .row.checkoutForm .col-lg-6 {
+      flex: 0 0 48.4%;
+  }
+  
+  .row.checkoutForm {
+      gap: 18px;
+  }
+  
+  .form-check.checkoutCheck span {
+      text-decoration: underline;
+      cursor: pointer;
+  }
+  .checkoutContainer{
+    max-width: 1383px !important;
+  }
+  
+  .previewImgContainer{
+    min-width: 226px;
+    height: 166px;
+  }
+  .properiesDetailSum img {
+      width: 100%;
+     height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+  
+  .properiesDetailSumContent p {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      color: #1F1F1F;
+      margin-bottom: 16px;
+  }
+  
+  .properiesDetailSumContent span {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      color: #1F1F1F;
+  }
+  
+  .COTitle h6 {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 28px;
+      color: #1F1F1F;
+  }
+  
+  .checkoutCard {
+      padding: 30px;
+      background: #FFFFFF;
+      border: 1px solid #C4C5BF;
+      border-radius: 10px;
+  }
+  
+  .pricingDetails h6 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.870588);
+  }
+  
+  .pricingDetails p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.870588);
+  }
+  
+  .dicountColor h6,
+  .dicountColor p{
+    color: #2D53D3DE;
+  }
+  
+  .dicountColorSuccess h6,
+  .dicountColorSuccess p{
+    color: #009F13;
+  }
+
+  .row.paymentCardDetails .col-lg-6 {
+    flex: 0 0 48.9%;
+    max-width: 49%;
+}
+
+.row.paymentCardDetails {
+  gap: 15px;
+}
+
+.cnacelationNote p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 160%;
+  color: #000000;
+  margin-bottom: 18px;
+}
+
+.similarAPT{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width:99%
+}
+
+.termsAndConditionsModal  .policyContainer {
+  padding: 0px !important;
+}
+
+.termsAndConditionsModal .policyContainer .sectionTitleDesc  {
+display: none;
+}
+
+.termsAndConditionsModal .policyContainer .container {
+  padding: 0;
+}
+
+.termsAndConditionsModal .policyContainer .container .col-lg-12.mt-3 {
+  padding: 4px;
+}
+
+/* Booking New Css */
+
+.checkoutContainer .backBtn {
+  margin-top: 56px;
+  margin-bottom: 24px;
+}
+
+
+.choosePay .checkoutTitle {
+  margin-bottom: 32px;
+}
+
+.checkoutTitleDetail h5 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+
+.form-check.checkoutCheck {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* .bookingsMainSec,
+.checkoutContainer .backBtn {
+  display: grid;
+  grid-template-columns: 784px 519px;
+  gap: 73px;
+  justify-content: center;
+} */
+
+.paymentHrMainCust{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+
+.ha--PaymentBtmBtn {
+  margin-top: 32px;
+}
+
+.ha--billingTitleCust {
+  margin-bottom: 32px;
+}
+
+
+.termsAndConditionsModal  .modal-content .ha--PolicyContainer .ha--PolicyDesHeader {
+  display: none;
+}
+
+.termsAndConditionsModal .modal-content .ha--PolicyContainer .container,
+.termsAndConditionsModal .modal-content .ha--PolicyContainer,
+.termsAndConditionsModal  .modal-content .ha--PolicyContainer{
+  padding: 0;
+}
+
+
+@media (max-width:1536px) {
+
+  hr.ha--payOptionHr {
+    margin: 30px 0px;
+}
+
+
+  .ha--MainContainerDesBooking .bookingsMainSec {
+
+    gap: 50px;
+}
+
+.previewImgContainer {
+  min-width: 200px;
+  height: 155px;
+}
+}
+
+@media (max-width:1366px) {
+  .ha--CheckOutFormBookingRow {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.ha--CheckOutFormBookingRow .ha--bookingFormColumn{
+  flex: 0 0 48%;
+  max-width: 48%;
+}
+}
+
+@media (max-width:1250px) {
+  .ha--CheckOutFormBookingRow {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.ha--CheckOutFormBookingRow .ha--bookingFormColumn{
+  flex: 0 0 48%;
+  max-width: 48%;
+}
+
+.previewImgContainer {
+  min-width: 170px;
+  height: 125px;
+}
+
+.ha--BookingBackbtn {
+  padding: 25px 0px 24px 0px;
+  margin-bottom: 10px;
+}
+
+}
+
+@media (max-width:1024px) {
+  .bookingColumnsforCheckout .bookingColumnsforCheckout7, .bookingColumnsforCheckout .bookingColumnsforCheckout5{
+    width: 100%;
+    padding-top: 0 !important;
+  }
+
+  .bookingsMainSec,
+  .checkoutContainer .backBtn {
+    grid-template-columns: 490px 440px;
+    gap: 20px;
+}
+
+.ha--bookingsMainSecColTwo {
+  max-width: 450px;
+  width: 100%;
+}
+
+.ha--BookingContaier {
+  padding: 0 20px;
+}
+
+.bookingsMainSec {
+  padding: 0px !important;
+}
+
+.ha--bookingsMainSecColOne {
+  max-width: 100%;
+}
+
+}
+
+@media (max-width:991px) {
+
+  .bookingsMainSec {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 75px !important;
+}
+
+.ha--CheckOutFormBookingRow {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.ha--bookingsMainSecColTwo {
+  max-width: 100%;
+}
+
+.ha--MainContainerDesBooking .bookingsMainSec {
+  padding: 0px !important;
+}
+
+  .row.checkoutForm .col-lg-6 {
+    flex: 0 0 100%;
+}
+
+
+.container.checkoutContainer > .row {
+  margin-bottom: 25px !important;
+}
+
+.container.checkoutContainer .row:last-child .col-lg-5.p-5,
+.container.checkoutContainer .row:last-child .col-lg-7.p-5{
+  padding: 20px !important;
+  padding-bottom: 0px !important;
+}
+
+.moreAppartmentSm h6 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.bookingsMainSec,
+.checkoutContainer .backBtn {
+  grid-template-columns: 1fr;
+  gap: 25px;
+  padding: 0 23px;
+}
+
+.termsAndConditionsModal .ha--PolicyDesContent .policyContent table.w-75 {
+  width: 100% !important;
+}
+
+.termsAndConditionsModal .ha--PolicyDesContent .policyContent table.w-75 td {
+  vertical-align: top;
+  font-size: 14px;
+  padding-right: 20px;
+}
+}
+
+@media (max-width:600px) {
+  .checkoutContainer .backBtn{
+    display: unset !important;
+    padding: 0px !important;
+  }
+
+  .ha--BookingBackbtn {
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 10px;
+}
+
+.ha--BookingBackbtn .backBtn button {
+  padding: 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.ha--BookingBackbtn .backBtn button svg {
+  margin-right: 3px !important;
+}
+
+.ha--bookingsMainSecColOne .choosePay .checkoutTitle {
+  margin-bottom: 20px;
+}
+
+.ha--bookingsMainSecColTwo .checkoutCard.mb-4 {
+  padding: 0px !important;
+}
+
+.ha--CheckOutFormBookingRow .ha--bookingFormColumn {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.termsAndConditionsModal .ha--PolicyDesContent .policyContent h4 {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.termsAndConditionsModal .ha--PolicyDesContent .policyContent table.w-75 td {
+  display: block;
+}
+.termsAndConditionsModal  .ha--PolicyContainer .container{
+  padding: 0px !important;
+  }
+}

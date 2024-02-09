@@ -1,0 +1,359 @@
+.navbar button.navbar-toggler {
+    border: 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+
+li.langItem {
+    position: relative;
+}
+
+span.removeLang {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+}
+
+.mainHeader{
+    background-color: #fff;
+}
+
+span.hamburgerIcon {
+    font-size: 24px;
+}
+
+.accountInfo .dropdown-toggle::after {
+    display: none !important;
+}
+
+.accountInfo .dropdown ul.dropdown-menu.show {
+    left: -140px;
+    width: 235px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    top: 75px;
+    padding: 16px;
+    z-index: 99999;
+}
+
+.languageCurrencyDD .nav-pills {
+    background: #F2F2F2;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.languageCurrencyDD .nav-pills li.nav-item button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F1F1F;
+    padding: 8px;
+}
+
+.languageCurrencyDD .nav-pills li.nav-item button.active {
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.languageCurrencyDD .tab-content .tab-pane ul.langSelect li.langItem {
+    padding: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F1F1F;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.accountInfo .dropdown.userProfile ul.dropdown-menu.show {
+    left: -210px;
+    z-index: 99999;
+}
+
+ul.profileDD li span,
+ul.profileDD li a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F1F1F;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 8px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+nav.navbar {
+    padding: 15px 40px;
+    border-bottom: 1px solid #C4C5BF;
+}
+
+.navbar button.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.hamburgerMenu {
+    background: #696969;
+    border: 0px !important;
+    max-width: 624px !important;
+    width: 624px !important;
+}
+
+.hamburgerMenu .offcanvas-body button.closeSidebar {
+    background: #FFFFFF;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 39px;
+    height: 39px;
+    color: #000000;
+    border-radius: 50px;
+    font-size: 18px;
+    position: absolute;
+    left: -15px;
+    top: 89px;
+}
+
+.hamburgerMenu .offcanvas-body button.closeSidebar svg {
+    margin: 0;
+}
+
+/* .userProfile button.dropdown-toggle {
+    width: 32px;
+    height: 32px;
+    background: #843F5B !important;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+} */
+
+.langItem.active {
+    font-weight: bold;
+    background: #f2f2f2;
+  }
+
+  
+.langConverter {
+    border: 1px solid #2849C7;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #2849C7;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 2px 5px;
+    line-height: 18px;
+}
+
+.langConverter:hover {
+    background-color: #2849C7;
+    color: #fff;
+}
+
+.langItem.active .langConverter {
+    display: none;
+}
+
+a.iconColor svg {
+    color: #6b6b6b;
+}
+
+.currencyDDImg {
+    width: 27px;
+    height: 17px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.ULAHeaderMain .accountInfo .dropdown svg {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(103deg) brightness(105%) contrast(105%);
+}
+
+.ULAHeaderMain .accountInfo li.langItem svg, .ULAHeaderMain .profileDD svg {
+    filter: unset !important;
+}
+
+.authBorderStyle {
+    border-bottom: 1px solid #C4C5BF !important;
+}
+
+.ULAHeaderMain .brandLogo a.logoXl svg,
+.ULALogoWhite {
+    display: none;
+}
+
+.ULAHeaderMain .brandLogo a.logoXl .ULALogoWhite{
+display: block;
+}
+
+.profileImage {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+}
+
+.profileImageInitial{
+    width: 32px;
+    height: 32px;
+    background: #843F5B !important;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.profileImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+@media (min-width:601px) {
+    .logosm{
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+    
+    .asideBtn,
+    .brandLogo,
+    .accountInfo {
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+     .accountInfo {
+        justify-content: end;
+    }
+
+    .navMenuText {
+        display: none;
+    }
+
+    nav.navbar {
+        padding: 20px;
+    }
+
+    .navContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* .navContainer .asideBtn,
+    .navContainer .asideBtn{
+        flex: 0 0 20%;
+        max-width: 20%;
+    } */
+
+    
+    nav.navbar .brandLogo {
+        text-align: center;
+    }
+
+    .accountInfo .dropdown.me-3 {
+        margin: 0px !important;
+    }
+
+    .accountInfo .dropdown ul.dropdown-menu.show {
+        top: 45px;
+    padding: 10px;
+    width: 192px;
+    }
+
+    .languageCurrencyDD .nav-pills li.nav-item button {
+        font-size: 16px;
+        padding: 5px 10px;
+        line-height: 22px;
+        width: 100%;
+    }
+
+    .languageCurrencyDD .nav-pills li.nav-item {
+        width: 50%;
+    }
+
+    .languageCurrencyDD {
+        padding: 0 20px;
+    }
+
+    .userProfile ul.dropdown-menu.show .languageCurrencyDD {
+        padding: 0 5px;
+    }
+
+    .languageCurrencyDD .tab-content {
+        padding: 16px;
+    }
+
+    .languageCurrencyDD .tab-content .tab-pane ul.langSelect li.langItem {
+        font-size: 16px;
+        padding: 5px;
+        margin-bottom: 8px;
+    }
+
+    .languageCurrencyDD .tab-content ul.langSelect .mantine-ScrollArea-root {
+        height: 27rem !important;
+    }
+
+    .languageCurrencyDD .nav-pills {
+        margin-bottom: 10px !important;
+    }
+
+    .dropdown.userProfile ul.dropdown-menu.show {
+        left: -150px !important;
+    }
+
+    ul.profileDD li span, ul.profileDD li a {
+        font-size: 14px;
+        padding: 3px;
+    }
+
+    ul.profileDD li a svg,
+    ul.profileDD li span svg {
+        width: 18px;
+    }
+
+
+
+    .logoXl{
+        display: none;
+    }
+
+    .logosm{
+        display: block;
+    }
+
+    /* .globeSm {
+        position: fixed;
+        top: 25px;
+        right: 20px;
+        z-index: 999999 !important;
+    }
+
+    .globeSm button svg {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(3%) saturate(10%) hue-rotate(346deg) brightness(103%) contrast(105%);
+    } */
+
+    span.removeLang{
+        top: 4px;
+    }
+}
